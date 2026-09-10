@@ -11,20 +11,20 @@
 
 # ESCOPO DO PROJETO
 ## Dentro do escopo
- Aplicação desktop local.
- Uso de webcam.
- Modelo YOLO pré-treinado.
- Detecção de objetos.
- Interface Tkinter.
- Execução local em CPU ou GPU compatível.
- Tratamento básico de erros.
- Documentação e testes.
+- Aplicação desktop local.
+- Uso de webcam.
+- Modelo YOLO pré-treinado.
+- Detecção de objetos.
+- Interface Tkinter.
+- Execução local em CPU ou GPU compatível.
+- Tratamento básico de erros.
+- Documentação e testes.
 
 ## Fora do escopo obrigatório
- Treinar um modelo YOLO do zero.
- Reconhecimento facial de pessoas específicas.
- Aplicação web ou mobile.
- Banco de dados obrigatório.
- Deploy em nuvem.
- Rastreamento avançado de objetos.
- Otimização para produção
+- Treinar um modelo YOLO do zero.
+- Reconhecimento facial de pessoas específicas.
+- Aplicação web ou mobile.
+- Banco de dados obrigatório.
+- Deploy em nuvem.
+- Rastreamento avançado de objetos.
+- Otimização para produção
