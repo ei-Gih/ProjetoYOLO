@@ -1,0 +1,640 @@
+
+from pathlib import Path
+from tkinter import messagebox
+from datetime import datetime
+
+import customtkinter as ctk
+import cv2
+from PIL import Image
+from ultralytics import YOLO
+
+
+# ==========================================
+# CONFIGURAÇÕES
+# ==========================================
+
+ctk.set_appearance_mode("dark")
+ctk.set_default_color_theme("blue")
+
+PASTA_PROJETO = Path(__file__).resolve().parent
+MODELO_EPI = PASTA_PROJETO / "best.pt"
+CAMINHO_MODELO = MODELO_EPI if MODELO_EPI.is_file() else PASTA_PROJETO / "yolo11n.pt"
+CONFIANCA_MINIMA = 0.40
+
+FUNDO = "#0B1120"
+PAINEL = "#111827"
+CARTAO = "#1F2937"
+BORDA = "#374151"
+AZUL = "#3B82F6"
+VERDE = "#10B981"
+VERMELHO = "#EF4444"
+AMARELO = "#F59E0B"
+TEXTO = "#F9FAFB"
+TEXTO_SECUNDARIO = "#9CA3AF"
+
+
+class Aplicacao(ctk.CTk):
+
+    def __init__(self):
+        super().__init__()
+
+        self.title("SafeVision | Monitoramento de EPIs")
+        self.geometry("1400x850")
+        self.minsize(1100, 700)
+        self.configure(fg_color=FUNDO)
+
+        self.camera = None
+        self.camera_ativa = False
+        self.after_id = None
+        self.quantidade_pessoas = 0
+        self.quantidade_alertas = 0
+        self.ultimo_alerta = None
+
+        # Carrega o modelo de IA
+        try:
+            self.modelo = YOLO(str(CAMINHO_MODELO))
+        except Exception as erro:
+            messagebox.showerror(
+                "Erro ao carregar modelo",
+                f"Não foi possível carregar o modelo YOLO.\n\n{erro}"
+            )
+            self.destroy()
+            return
+
+        self.criar_interface()
+        if not MODELO_EPI.is_file():
+            self.registrar_evento(
+                "Modelo geral yolo11n.pt carregado. Para detectar EPIs, "
+                "adicione o modelo treinado best.pt na pasta do projeto."
+            )
+        self.protocol("WM_DELETE_WINDOW", self.fechar)
+
+    # ==========================================
+    # INTERFACE PRINCIPAL
+    # ==========================================
+
+    def criar_interface(self):
+        self.grid_columnconfigure(1, weight=1)
+        self.grid_rowconfigure(0, weight=1)
+
+        self.criar_menu_lateral()
+        self.criar_conteudo()
+
+    def criar_menu_lateral(self):
+        self.menu = ctk.CTkFrame(
+            self,
+            width=235,
+            corner_radius=0,
+            fg_color=PAINEL
+        )
+        self.menu.grid(row=0, column=0, sticky="nsew")
+        self.menu.grid_propagate(False)
+
+        # Logo e nome do sistema
+        logo = ctk.CTkFrame(
+            self.menu,
+            fg_color="transparent"
+        )
+        logo.pack(fill="x", padx=22, pady=(30, 35))
+
+        ctk.CTkLabel(
+            logo,
+            text="⬡",
+            font=("Arial", 35, "bold"),
+            text_color=AZUL
+        ).pack(side="left", padx=(0, 10))
+
+        ctk.CTkLabel(
+            logo,
+            text="SafeVision",
+            font=("Arial", 22, "bold"),
+            text_color=TEXTO
+        ).pack(side="left")
+
+        ctk.CTkLabel(
+            self.menu,
+            text="MENU PRINCIPAL",
+            font=("Arial", 10, "bold"),
+            text_color=TEXTO_SECUNDARIO
+        ).pack(anchor="w", padx=24, pady=(0, 12))
+
+        self.criar_item_menu("▦", "Dashboard", ativo=True)
+        self.criar_item_menu("◉", "Monitoramento")
+        self.criar_item_menu("⚠", "Ocorrências")
+
+        # Rodapé do menu
+        rodape = ctk.CTkFrame(
+            self.menu,
+            fg_color=CARTAO,
+            corner_radius=12
+        )
+        rodape.pack(
+            side="bottom",
+            fill="x",
+            padx=15,
+            pady=20
+        )
+
+        ctk.CTkLabel(
+            rodape,
+            text="SISTEMA DE SEGURANÇA",
+            font=("Arial", 10, "bold"),
+            text_color=TEXTO_SECUNDARIO
+        ).pack(anchor="w", padx=12, pady=(12, 5))
+
+        ctk.CTkLabel(
+            rodape,
+            text="Visão computacional com IA",
+            font=("Arial", 11),
+            text_color=TEXTO
+        ).pack(anchor="w", padx=12, pady=(0, 12))
+
+    def criar_item_menu(self, icone, texto, ativo=False):
+        cor_fundo = "#1D4ED8" if ativo else "transparent"
+
+        item = ctk.CTkFrame(
+            self.menu,
+            fg_color=cor_fundo,
+            corner_radius=8
+        )
+        item.pack(fill="x", padx=14, pady=4)
+
+        ctk.CTkLabel(
+            item,
+            text=icone,
+            font=("Arial", 18),
+            text_color=TEXTO
+        ).pack(side="left", padx=(14, 12), pady=12)
+
+        ctk.CTkLabel(
+            item,
+            text=texto,
+            font=("Arial", 13),
+            text_color=TEXTO
+        ).pack(side="left", pady=12)
+
+    # ==========================================
+    # CONTEÚDO DO DASHBOARD
+    # ==========================================
+
+    def criar_conteudo(self):
+        self.conteudo = ctk.CTkFrame(
+            self,
+            fg_color="transparent"
+        )
+        self.conteudo.grid(
+            row=0,
+            column=1,
+            sticky="nsew",
+            padx=28,
+            pady=25
+        )
+
+        self.conteudo.grid_columnconfigure(
+            (0, 1, 2),
+            weight=1
+        )
+        self.conteudo.grid_rowconfigure(2, weight=1)
+
+        # Cabeçalho
+        cabecalho = ctk.CTkFrame(
+            self.conteudo,
+            fg_color="transparent"
+        )
+        cabecalho.grid(
+            row=0,
+            column=0,
+            columnspan=3,
+            sticky="ew",
+            pady=(0, 25)
+        )
+
+        ctk.CTkLabel(
+            cabecalho,
+            text="Painel de monitoramento",
+            font=("Arial", 27, "bold"),
+            text_color=TEXTO
+        ).pack(anchor="w")
+
+        ctk.CTkLabel(
+            cabecalho,
+            text="Acompanhe o uso de equipamentos de proteção individual.",
+            font=("Arial", 13),
+            text_color=TEXTO_SECUNDARIO
+        ).pack(anchor="w", pady=(5, 0))
+
+        # Indicadores
+        self.card_pessoas = self.criar_card(
+            1, "Pessoas detectadas", "0", AZUL
+        )
+
+        self.card_alertas = self.criar_card(
+            2, "Alertas identificados", "0", VERMELHO
+        )
+
+        self.card_objetos = self.criar_card(
+            3, "Objetos detectados", "0", VERDE
+        )
+
+        # Painel da câmera
+        self.painel_camera = ctk.CTkFrame(
+            self.conteudo,
+            fg_color=PAINEL,
+            corner_radius=16,
+            border_width=1,
+            border_color=BORDA
+        )
+        self.painel_camera.grid(
+            row=2,
+            column=0,
+            columnspan=2,
+            sticky="nsew",
+            padx=(0, 12),
+            pady=(22, 0)
+        )
+
+        self.painel_camera.grid_columnconfigure(0, weight=1)
+        self.painel_camera.grid_rowconfigure(1, weight=1)
+
+        topo_camera = ctk.CTkFrame(
+            self.painel_camera,
+            fg_color="transparent"
+        )
+        topo_camera.grid(
+            row=0,
+            column=0,
+            sticky="ew",
+            padx=20,
+            pady=18
+        )
+
+        ctk.CTkLabel(
+            topo_camera,
+            text="Monitoramento ao vivo",
+            font=("Arial", 17, "bold"),
+            text_color=TEXTO
+        ).pack(side="left")
+
+        self.status_camera = ctk.CTkLabel(
+            topo_camera,
+            text="●  Câmera desligada",
+            font=("Arial", 12),
+            text_color=AMARELO
+        )
+        self.status_camera.pack(side="right")
+
+        self.area_video = ctk.CTkLabel(
+            self.painel_camera,
+            text="",
+            fg_color="#080D18",
+            corner_radius=10
+        )
+        self.area_video.grid(
+            row=1,
+            column=0,
+            sticky="nsew",
+            padx=18,
+            pady=(0, 15)
+        )
+
+        controles = ctk.CTkFrame(
+            self.painel_camera,
+            fg_color="transparent"
+        )
+        controles.grid(
+            row=2,
+            column=0,
+            sticky="ew",
+            padx=18,
+            pady=(0, 18)
+        )
+
+        controles.grid_columnconfigure((0, 1), weight=1)
+
+        self.botao_iniciar = ctk.CTkButton(
+            controles,
+            text="▶  Iniciar monitoramento",
+            height=43,
+            corner_radius=9,
+            fg_color=AZUL,
+            hover_color="#2563EB",
+            font=("Arial", 13, "bold"),
+            command=self.iniciar_camera
+        )
+        self.botao_iniciar.grid(
+            row=0,
+            column=0,
+            sticky="ew",
+            padx=(0, 6)
+        )
+
+        self.botao_parar = ctk.CTkButton(
+            controles,
+            text="■  Parar monitoramento",
+            height=43,
+            corner_radius=9,
+            fg_color=CARTAO,
+            hover_color="#374151",
+            font=("Arial", 13, "bold"),
+            command=self.parar_camera
+        )
+        self.botao_parar.grid(
+            row=0,
+            column=1,
+            sticky="ew",
+            padx=(6, 0)
+        )
+
+        # Painel de ocorrências
+        self.painel_alertas = ctk.CTkFrame(
+            self.conteudo,
+            fg_color=PAINEL,
+            corner_radius=16,
+            border_width=1,
+            border_color=BORDA
+        )
+        self.painel_alertas.grid(
+            row=2,
+            column=2,
+            sticky="nsew",
+            padx=(12, 0),
+            pady=(22, 0)
+        )
+
+        ctk.CTkLabel(
+            self.painel_alertas,
+            text="Últimas ocorrências",
+            font=("Arial", 17, "bold"),
+            text_color=TEXTO
+        ).pack(anchor="w", padx=18, pady=(20, 5))
+
+        ctk.CTkLabel(
+            self.painel_alertas,
+            text="Alertas gerados pela detecção",
+            font=("Arial", 11),
+            text_color=TEXTO_SECUNDARIO
+        ).pack(anchor="w", padx=18, pady=(0, 15))
+
+        self.lista_alertas = ctk.CTkTextbox(
+            self.painel_alertas,
+            fg_color=CARTAO,
+            text_color=TEXTO,
+            font=("Consolas", 11),
+            corner_radius=10,
+            wrap="word"
+        )
+        self.lista_alertas.pack(
+            fill="both",
+            expand=True,
+            padx=15,
+            pady=(0, 15)
+        )
+        self.lista_alertas.insert(
+            "end",
+            "Sistema inicializado.\n\n"
+            "Aguardando início do monitoramento..."
+        )
+        self.lista_alertas.configure(state="disabled")
+
+    def criar_card(self, coluna, titulo, valor, cor):
+        card = ctk.CTkFrame(
+            self.conteudo,
+            fg_color=PAINEL,
+            corner_radius=14,
+            border_width=1,
+            border_color=BORDA
+        )
+        card.grid(
+            row=1,
+            column=coluna - 1,
+            sticky="ew",
+            padx=(0 if coluna == 1 else 8, 8),
+            pady=0
+        )
+
+        ctk.CTkLabel(
+            card,
+            text=titulo,
+            font=("Arial", 12),
+            text_color=TEXTO_SECUNDARIO
+        ).pack(anchor="w", padx=18, pady=(16, 5))
+
+        indicador = ctk.CTkFrame(
+            card,
+            fg_color="transparent"
+        )
+        indicador.pack(fill="x", padx=18, pady=(0, 16))
+
+        ctk.CTkLabel(
+            indicador,
+            text=valor,
+            font=("Arial", 28, "bold"),
+            text_color=TEXTO
+        ).pack(side="left")
+
+        ctk.CTkLabel(
+            indicador,
+            text="●",
+            font=("Arial", 13),
+            text_color=cor
+        ).pack(side="right")
+
+        return card.winfo_children()[1].winfo_children()[0]
+
+    # ==========================================
+    # WEBCAM E VISÃO COMPUTACIONAL
+    # ==========================================
+
+    def iniciar_camera(self):
+        if self.camera_ativa:
+            return
+
+        self.camera = cv2.VideoCapture(0)
+
+        if not self.camera.isOpened():
+            self.camera.release()
+            self.camera = None
+
+            messagebox.showerror(
+                "Erro",
+                "Não foi possível acessar a webcam."
+            )
+            return
+
+        self.camera_ativa = True
+
+        self.status_camera.configure(
+            text="●  Monitoramento ativo",
+            text_color=VERDE
+        )
+
+        self.registrar_evento("Monitoramento iniciado.")
+        self.atualizar_video()
+
+    def atualizar_video(self):
+        if not self.camera_ativa or self.camera is None:
+            return
+
+        sucesso, frame = self.camera.read()
+
+        if not sucesso:
+            self.registrar_evento("Falha na captura da câmera.")
+            self.parar_camera()
+            return
+
+        try:
+            resultados = self.modelo.predict(
+                source=frame,
+                conf=CONFIANCA_MINIMA,
+                verbose=False
+            )
+
+            resultado = resultados[0]
+            imagem = resultado.plot()
+
+            nomes = resultado.names
+            classes_detectadas = [
+                nomes[int(classe)]
+                for classe in resultado.boxes.cls.tolist()
+            ]
+
+            pessoas = sum(
+                1 for nome in classes_detectadas
+                if nome.lower() == "person"
+            )
+
+            alertas = [
+                nome for nome in classes_detectadas
+                if self.e_nao_conformidade(nome)
+            ]
+
+            objetos = len(classes_detectadas)
+
+            self.quantidade_pessoas = pessoas
+            self.atualizar_indicador(
+                self.card_pessoas,
+                pessoas
+            )
+            self.atualizar_indicador(
+                self.card_objetos,
+                objetos
+            )
+
+            if alertas:
+                self.quantidade_alertas += len(alertas)
+
+                self.atualizar_indicador(
+                    self.card_alertas,
+                    self.quantidade_alertas
+                )
+
+                for alerta in alertas:
+                    if alerta != self.ultimo_alerta:
+                        self.registrar_evento(
+                            f"Possível não conformidade: {alerta}"
+                        )
+                        self.ultimo_alerta = alerta
+            else:
+                self.ultimo_alerta = None
+
+            imagem_rgb = cv2.cvtColor(
+                imagem,
+                cv2.COLOR_BGR2RGB
+            )
+
+            imagem_pil = Image.fromarray(imagem_rgb)
+
+            largura = max(self.area_video.winfo_width(), 400)
+            altura = max(self.area_video.winfo_height(), 250)
+
+            imagem_pil.thumbnail((largura, altura))
+
+            imagem_tk = ctk.CTkImage(
+                light_image=imagem_pil,
+                dark_image=imagem_pil,
+                size=imagem_pil.size
+            )
+
+            self.area_video.configure(image=imagem_tk, text="")
+            self.area_video.image = imagem_tk
+
+        except Exception as erro:
+            self.registrar_evento(
+                f"Erro no processamento: {erro}"
+            )
+
+        if self.camera_ativa:
+            self.after_id = self.after(30, self.atualizar_video)
+
+    @staticmethod
+    def e_nao_conformidade(nome):
+        nome = nome.lower().replace("_", "-")
+
+        termos = (
+            "no-helmet",
+            "no-hardhat",
+            "no-vest",
+            "no-safety-vest",
+            "sem-capacete",
+            "sem-colete",
+            "no-mask",
+            "without-helmet",
+            "without-vest"
+        )
+
+        return any(termo in nome for termo in termos)
+
+    def atualizar_indicador(self, indicador, valor):
+        indicador.configure(text=str(valor))
+
+    # ==========================================
+    # REGISTRO DE OCORRÊNCIAS
+    # ==========================================
+
+    def registrar_evento(self, mensagem):
+        horario = datetime.now().strftime("%H:%M:%S")
+
+        self.lista_alertas.configure(state="normal")
+        self.lista_alertas.insert(
+            "end",
+            f"\n\n[{horario}]\n{mensagem}"
+        )
+        self.lista_alertas.see("end")
+        self.lista_alertas.configure(state="disabled")
+
+    # ==========================================
+    # ENCERRAMENTO
+    # ==========================================
+
+    def parar_camera(self):
+        self.camera_ativa = False
+
+        if self.after_id is not None:
+            self.after_cancel(self.after_id)
+            self.after_id = None
+
+        if self.camera is not None:
+            self.camera.release()
+            self.camera = None
+
+        self.area_video.configure(
+            image="",
+            text="Monitoramento interrompido"
+        )
+        self.area_video.image = None
+
+        self.status_camera.configure(
+            text="●  Câmera desligada",
+            text_color=AMARELO
+        )
+
+        self.registrar_evento("Monitoramento interrompido.")
+
+    def fechar(self):
+        self.parar_camera()
+        self.destroy()
+
+
+if __name__ == "__main__":
+    app = Aplicacao()
+    app.mainloop()
