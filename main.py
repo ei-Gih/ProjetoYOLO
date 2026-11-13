@@ -100,7 +100,7 @@ def avaliar_pessoas(deteccoes, classes_modelo):
 class Aplicacao(ctk.CTk):
     def __init__(self):
         super().__init__()
-        self.title("PYPROJECT | Central de segurança e EPIs")
+        self.title("ZelarIA | Central de segurança e EPIs")
         self.geometry("1440x920")
         self.minsize(1100, 700)
         self.configure(fg_color=FUNDO)
@@ -127,30 +127,38 @@ class Aplicacao(ctk.CTk):
         menu.grid_columnconfigure(0, weight=1)
         menu.grid_rowconfigure(1, weight=1)
         marca = ctk.CTkFrame(menu, fg_color="transparent")
-        marca.grid(row=0, column=0, sticky="ew", padx=20, pady=(18, 12))
-        self.label(marca, "PYPROJECT", 25, AZUL, True).pack(anchor="w")
+        marca.grid(row=0, column=0, sticky="ew", padx=20, pady=(10, 8))
+        caminho_logo = PASTA_PROJETO / "assets" / "zelaria-logo.png"
+        if caminho_logo.is_file():
+            with Image.open(caminho_logo) as arquivo_logo:
+                imagem_logo = arquivo_logo.convert("RGBA")
+            largura_logo = 195
+            altura_logo = round(largura_logo * imagem_logo.height / imagem_logo.width)
+            self.logo_marca = ctk.CTkImage(light_image=imagem_logo, dark_image=imagem_logo, size=(largura_logo, altura_logo))
+            ctk.CTkLabel(marca, text="", image=self.logo_marca, fg_color="transparent", width=largura_logo, height=altura_logo).pack(anchor="w")
+        else:
+            self.label(marca, "ZelarIA", 25, AZUL, True).pack(anchor="w")
         self.label(marca, "DASHBOARD DE SEGURANÇA", 10, SUAVE, True).pack(anchor="w", pady=(2, 0))
-        dashboard = ctk.CTkScrollableFrame(menu, fg_color="transparent", corner_radius=0)
+        dashboard = ctk.CTkFrame(menu, fg_color="transparent", corner_radius=0)
         dashboard.grid(row=1, column=0, sticky="nsew", padx=8, pady=(0, 12))
         dashboard.grid_columnconfigure(0, weight=1)
+        dashboard.grid_rowconfigure(0, weight=1)
         corpo = ctk.CTkFrame(self, fg_color="transparent")
         corpo.grid(row=0, column=1, sticky="nsew", padx=18, pady=18)
         corpo.grid_columnconfigure(0, weight=1)
         corpo.grid_rowconfigure(0, weight=1)
-        self.modelo_label = self.label(dashboard, "Carregando modelo de detecção...", 11, AMARELO, wraplength=300, justify="left")
-        self.modelo_label.grid(row=2, column=0, sticky="ew", padx=12, pady=(14, 8))
-        indicadores = ctk.CTkFrame(dashboard, fg_color="transparent")
-        indicadores.grid(row=0, column=0, sticky="ew", pady=(0, 12))
-        indicadores.grid_columnconfigure((0, 1), weight=1, uniform="indicadores")
+        barra = ctk.CTkFrame(corpo, fg_color="transparent")
+        barra.grid(row=1, column=0, sticky="ew", pady=(12, 0))
+        barra.grid_columnconfigure((0, 1, 2), weight=1, uniform="metricas")
+        barra.grid_columnconfigure(3, weight=0, minsize=170)
         self.cards = {}
-        for i, (chave, titulo, cor) in enumerate((("pessoas", "PESSOAS NA CENA", AZUL), ("liberadas", "EPIs CONFIRMADOS", VERDE), ("pendentes", "COM PENDÊNCIAS", AMARELO))):
-            card = self.painel(indicadores)
+        for i, (chave, titulo) in enumerate((("pessoas", "PESSOAS NA CENA"), ("pendentes", "COM PENDÊNCIAS"), ("liberadas", "EPIs CONFIRMADOS"))):
+            card = self.painel(barra)
             card.configure(fg_color=FUNDO)
-            card.grid(row=i // 2, column=i % 2, columnspan=2 if i == 2 else 1, sticky="ew", padx=(0 if i % 2 == 0 else 4, 4 if i % 2 == 0 else 0), pady=4)
-            self.label(card, titulo, 10, SUAVE, True).pack(anchor="center", padx=15, pady=(14, 0))
-            self.cards[chave] = self.label(card, "0", 30, cor, True)
-            self.cards[chave].pack(anchor="center", padx=15, pady=(0, 12))
-
+            card.grid(row=0, column=i, sticky="nsew", padx=(0, 8))
+            self.label(card, titulo, 10, SUAVE, True).pack(padx=8, pady=(12, 0))
+            self.cards[chave] = self.label(card, "0", 30, TEXTO, True)
+            self.cards[chave].pack(padx=8, pady=(0, 8))
         camera = self.painel(corpo)
         camera.grid(row=0, column=0, sticky="nsew")
         camera.grid_columnconfigure(0, weight=1)
@@ -161,42 +169,44 @@ class Aplicacao(ctk.CTk):
         self.label(cab, "Câmera ao vivo", 17, negrito=True).pack(side="left")
         self.status_camera = self.label(cab, "●  OFFLINE", 11, SUAVE, True)
         self.status_camera.pack(side="right")
-        self.area_video = ctk.CTkLabel(camera, text="PYPROJECT\n\nInicie a câmera para verificar os EPIs", font=("Segoe UI", 18), text_color=SUAVE, fg_color=FUNDO, corner_radius=12)
+        self.area_video = ctk.CTkLabel(camera, text="ZelarIA\n\nInicie a câmera para verificar os EPIs", font=("Segoe UI", 18), text_color=SUAVE, fg_color=FUNDO, corner_radius=12)
         self.area_video.grid(row=1, column=0, sticky="nsew", padx=16, pady=(0, 12))
         self.label(camera, "P1, P2… identificam pessoas apenas no quadro atual.", 10, SUAVE).grid(row=2, column=0, padx=16, pady=(0, 8))
-        controles = ctk.CTkFrame(camera, fg_color="transparent")
-        controles.grid(row=3, column=0, sticky="ew", padx=16, pady=(0, 16))
-        controles.grid_columnconfigure((0, 1), weight=1)
-        self.iniciar = ctk.CTkButton(controles, text="▶  Iniciar inspeção", height=44, fg_color=DESTAQUE, hover_color=SUAVE, text_color=FUNDO, text_color_disabled=FUNDO, state="disabled", command=self.iniciar_camera)
-        self.iniciar.grid(row=0, column=0, sticky="ew", padx=(0, 6))
-        self.parar = ctk.CTkButton(controles, text="■  Encerrar", height=44, fg_color=CARTAO, hover_color=DESTAQUE, text_color=TEXTO, text_color_disabled=TEXTO, state="disabled", command=self.parar_camera)
-        self.parar.grid(row=0, column=1, sticky="ew", padx=(6, 0))
+        controles = ctk.CTkFrame(barra, fg_color="transparent")
+        controles.grid(row=0, column=3, sticky="nsew")
+        controles.grid_columnconfigure(0, weight=1)
+        controles.grid_rowconfigure((0, 1), weight=1)
+        self.iniciar = ctk.CTkButton(controles, text="▶  Iniciar inspeção", height=40, fg_color="#B8D9BF", hover_color="#A2C7AA", text_color=FUNDO, text_color_disabled=PAINEL, state="disabled", command=self.iniciar_camera)
+        self.iniciar.grid(row=0, column=0, sticky="nsew", pady=(0, 5))
+        self.parar = ctk.CTkButton(controles, text="■  Encerrar", height=40, fg_color="#ECECEC", hover_color="#ACBBC6", text_color=FUNDO, text_color_disabled=PAINEL, state="disabled", command=self.parar_camera)
+        self.parar.grid(row=1, column=0, sticky="nsew", pady=(5, 0))
 
         direito = self.painel(dashboard)
         direito.configure(fg_color=CHECKLIST_FUNDO, border_color=CHECKLIST_FUNDO)
-        direito.grid(row=1, column=0, sticky="ew")
-        self.label(direito, "Checklist de proteção", 19, CHECKLIST_TEXTO, negrito=True).pack(anchor="w", padx=20, pady=(18, 2))
-        self.label(direito, "TODOS OS 6 EPIs SÃO OBRIGATÓRIOS", 10, CHECKLIST_TEXTO, True).pack(anchor="w", padx=20, pady=(0, 14))
-        self.resultado = ctk.CTkLabel(direito, text="AGUARDANDO INSPEÇÃO", height=56, fg_color=CHECKLIST_ITEM, corner_radius=10, font=("Segoe UI", 16, "bold"), text_color=CHECKLIST_TEXTO)
+        direito.grid(row=0, column=0, sticky="nsew")
+        self.label(direito, "Checklist de proteção", 19, CHECKLIST_TEXTO, negrito=True).pack(anchor="w", padx=20, pady=(12, 2))
+        self.label(direito, "TODOS OS 6 EPIs SÃO OBRIGATÓRIOS", 10, CHECKLIST_TEXTO, True).pack(anchor="w", padx=20, pady=(0, 6))
+        self.resultado = ctk.CTkLabel(direito, text="AGUARDANDO INSPEÇÃO", height=40, fg_color=CHECKLIST_ITEM, corner_radius=10, font=("Segoe UI", 16, "bold"), text_color=CHECKLIST_TEXTO)
         self.resultado.pack(fill="x", padx=16)
         self.detalhe = self.label(direito, "Inicie o monitoramento para avaliar a cena.", 11, CHECKLIST_TEXTO, wraplength=280, justify="left")
-        self.detalhe.pack(anchor="w", padx=20, pady=(8, 12))
+        self.detalhe.pack(anchor="w", padx=20, pady=(4, 6))
         self.checks = {}
         self.icones_epi = {epi: criar_icone_epi(epi) for epi in EPIS}
         for epi in EPIS:
             linha = ctk.CTkFrame(direito, fg_color=CHECKLIST_ITEM, border_color=CHECKLIST_ITEM, border_width=1, corner_radius=8)
-            linha.pack(fill="x", padx=16, pady=3)
-            cabecalho_epi = ctk.CTkFrame(linha, fg_color="transparent")
-            cabecalho_epi.pack(fill="x", padx=10, pady=(7, 0))
-            ctk.CTkLabel(cabecalho_epi, text="", image=self.icones_epi[epi], width=32).pack(side="left", padx=(0, 8))
-            self.label(cabecalho_epi, epi, 12, CHECKLIST_TEXTO, negrito=True).pack(side="left")
-            status = self.label(linha, "—  Aguardando", 11, CHECKLIST_TEXTO, True)
-            status.pack(anchor="w", padx=12, pady=(0, 6))
+            linha.pack(fill="x", padx=12, pady=2)
+            linha.grid_columnconfigure(1, weight=1)
+            ctk.CTkLabel(linha, text="", image=self.icones_epi[epi], width=32).grid(row=0, column=0, rowspan=2, padx=(8, 6), pady=4)
+            self.label(linha, epi, 12, CHECKLIST_TEXTO, negrito=True).grid(row=0, column=1, sticky="w", pady=(3, 0))
+            status = self.label(linha, "—  Aguardando", 10, CHECKLIST_TEXTO, True, height=18)
+            status.grid(row=1, column=1, sticky="w", pady=(0, 3))
             self.checks[epi] = status
-        self.label(direito, "RESULTADO POR PESSOA", 10, CHECKLIST_TEXTO, True).pack(anchor="w", padx=20, pady=(15, 5))
-        self.lista_pessoas = ctk.CTkTextbox(direito, height=85, fg_color=CHECKLIST_ITEM, font=("Segoe UI", 11), text_color=CHECKLIST_TEXTO, wrap="word")
-        self.lista_pessoas.pack(fill="both", expand=True, padx=16, pady=(0, 16))
+        self.label(direito, "RESULTADO POR PESSOA", 10, CHECKLIST_TEXTO, True).pack(anchor="w", padx=20, pady=(6, 3))
+        self.lista_pessoas = ctk.CTkTextbox(direito, height=45, fg_color=CHECKLIST_ITEM, font=("Segoe UI", 11), text_color=CHECKLIST_TEXTO, wrap="word")
+        self.lista_pessoas.pack(fill="both", expand=True, padx=16, pady=(0, 8))
         self.escrever(self.lista_pessoas, "Nenhuma avaliação disponível.")
+        self.modelo_label = self.label(dashboard, "Carregando modelo...", 10, SUAVE, wraplength=320, justify="left")
+        self.modelo_label.grid(row=1, column=0, sticky="ew", padx=8, pady=(5, 0))
 
     @staticmethod
     def escrever(widget, texto):
@@ -229,7 +239,7 @@ class Aplicacao(ctk.CTk):
         if not self.camera.isOpened():
             self.camera.release()
             self.camera = None
-            messagebox.showerror("PYPROJECT | Câmera", "Não foi possível acessar a webcam.")
+            messagebox.showerror("ZelarIA | Câmera", "Não foi possível acessar a webcam.")
             return
         self.camera_ativa = True
         self.iniciar.configure(state="disabled")
@@ -323,7 +333,7 @@ class Aplicacao(ctk.CTk):
         if self.camera is not None:
             self.camera.release()
             self.camera = None
-        self.area_video.configure(image=None, text="PYPROJECT\n\nInspeção encerrada")
+        self.area_video.configure(image=None, text="ZelarIA\n\nInspeção encerrada")
         self.area_video.image = None
         self.status_camera.configure(text="●  OFFLINE", text_color=SUAVE)
         self.iniciar.configure(state="normal" if self.modelo else "disabled")
