@@ -1,0 +1,6 @@
+customtkinter==6.0.0
+opencv-python==5.0.0.93
+Pillow==12.3.0
+ultralytics==8.4.154
+torch==2.14.0
+PyYAML==6.0.3

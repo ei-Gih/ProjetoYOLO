@@ -1,11 +1,13 @@
 from pathlib import Path
-from tkinter import messagebox
-import unicodedata
+import multiprocessing as mp
+import time
+from queue import Empty
+from test.avaliacao import EPIS, avaliar_pessoas
+from test.camera_worker import executar
 
 import customtkinter as ctk
 import cv2
 from PIL import Image, ImageDraw
-from ultralytics import YOLO
 
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
@@ -59,42 +61,6 @@ def criar_icone_epi(epi):
     return ctk.CTkImage(light_image=imagem, dark_image=imagem, size=(30, 30))
 
 
-def normalizar(nome):
-    texto = unicodedata.normalize("NFKD", nome.lower())
-    return "-".join("".join(c for c in texto if not unicodedata.combining(c)).replace("_", " ").replace("-", " ").split())
-
-
-# Ajuste os aliases para os nomes exatos das classes do seu modelo treinado.
-EPIS = {
-    "Jaleco": {"jaleco", "lab-coat", "labcoat", "gown", "coat"},
-    "Óculos de segurança": {"oculos", "oculos-de-seguranca", "goggles", "safety-glasses", "safety-goggles"},
-    "Máscara": {"mascara", "mask", "face-mask", "medical-mask"},
-    "Luvas": {"luva", "luvas", "glove", "gloves", "safety-gloves"},
-    "Protetor auricular": {"protetor-auricular", "protetor-oricular", "ear-protection", "earmuffs", "ear-muffs", "earplug", "earplugs"},
-    "Capacete": {"capacete", "helmet", "hardhat", "hard-hat", "safety-helmet"},
-}
-PESSOAS = {"person", "pessoa", "worker", "trabalhador"}
-
-
-def avaliar_pessoas(deteccoes, classes_modelo):
-    """Associa cada EPI a uma única pessoa; sobreposições ambíguas não liberam."""
-    suportados = {epi: bool(aliases & classes_modelo) for epi, aliases in EPIS.items()}
-    pessoas = [d for d in deteccoes if d[0] in PESSOAS]
-    presentes = [set() for _ in pessoas]
-    for nome, caixa in deteccoes:
-        epi = next((e for e, aliases in EPIS.items() if nome in aliases), None)
-        if epi is None:
-            continue
-        x1, y1, x2, y2 = caixa
-        area = max(0, x2 - x1) * max(0, y2 - y1)
-        candidatos = []
-        for i, (_, (px1, py1, px2, py2)) in enumerate(pessoas):
-            intersecao = max(0, min(x2, px2) - max(x1, px1)) * max(0, min(y2, py2) - max(y1, py1))
-            if area > 0 and intersecao / area >= 0.70:
-                candidatos.append(i)
-        if len(candidatos) == 1:
-            presentes[candidatos[0]].add(epi)
-    return pessoas, presentes, suportados
 
 
 class Aplicacao(ctk.CTk):
@@ -104,10 +70,12 @@ class Aplicacao(ctk.CTk):
         self.geometry("1440x920")
         self.minsize(1100, 700)
         self.configure(fg_color=FUNDO)
-        self.camera = None
         self.after_id = None
         self.camera_ativa = False
         self.modelo = None
+        self.processo = None
+        self.fila = None
+        self.fechando = False
         self.protocol("WM_DELETE_WINDOW", self.fechar)
         self.criar_interface()
         self.after(100, self.carregar_modelo)
@@ -178,7 +146,7 @@ class Aplicacao(ctk.CTk):
         controles.grid_rowconfigure((0, 1), weight=1)
         self.iniciar = ctk.CTkButton(controles, text="▶  Iniciar inspeção", height=40, fg_color="#B8D9BF", hover_color="#A2C7AA", text_color=FUNDO, text_color_disabled=PAINEL, state="disabled", command=self.iniciar_camera)
         self.iniciar.grid(row=0, column=0, sticky="nsew", pady=(0, 5))
-        self.parar = ctk.CTkButton(controles, text="■  Encerrar", height=40, fg_color="#ECECEC", hover_color="#ACBBC6", text_color=FUNDO, text_color_disabled=PAINEL, state="disabled", command=self.parar_camera)
+        self.parar = ctk.CTkButton(controles, text="■  Encerrar", height=40, fg_color="#ECECEC", hover_color="#ACBBC6", text_color=FUNDO, text_color_disabled=PAINEL, state="normal", command=self.fechar)
         self.parar.grid(row=1, column=0, sticky="nsew", pady=(5, 0))
 
         direito = self.painel(dashboard)
@@ -216,55 +184,50 @@ class Aplicacao(ctk.CTk):
         widget.configure(state="disabled")
 
     def carregar_modelo(self):
-        caminho = PASTA_PROJETO / "best.pt"
-        if not caminho.is_file():
-            caminho = PASTA_PROJETO / "yolo11n.pt"
-        try:
-            if not caminho.is_file():
-                raise FileNotFoundError("Adicione best.pt ou yolo11n.pt à pasta do projeto.")
-            self.modelo = YOLO(str(caminho))
-            self.classes_modelo = {normalizar(n) for n in self.modelo.names.values()}
-            faltam = [e for e, aliases in EPIS.items() if not aliases & self.classes_modelo]
-            texto = f"MODELO: {caminho.name}  •  "
-            texto += "Não valida: " + ", ".join(faltam) if faltam else "Classes dos 6 EPIs disponíveis."
-            self.modelo_label.configure(text=texto, text_color=AMARELO if faltam else VERDE)
-            self.iniciar.configure(state="normal")
-        except Exception as erro:
-            self.modelo_label.configure(text=f"Falha ao carregar modelo: {erro}", text_color=VERMELHO)
+        caminhos = [PASTA_PROJETO / n for n in ("best.pt", "sh17_ppe.pt", "yolo11n.pt")]
+        self.modelo = next((p for p in caminhos if p.is_file()), None)
+        if self.modelo is None:
+            self.modelo_label.configure(text="Modelo não encontrado.")
+            return
+        self.modelo_label.configure(text=f"MODELO: {self.modelo.name} • Pronto para iniciar")
+        self.iniciar.configure(state="normal")
 
     def iniciar_camera(self):
         if self.camera_ativa or self.modelo is None:
             return
-        self.camera = cv2.VideoCapture(0)
-        if not self.camera.isOpened():
-            self.camera.release()
-            self.camera = None
-            messagebox.showerror("ZelarIA | Câmera", "Não foi possível acessar a webcam.")
-            return
+        contexto = mp.get_context("spawn")
+        self.fila = contexto.Queue(maxsize=2)
+        self.sinal_parar = contexto.Event()
+        self.processo = contexto.Process(target=executar,
+            args=(str(self.modelo), self.fila, self.sinal_parar, CONFIANCA_MINIMA), daemon=True)
+        self.processo.start()
         self.camera_ativa = True
+        self.ultimo_quadro = time.monotonic()
+        self.recebeu_quadro = False
         self.iniciar.configure(state="disabled")
-        self.parar.configure(state="normal")
-        self.status_camera.configure(text="●  AO VIVO", text_color=VERDE)
+        self.status_camera.configure(text="●  INICIANDO")
         self.atualizar_video()
 
     def mostrar_avaliacao(self, pessoas, presentes, suportados):
         total = len(pessoas)
         completas = all(suportados.values())
         liberadas = sum(len(e) == len(EPIS) for e in presentes) if completas else 0
-        pendentes = total - liberadas
-        for chave, valor in (("pessoas", total), ("liberadas", liberadas), ("pendentes", pendentes)):
+        pessoas_pendentes = total - liberadas
+        confirmados = sum(len(itens) for itens in presentes)
+        pendentes = total * len(EPIS) - confirmados
+        for chave, valor in (("pessoas", total), ("liberadas", confirmados), ("pendentes", pendentes)):
             self.cards[chave].configure(text=str(valor))
         if not total:
             titulo, cor, fundo = "AGUARDANDO PESSOA", SUAVE, FUNDO
             detalhe = "Posicione a pessoa inteira no campo de visão da câmera."
         elif not completas:
             titulo, cor, fundo = "VALIDAÇÃO INDISPONÍVEL", AMARELO, FUNDO
-            detalhe = "O modelo não reconhece todos os EPIs. Acesso não liberado."
+            detalhe = "O modelo não reconhece todos os EPIs. Verificação incompleta."
         elif pendentes:
-            titulo, cor, fundo = "ATENÇÃO • NÃO LIBERADO", VERMELHO, FUNDO
-            detalhe = f"{pendentes} de {total} pessoa(s) com EPIs não confirmados."
+            titulo, cor, fundo = "ATENÇÃO • EPIs PENDENTES", VERMELHO, FUNDO
+            detalhe = f"{pessoas_pendentes} de {total} pessoa(s) com pendências. {pendentes} EPIs não confirmados."
         else:
-            titulo, cor, fundo = "✓  OK — LIBERADO", VERDE, FUNDO
+            titulo, cor, fundo = "✓  EPIs CONFIRMADOS", VERDE, FUNDO
             detalhe = "Os seis EPIs foram detectados em cada pessoa neste quadro."
         self.resultado.configure(text=titulo, text_color=CHECKLIST_TEXTO, fg_color=CHECKLIST_ITEM)
         self.detalhe.configure(text=detalhe)
@@ -288,56 +251,85 @@ class Aplicacao(ctk.CTk):
                 partes.append("Não confirmado: " + ", ".join(faltam))
             if sem_suporte:
                 partes.append("Sem suporte: " + ", ".join(sem_suporte))
-            linhas.append(f"P{i}  •  " + (" | ".join(partes) if partes else "✓ OK — Liberado"))
+            linhas.append(f"P{i}  •  " + (" | ".join(partes) if partes else "✓ Todos os EPIs detectados"))
         self.escrever(self.lista_pessoas, "\n\n".join(linhas) or "Nenhuma pessoa detectada.")
 
     def atualizar_video(self):
         self.after_id = None
-        if not self.camera_ativa:
+        if not self.camera_ativa or self.fechando:
             return
         try:
-            sucesso, frame = self.camera.read()
-            if not sucesso:
-                raise RuntimeError("Falha na captura da câmera.")
-            resultado = self.modelo.predict(source=frame, conf=CONFIANCA_MINIMA, verbose=False)[0]
-            deteccoes = []
-            if resultado.boxes is not None:
-                for classe, caixa in zip(resultado.boxes.cls.tolist(), resultado.boxes.xyxy.tolist()):
-                    deteccoes.append((normalizar(resultado.names[int(classe)]), caixa))
-            pessoas, presentes, suportados = avaliar_pessoas(deteccoes, self.classes_modelo)
-            self.mostrar_avaliacao(pessoas, presentes, suportados)
-            imagem = resultado.plot()
-            for i, (_, caixa) in enumerate(pessoas):
-                x1, y1, x2, y2 = map(int, caixa)
-                ok = all(suportados.values()) and len(presentes[i]) == len(EPIS)
-                cor = (236, 236, 236) if ok else (157, 125, 102)
-                cv2.rectangle(imagem, (x1, y1), (x2, y2), cor, 2)
-                cv2.putText(imagem, f"P{i + 1}: {'OK' if ok else 'PENDENTE'}", (x1, max(20, y1 - 10)), cv2.FONT_HERSHEY_SIMPLEX, 0.6, cor, 2)
-            pil = Image.fromarray(cv2.cvtColor(imagem, cv2.COLOR_BGR2RGB))
-            pil.thumbnail((max(100, self.area_video.winfo_width() - 8), max(100, self.area_video.winfo_height() - 8)))
-            imagem_tk = ctk.CTkImage(light_image=pil, dark_image=pil, size=pil.size)
-            self.area_video.configure(image=imagem_tk, text="")
-            self.area_video.image = imagem_tk
-        except Exception as erro:
-            self.parar_camera()
-            self.resultado.configure(text="FALHA NA INSPEÇÃO", text_color=CHECKLIST_TEXTO, fg_color=CHECKLIST_ITEM)
-            self.detalhe.configure(text="Verificação interrompida. Nenhuma liberação ativa.")
-            return
+            mensagem = self.fila.get_nowait()
+        except Empty:
+            prazo = 30 if self.recebeu_quadro else 120
+            if time.monotonic() - self.ultimo_quadro > prazo:
+                self.falha_inspecao("A câmera ou o detector deixou de responder. Tente iniciar novamente.")
+                return
+            if not self.processo.is_alive():
+                self.falha_inspecao("O processo da câmera foi interrompido.")
+                return
+        else:
+            tipo, dados = mensagem
+            if tipo == "erro":
+                self.falha_inspecao(dados)
+                return
+            if tipo == "classes":
+                self.classes_modelo = set(dados)
+                faltam = [e for e, aliases in EPIS.items() if not aliases & self.classes_modelo]
+                self.modelo_label.configure(text=f"MODELO: {self.modelo.name}" + (" + jaleco.pt" if (PASTA_PROJETO / "jaleco.pt").is_file() else "") + " • " +
+                    ("Não valida: " + ", ".join(faltam) if faltam else "6 EPIs • Jaleco: modelo experimental."))
+            elif tipo == "quadro":
+                self.ultimo_quadro = time.monotonic()
+                self.recebeu_quadro = True
+                imagem, deteccoes = dados
+                pessoas, presentes, suportados = avaliar_pessoas(deteccoes, self.classes_modelo)
+                self.mostrar_avaliacao(pessoas, presentes, suportados)
+                self.status_camera.configure(text="●  AO VIVO")
+                for i, (_, caixa) in enumerate(pessoas):
+                    x1, y1, x2, y2 = map(int, caixa)
+                    ok = all(suportados.values()) and len(presentes[i]) == len(EPIS)
+                    cor = (236, 236, 236) if ok else (157, 125, 102)
+                    cv2.rectangle(imagem, (x1, y1), (x2, y2), cor, 2)
+                    cv2.putText(imagem, f"P{i+1}: {'OK' if ok else 'PENDENTE'}", (x1, max(20, y1-10)), cv2.FONT_HERSHEY_SIMPLEX, 0.6, cor, 2)
+                pil = Image.fromarray(cv2.cvtColor(imagem, cv2.COLOR_BGR2RGB))
+                pil.thumbnail((max(100, self.area_video.winfo_width()-8), max(100, self.area_video.winfo_height()-8)))
+                imagem_tk = ctk.CTkImage(light_image=pil, dark_image=pil, size=pil.size)
+                self.area_video.configure(image=imagem_tk, text="")
+                self.area_video.image = imagem_tk
         self.after_id = self.after(40, self.atualizar_video)
+
+    def falha_inspecao(self, erro):
+        self.parar_camera()
+        self.resultado.configure(text="FALHA NA INSPEÇÃO")
+        self.detalhe.configure(text=str(erro))
+
+    def encerrar_processo(self):
+        if self.processo is not None:
+            self.sinal_parar.set()
+            self.processo.join(timeout=1)
+            if self.processo.is_alive():
+                self.processo.terminate()
+                self.processo.join(timeout=2)
+            if self.processo.is_alive():
+                self.processo.kill()
+                self.processo.join()
+            self.processo.close()
+            self.processo = None
+        if self.fila is not None:
+            self.fila.close()
+            self.fila = None
 
     def parar_camera(self):
         self.camera_ativa = False
+        self.encerrar_processo()
         if self.after_id is not None:
             self.after_cancel(self.after_id)
             self.after_id = None
-        if self.camera is not None:
-            self.camera.release()
-            self.camera = None
         self.area_video.configure(image=None, text="ZelarIA\n\nInspeção encerrada")
         self.area_video.image = None
         self.status_camera.configure(text="●  OFFLINE", text_color=SUAVE)
         self.iniciar.configure(state="normal" if self.modelo else "disabled")
-        self.parar.configure(state="disabled")
+        self.parar.configure(state="normal")
         self.resultado.configure(text="INSPEÇÃO ENCERRADA", text_color=CHECKLIST_TEXTO, fg_color=CHECKLIST_ITEM)
         self.detalhe.configure(text="Inicie a câmera para uma nova verificação.")
         for label in self.checks.values():
@@ -347,9 +339,17 @@ class Aplicacao(ctk.CTk):
         self.escrever(self.lista_pessoas, "Nenhuma avaliação ativa.")
 
     def fechar(self):
-        self.parar_camera()
-        self.destroy()
+        if self.fechando:
+            return
+        self.fechando = True
+        try:
+            self.parar_camera()
+        finally:
+            cv2.destroyAllWindows()
+            self.quit()
+            self.destroy()
 
 
 if __name__ == "__main__":
+    mp.freeze_support()
     Aplicacao().mainloop()

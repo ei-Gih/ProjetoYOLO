@@ -1,0 +1,6 @@
+names:
+  0: jaleco
+path: C:\Users\Gisele\OneDrive\Documentos\Facudade\Programação_Py\ProjetoYOLO\dataset\v2_jalecos
+test: images/test
+train: images/train
+val: images/val

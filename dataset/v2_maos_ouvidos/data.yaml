@@ -1,0 +1,7 @@
+names:
+  0: luvas
+  1: protetor-auricular
+path: C:\Users\Gisele\OneDrive\Documentos\Facudade\Programação_Py\ProjetoYOLO\dataset\v2_maos_ouvidos
+test: images/test
+train: images/train
+val: images/val

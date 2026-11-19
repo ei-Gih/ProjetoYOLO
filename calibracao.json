@@ -1,0 +1,39 @@
+{
+  "versao": 3,
+  "imgsz": 512,
+  "especialista_maos_ouvidos": true,
+  "especialistas": [
+    {
+      "arquivo": "maos_ouvidos.pt",
+      "classes": [
+        "protetor-auricular"
+      ],
+      "limiares": {
+        "protetor-auricular": 0.35
+      }
+    },
+    {
+      "classes": [
+        "mascara"
+      ],
+      "limiares": {
+        "mascara": 0.35
+      },
+      "arquivo": "cabeca_v3_inicial_ultimo.pt",
+      "imgsz": 640
+    },
+    {
+      "classes": [
+        "capacete"
+      ],
+      "limiares": {
+        "capacete": 0.45
+      },
+      "arquivo": "cabeca_v3_inicial.pt",
+      "imgsz": 640
+    }
+  ],
+  "jaleco": {
+    "jaleco": 0.55
+  }
+}

@@ -1,0 +1,1800 @@
+[
+  {
+    "image": "sh17_train_66.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726700_jpeg.rf.bdebc025de8b9ceb10c2e39ba1575ea7.jpg",
+    "source_split": "train",
+    "sha256": "ca2e450d12f4a9acbbc7f14e32573bf4c9e6cf66cd00f276c50d0cea9eb23125",
+    "boxes_xyxy": [
+      [
+        324,
+        222,
+        640,
+        487.5
+      ],
+      [
+        0,
+        314,
+        234.5,
+        492.5
+      ]
+    ],
+    "review_index": 0
+  },
+  {
+    "image": "sh17_train_82.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-4421498_jpeg.rf.a50feab7063af3d2c1f859ec90435e6e.jpg",
+    "source_split": "train",
+    "sha256": "3317552d1af6f7a2de239a3989360d398a64d9c618a795df376501defff3ace9",
+    "boxes_xyxy": [],
+    "review_index": 1
+  },
+  {
+    "image": "sh17_train_119.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726804_jpeg.rf.459452752ee230fe26461abefcdc5a90.jpg",
+    "source_split": "train",
+    "sha256": "7427ee768f53b6f16ba633ed24c6c644e81e6ba351c5b2e76432aefbd51070d1",
+    "boxes_xyxy": [
+      [
+        196,
+        165,
+        571.5,
+        569.5
+      ]
+    ],
+    "review_index": 2
+  },
+  {
+    "image": "sh17_train_123.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-6129871_jpeg.rf.5ec1e7539f2a1448f9a62a22662054d2.jpg",
+    "source_split": "train",
+    "sha256": "e057fa782782c338eb1e09247350f1aa29cae1455f330fafcc161db13f5a0af5",
+    "boxes_xyxy": [],
+    "review_index": 3
+  },
+  {
+    "image": "sh17_train_212.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726704_jpeg.rf.31cc185dae5f55c91a50ff7766dc3130.jpg",
+    "source_split": "train",
+    "sha256": "803739b5b109a1171dff8c8041b73101eb1c0433c56f76a6afb5a252e48b8d78",
+    "boxes_xyxy": [
+      [
+        79,
+        247,
+        640,
+        530.5
+      ]
+    ],
+    "review_index": 4
+  },
+  {
+    "image": "sh17_train_224.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726784_jpeg.rf.a15a01f71353f781137929769437d94a.jpg",
+    "source_split": "train",
+    "sha256": "4e0aa6c3ef38f0489f3d40aa2817a110aeef48e4792ae1565846a362d2a16ff6",
+    "boxes_xyxy": [
+      [
+        111,
+        187,
+        547.5,
+        623.5
+      ],
+      [
+        536,
+        139,
+        640,
+        625
+      ]
+    ],
+    "review_index": 5
+  },
+  {
+    "image": "sh17_train_238.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-8538811_jpeg.rf.df8849034d5eb78bc216bec50d9dfcc9.jpg",
+    "source_split": "train",
+    "sha256": "dbb5b8ce06ffb917da8a3e2d4a0116f791cb2ce0791f2be37e24b438b9eacd15",
+    "boxes_xyxy": [],
+    "review_index": 6
+  },
+  {
+    "image": "sh17_train_381.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726699_jpeg.rf.a15875cf235d94661856317547cd71b6.jpg",
+    "source_split": "train",
+    "sha256": "aeaf7fdcefb4e8e5b662a724001d8bfc7a9ab124a228f1aa788ca1b4ca852a51",
+    "boxes_xyxy": [
+      [
+        48,
+        184,
+        610.5,
+        490
+      ]
+    ],
+    "review_index": 7
+  },
+  {
+    "image": "sh17_train_477.jpg",
+    "split": "val",
+    "source_file": "pexels-photo-6129880_jpeg.rf.c7bd1d2cc8384ae4a17e2b646c561475.jpg",
+    "source_split": "train",
+    "sha256": "aa5145634164a2025d32891f692a3e9306bcafafdaba104a3bebfe7ca7041a6f",
+    "boxes_xyxy": [],
+    "review_index": 8
+  },
+  {
+    "image": "sh17_train_530.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726807_jpeg.rf.7576e8910173fe7172bbfc57a5417471.jpg",
+    "source_split": "train",
+    "sha256": "7e0be828a57c77c499ca2ba747e151a63b31e4df9cdbbcdaaf468a21a62af3e2",
+    "boxes_xyxy": [
+      [
+        0,
+        146,
+        272,
+        639
+      ]
+    ],
+    "review_index": 9
+  },
+  {
+    "image": "sh17_train_608.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-8539810_jpeg.rf.60228f76741779966a72591c0cb1f011.jpg",
+    "source_split": "train",
+    "sha256": "8c14ad1d2ce225de37b4e0af768d70af96820cd9d1628c09338bdeac02ec8403",
+    "boxes_xyxy": [],
+    "review_index": 10
+  },
+  {
+    "image": "sh17_train_622.jpg",
+    "split": "val",
+    "source_file": "pexels-photo-6129680_jpeg.rf.17537fc81a6aff1e9e15b855849a916a.jpg",
+    "source_split": "train",
+    "sha256": "aadea3c275b0d479f96b90d923e2b9eccc96c9b7195e4f22ac1f97a338eae021",
+    "boxes_xyxy": [],
+    "review_index": 11
+  },
+  {
+    "image": "sh17_train_765.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726711_jpeg.rf.6da8fe0b043fe08c1b8079b3b462dd48.jpg",
+    "source_split": "train",
+    "sha256": "4f357ccd6fda336e3da377a313d68ea4c51d4c31a6b2123f68b949de6cecc79e",
+    "boxes_xyxy": [
+      [
+        38,
+        243,
+        640,
+        640
+      ]
+    ],
+    "review_index": 12
+  },
+  {
+    "image": "sh17_train_779.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5327578_jpeg.rf.35fb9cd595175abc3663e4300ad70ee1.jpg",
+    "source_split": "train",
+    "sha256": "905a49b59c48a4fa92394f842e2551f331bdbc6fe774a112eafe1078155ca051",
+    "boxes_xyxy": [
+      [
+        30,
+        180,
+        350,
+        640
+      ]
+    ],
+    "review_index": 13
+  },
+  {
+    "image": "sh17_train_858.jpg",
+    "split": "val",
+    "source_file": "pexels-photo-6129653_jpeg.rf.bdec9c889b8a90479e2b95ca58d8924f.jpg",
+    "source_split": "train",
+    "sha256": "f115528138f453c32b07b015b3629315c7aeba02a4a38ae0f3f85dcc516c0193",
+    "boxes_xyxy": [
+      [
+        190,
+        160,
+        370,
+        575
+      ]
+    ],
+    "review_index": 14
+  },
+  {
+    "image": "sh17_train_1014.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726798_jpeg.rf.ae9f96b7d2c5fea40737a72324724694.jpg",
+    "source_split": "train",
+    "sha256": "0059a90cf1ace0fe09fca8ef8cefb13f756d9b854deb0e2f9e77790319372941",
+    "boxes_xyxy": [
+      [
+        92,
+        215,
+        395,
+        565
+      ],
+      [
+        342,
+        226,
+        553.5,
+        519.5
+      ]
+    ],
+    "review_index": 15
+  },
+  {
+    "image": "sh17_train_1211.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-7083034_jpeg.rf.cb5ac9bd6cd5f2efec435afda6f77480.jpg",
+    "source_split": "train",
+    "sha256": "4c7c1a322ed657720493bd2e5da57408805409b523e4340f37ebb746169e5e48",
+    "boxes_xyxy": [],
+    "review_index": 16
+  },
+  {
+    "image": "sh17_train_1222.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726834_jpeg.rf.63d64ba4dfff978b9adf16a64e9ae729.jpg",
+    "source_split": "train",
+    "sha256": "acda434c994abd561ac864f95b48f6c167b9902797079f085eaf073a14069719",
+    "boxes_xyxy": [
+      [
+        0,
+        287,
+        498,
+        638
+      ]
+    ],
+    "review_index": 17
+  },
+  {
+    "image": "sh17_train_1249.jpg",
+    "split": "val",
+    "source_file": "pexels-photo-6129658_jpeg.rf.c4280e3387e4c50a0d9a625d2d7951af.jpg",
+    "source_split": "train",
+    "sha256": "5c391ba78b76c16340f4f979bb9108ff5eaf65bca4acce66c28944160ec5bfb9",
+    "boxes_xyxy": [
+      [
+        30,
+        120,
+        330,
+        640
+      ]
+    ],
+    "review_index": 18
+  },
+  {
+    "image": "sh17_train_1483.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5327866_jpeg.rf.4b5aba656c79e9b1e8f454a15e278062.jpg",
+    "source_split": "train",
+    "sha256": "a9f52879d524e65df8d1584d58553c3553ca72150a367a1c3d08447196c87b0c",
+    "boxes_xyxy": [
+      [
+        375,
+        140,
+        550,
+        385
+      ]
+    ],
+    "review_index": 19
+  },
+  {
+    "image": "sh17_train_1531.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726840_jpeg.rf.9236b4b128d5fa42e5b148a1303dec05.jpg",
+    "source_split": "train",
+    "sha256": "f7aca9014d920447566aed1a59dee2ed9a04c3fbbc13b7c69373b1d01d5b9739",
+    "boxes_xyxy": [
+      [
+        51,
+        231,
+        344.5,
+        639.5
+      ],
+      [
+        371,
+        221,
+        640,
+        639
+      ]
+    ],
+    "review_index": 20
+  },
+  {
+    "image": "sh17_train_1555.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-8539780_jpeg.rf.7f4a0afd6827a6d3f422612f1f5d741c.jpg",
+    "source_split": "train",
+    "sha256": "224cadb24e5539ecf8e06b7c8c80e1b8dab575af88bda86f5b466f145eeeab62",
+    "boxes_xyxy": [],
+    "review_index": 21
+  },
+  {
+    "image": "sh17_train_1569.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726805_jpeg.rf.447cb7b7716fb3456820aa6702bbcc9a.jpg",
+    "source_split": "train",
+    "sha256": "962096e64011d313335c3b9d4f68bb213c7ede73fd3ca80d1ee4d4367e51741b",
+    "boxes_xyxy": [],
+    "review_index": 22
+  },
+  {
+    "image": "sh17_train_1609.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-7650512_jpeg.rf.248cf42286d5124f971ae007d9927790.jpg",
+    "source_split": "train",
+    "sha256": "f9c7f775ce8ce490b439ab4269994eb4720b184aea881a2aa60adfe5f072263c",
+    "boxes_xyxy": [],
+    "review_index": 23
+  },
+  {
+    "image": "sh17_train_1633.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726789_jpeg.rf.9a62019b2d98f7a72550378a2c88f204.jpg",
+    "source_split": "train",
+    "sha256": "c0bbc3f87dad80c7a057c3b67951292ad5db7d722a5255231bf977d1b5dd7123",
+    "boxes_xyxy": [
+      [
+        81,
+        260,
+        387,
+        519
+      ],
+      [
+        339,
+        91,
+        509,
+        516.5
+      ]
+    ],
+    "review_index": 24
+  },
+  {
+    "image": "sh17_train_1716.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726694_jpeg.rf.60f57fbc1e371e36a588e4a8b842707d.jpg",
+    "source_split": "train",
+    "sha256": "99a07e44c8d350b2e904e9aacfe8b34d84e050fa3bc940237d67f4cd10eea1c1",
+    "boxes_xyxy": [
+      [
+        0,
+        197,
+        581,
+        473
+      ]
+    ],
+    "review_index": 25
+  },
+  {
+    "image": "sh17_train_1747.jpg",
+    "split": "val",
+    "source_file": "pexels-photo-6129870_jpeg.rf.c931a3276ba812d50f548f74524ec89f.jpg",
+    "source_split": "train",
+    "sha256": "10c90958af875ac07a3fe851d3055c351bbe3b44ee58a53dfcaffcb7edb786e6",
+    "boxes_xyxy": [],
+    "review_index": 26
+  },
+  {
+    "image": "sh17_train_1788.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726799_jpeg.rf.f36a66ed6c95996f7de7820c70905d8f.jpg",
+    "source_split": "train",
+    "sha256": "886d2a5e5247c111344d14c000d96868e98e64f793908b5b8c1d2860dcb23589",
+    "boxes_xyxy": [
+      [
+        384,
+        251,
+        565,
+        546
+      ],
+      [
+        84,
+        245,
+        316.5,
+        529.5
+      ]
+    ],
+    "review_index": 27
+  },
+  {
+    "image": "sh17_train_1998.jpg",
+    "split": "val",
+    "source_file": "pexels-photo-6129879_jpeg.rf.f856249216e8997e678c67418667395e.jpg",
+    "source_split": "train",
+    "sha256": "3543679d3564591e358293f383040dccdee4f158ed5ad5a4ac7f69bd06832310",
+    "boxes_xyxy": [],
+    "review_index": 28
+  },
+  {
+    "image": "sh17_train_2025.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726786_jpeg.rf.62961081e6233359f1a4b897213e101e.jpg",
+    "source_split": "train",
+    "sha256": "6551600f751cde0f516608291bba67efd966c9725c346d62056f61320431ac14",
+    "boxes_xyxy": [
+      [
+        3,
+        194,
+        542,
+        639.5
+      ]
+    ],
+    "review_index": 29
+  },
+  {
+    "image": "sh17_train_2065.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-4421546_jpeg.rf.e755f986d70332c82db7084f4227af13.jpg",
+    "source_split": "train",
+    "sha256": "bc8b5a1f20e8d4c9d3dfad0c47694b1d593c5ee47fdc7cd73f4559b9a280bbb2",
+    "boxes_xyxy": [],
+    "review_index": 30
+  },
+  {
+    "image": "sh17_train_2238.jpg",
+    "split": "val",
+    "source_file": "pexels-photo-6129645_jpeg.rf.6bfbc393025d77308607828d416cf0cb.jpg",
+    "source_split": "train",
+    "sha256": "aa7c84fbff95b9b4015376e4494d3d77fc234477ec667973fef738d972cd6153",
+    "boxes_xyxy": [
+      [
+        28,
+        205,
+        305,
+        640
+      ]
+    ],
+    "review_index": 31
+  },
+  {
+    "image": "sh17_train_2252.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-2260933_jpeg.rf.4c4d0641d4fa63ce42d8cfe3744e99c9.jpg",
+    "source_split": "train",
+    "sha256": "b24be035c84477fc265c91601b6ea48091276a3e6370079f138e32bed5bf75a6",
+    "boxes_xyxy": [],
+    "review_index": 32
+  },
+  {
+    "image": "sh17_train_2333.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726692_jpeg.rf.05be72a33552c6f5b4e4132ee4a1b2e8.jpg",
+    "source_split": "train",
+    "sha256": "95cc07ea5075d2fd654fa899f1f81f9440b1a1fe54cb5cfaf37faf18de5d6dc6",
+    "boxes_xyxy": [
+      [
+        7,
+        102,
+        624.5,
+        446
+      ]
+    ],
+    "review_index": 33
+  },
+  {
+    "image": "sh17_train_2334.jpg",
+    "split": "val",
+    "source_file": "pexels-photo-6129644_jpeg.rf.95746c0de0f3c00ed9520c35bad41de4.jpg",
+    "source_split": "train",
+    "sha256": "ded318677f023655d030f44b391f7add2f2080c0fd34e2f856002282d7bbf9a7",
+    "boxes_xyxy": [
+      [
+        409,
+        195,
+        550,
+        640
+      ],
+      [
+        208,
+        164,
+        249,
+        278
+      ]
+    ],
+    "review_index": 34
+  },
+  {
+    "image": "sh17_train_2351.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-8538696_jpeg.rf.980de4179bb15420a21c9a8edfbd8d8c.jpg",
+    "source_split": "train",
+    "sha256": "bf09557ffbbddee37a4e9e91277505c1f87c885bd20c662384e938b2bc17e050",
+    "boxes_xyxy": [],
+    "review_index": 35
+  },
+  {
+    "image": "sh17_train_2400.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726794_jpeg.rf.2762bc98f2652255e347d77ef94332d7.jpg",
+    "source_split": "train",
+    "sha256": "fdea27dc9157f19805ae4a09456a088a3905cae81f06fa44ade113b782427d7e",
+    "boxes_xyxy": [
+      [
+        0,
+        103,
+        377.5,
+        638.5
+      ]
+    ],
+    "review_index": 36
+  },
+  {
+    "image": "sh17_train_2456.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726797_jpeg.rf.f3427c1b1776c3f344b09cb5a91b03e8.jpg",
+    "source_split": "train",
+    "sha256": "a4d2e7d8b3e91cdeb7cb10bdedcb49a9d99dff24b84712a29760beadf6dc4742",
+    "boxes_xyxy": [
+      [
+        98,
+        143,
+        638.5,
+        632.5
+      ]
+    ],
+    "review_index": 37
+  },
+  {
+    "image": "sh17_train_2498.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726707_jpeg.rf.93c296cdd32c0fbb205846da37f273c0.jpg",
+    "source_split": "train",
+    "sha256": "f9289be858c4e5de295407087ebba089d6475e9d5697d85fbd243f36e27e2781",
+    "boxes_xyxy": [
+      [
+        0,
+        236,
+        571.5,
+        639
+      ]
+    ],
+    "review_index": 38
+  },
+  {
+    "image": "sh17_train_2555.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726796_jpeg.rf.ab450f578c4d155d3af363386b66fe59.jpg",
+    "source_split": "train",
+    "sha256": "dc8c7ed4e6ed0ed9b23134ddc7a6f6c8f48f5ef4f1a8c3733979544ff85b5c87",
+    "boxes_xyxy": [
+      [
+        167,
+        261,
+        468,
+        637.5
+      ]
+    ],
+    "review_index": 39
+  },
+  {
+    "image": "sh17_train_2727.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726696_jpeg.rf.aa6bdbe454bcd2f6fa96938fb1e53bae.jpg",
+    "source_split": "train",
+    "sha256": "64010fe9424e0e8d56b03b7ef0ba16991a99a2e2f8547fe247842f9e4c1f79e9",
+    "boxes_xyxy": [
+      [
+        188,
+        292,
+        635,
+        571.5
+      ]
+    ],
+    "review_index": 40
+  },
+  {
+    "image": "sh17_train_2810.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726791_jpeg.rf.db4212157a9785e0dc5e4cd81b10601d.jpg",
+    "source_split": "train",
+    "sha256": "86a2ee183b2c6eb967be9967e6f796001482eb133667f05b405b4752304c1d05",
+    "boxes_xyxy": [
+      [
+        0,
+        0,
+        610,
+        638
+      ]
+    ],
+    "review_index": 41
+  },
+  {
+    "image": "sh17_train_2886.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-4421494_jpeg.rf.94a4912b83fa990fadd717e853274d35.jpg",
+    "source_split": "train",
+    "sha256": "bee0b002bfa3ee44837e5b908c467a528cbb69efaa881feecf884cd38c9ea777",
+    "boxes_xyxy": [],
+    "review_index": 42
+  },
+  {
+    "image": "sh17_train_3063.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-4421492_jpeg.rf.39fc5aced4bb01e41e55180cd30dae68.jpg",
+    "source_split": "train",
+    "sha256": "c74e8e281526374a752591552d0cd29aa2f1a3530026e77dbdf412afe7e0d324",
+    "boxes_xyxy": [],
+    "review_index": 43
+  },
+  {
+    "image": "sh17_train_3081.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726795_jpeg.rf.bc6f365ae17674144463e95e298ef353.jpg",
+    "source_split": "train",
+    "sha256": "84d49b7ef09fc5be31d4ee914555d0bb246cda0430ae0530650d3b95fcc3afef",
+    "boxes_xyxy": [
+      [
+        0,
+        208,
+        234,
+        634
+      ]
+    ],
+    "review_index": 44
+  },
+  {
+    "image": "sh17_train_3090.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726850_jpeg.rf.83bc8cfb9a6fcd2cacce7c77b446825e.jpg",
+    "source_split": "train",
+    "sha256": "f14ddf18a53a22a95d88699ae61623b1bde49930e80ec78bce1ffc0ac17fda26",
+    "boxes_xyxy": [
+      [
+        0,
+        156,
+        294.5,
+        639.5
+      ]
+    ],
+    "review_index": 45
+  },
+  {
+    "image": "sh17_train_3234.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-8413080_jpeg.rf.215a3034c6b6b578d983c2e668c56a8d.jpg",
+    "source_split": "train",
+    "sha256": "866d7816a2ff9eca13346208a21f2074c4ff5f57229973b1ae840e148e7ffa1b",
+    "boxes_xyxy": [],
+    "review_index": 46
+  },
+  {
+    "image": "sh17_train_3238.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-4421493_jpeg.rf.8b592d026214a2c83866e621e9126ab6.jpg",
+    "source_split": "train",
+    "sha256": "bb2d9ddf9f3571fce26a73876ead3c75abbd69f69d553566d0bd2c10b5074090",
+    "boxes_xyxy": [],
+    "review_index": 47
+  },
+  {
+    "image": "sh17_train_3468.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-8532852_jpeg.rf.03b2a94cf09029b9c2f869341941a980.jpg",
+    "source_split": "train",
+    "sha256": "f9f5a6794a5f146bb556a4b69ab8221755d425762daa1c12367212182fbb7f71",
+    "boxes_xyxy": [],
+    "review_index": 48
+  },
+  {
+    "image": "sh17_train_3540.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-4421547_jpeg.rf.e3abdf021273b836e828ef8adc383173.jpg",
+    "source_split": "train",
+    "sha256": "ddea9a3838d6259163186833c3155ce4bbeb64e99e2a4edcd8375e5b215be0a2",
+    "boxes_xyxy": [],
+    "review_index": 49
+  },
+  {
+    "image": "sh17_train_3557.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726792_jpeg.rf.92e9bb30dd9548d04ef39cab21322f66.jpg",
+    "source_split": "train",
+    "sha256": "b4011f04c44f6e90841e925e8d4f673c15affe5b5b34c25ceb8d55754792c3dc",
+    "boxes_xyxy": [
+      [
+        118,
+        237,
+        575,
+        639.5
+      ]
+    ],
+    "review_index": 50
+  },
+  {
+    "image": "sh17_train_3576.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726803_jpeg.rf.c5d81cec1a7198dc3fe77c80d4557377.jpg",
+    "source_split": "train",
+    "sha256": "587d20be11d48e8e7a4cb76dcc2d6b351af210bc7b8d5ea33856a2981c1f84c6",
+    "boxes_xyxy": [
+      [
+        82,
+        110,
+        336,
+        640
+      ],
+      [
+        368,
+        351,
+        607,
+        635
+      ]
+    ],
+    "review_index": 51
+  },
+  {
+    "image": "sh17_train_3668.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726838_jpeg.rf.4cfe456a8ca1fbb39140bff7ca842c21.jpg",
+    "source_split": "train",
+    "sha256": "2eb0273ba812dabf47a67fcd0c705201064870dda4cdc529e1525251fb255d73",
+    "boxes_xyxy": [
+      [
+        57,
+        408,
+        640,
+        640
+      ]
+    ],
+    "review_index": 52
+  },
+  {
+    "image": "sh17_train_3829.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-8538703_jpeg.rf.92004c05ba27599b8a19360222baef07.jpg",
+    "source_split": "train",
+    "sha256": "bda53bc877914a95d3cab72b0bcb1bc1261901cda23b3d4322d830b1c16f705f",
+    "boxes_xyxy": [],
+    "review_index": 53
+  },
+  {
+    "image": "sh17_train_3923.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-8736362_jpeg.rf.b134415025a48fb46ade28baeb3db4cf.jpg",
+    "source_split": "train",
+    "sha256": "9e151271a62d729c68ea97624a0c73677244bf2bbb15b11950d993c5eaa871ad",
+    "boxes_xyxy": [],
+    "review_index": 54
+  },
+  {
+    "image": "sh17_train_4151.jpg",
+    "split": "val",
+    "source_file": "pexels-photo-6129646_jpeg.rf.02bcb0ecb8a1220f60da8df345f91514.jpg",
+    "source_split": "train",
+    "sha256": "b9bae4c03c4418ab84c2f15310d4a4825f8a08531c19014851bd802fc30b85c7",
+    "boxes_xyxy": [
+      [
+        515,
+        195,
+        640,
+        640
+      ],
+      [
+        230,
+        185,
+        348,
+        515
+      ],
+      [
+        539,
+        212,
+        585,
+        310
+      ]
+    ],
+    "review_index": 55
+  },
+  {
+    "image": "sh17_train_4155.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-209230_jpeg.rf.af73c588b8c3aac3290a55a1e860bb42.jpg",
+    "source_split": "train",
+    "sha256": "3924d2fab7e544de42bc154074c76ee8e68823b94c52810750df2c8525498a78",
+    "boxes_xyxy": [],
+    "review_index": 56
+  },
+  {
+    "image": "sh17_train_4325.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-13105426_jpeg.rf.1d31eea77068d1d88533a334372d124c.jpg",
+    "source_split": "train",
+    "sha256": "6154679b2482e90b33beaa4e0bdf28fdf222be3c4c2de9e62a06a925911b06eb",
+    "boxes_xyxy": [],
+    "review_index": 57
+  },
+  {
+    "image": "sh17_train_4357.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726802_jpeg.rf.e42ca76a68d5e4ddc8c123f0da42d95c.jpg",
+    "source_split": "train",
+    "sha256": "9653d8e794edbffefade8104a93f355b79dac11e32f1af7fbf17f15b9576de36",
+    "boxes_xyxy": [
+      [
+        365,
+        316,
+        640,
+        639
+      ]
+    ],
+    "review_index": 58
+  },
+  {
+    "image": "sh17_train_4425.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726812_jpeg.rf.bc957ac22d5015ceebb03b8570234d0c.jpg",
+    "source_split": "train",
+    "sha256": "f200cbfd707e2baaeca68f29436de5f336a1be6387de57caa244e66023176d78",
+    "boxes_xyxy": [
+      [
+        312,
+        351,
+        617.5,
+        639.5
+      ],
+      [
+        48,
+        223,
+        344,
+        640
+      ]
+    ],
+    "review_index": 59
+  },
+  {
+    "image": "sh17_train_4463.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726837_jpeg.rf.cdaae06eff811eebd54a882f9811437b.jpg",
+    "source_split": "train",
+    "sha256": "61e7511570cec6df8f3e412ef0ade2b9712404dc9039a41e872ce76b79e790c7",
+    "boxes_xyxy": [
+      [
+        0,
+        85,
+        287,
+        569
+      ],
+      [
+        283,
+        248,
+        602.5,
+        583.5
+      ]
+    ],
+    "review_index": 60
+  },
+  {
+    "image": "sh17_train_4618.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726691_jpeg.rf.b5925f6395fd6500d69aa546010bcb02.jpg",
+    "source_split": "train",
+    "sha256": "905568cd86b6c71c13b6ebc759310d445a0f1f38761401579b36753f156e607e",
+    "boxes_xyxy": [
+      [
+        7,
+        286,
+        640,
+        639.5
+      ]
+    ],
+    "review_index": 61
+  },
+  {
+    "image": "sh17_train_4749.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726703_jpeg.rf.ae4776631631897a55c055c79e07aed0.jpg",
+    "source_split": "train",
+    "sha256": "9ddce1e1d1d436fd141cc197d2d2f5ce55c0734973ed625b35d83187cd08a37e",
+    "boxes_xyxy": [
+      [
+        69,
+        227,
+        547.5,
+        444.5
+      ]
+    ],
+    "review_index": 62
+  },
+  {
+    "image": "sh17_train_4788.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726697_jpeg.rf.02238b50766e697d1b3aa0526a21f08f.jpg",
+    "source_split": "train",
+    "sha256": "756f3390918b892c5ea49e2af40f4d0ebfc2a15c531e5353a23f4d7ecb4f4fe2",
+    "boxes_xyxy": [
+      [
+        68,
+        156,
+        529.5,
+        516.5
+      ]
+    ],
+    "review_index": 63
+  },
+  {
+    "image": "sh17_train_4824.jpg",
+    "split": "val",
+    "source_file": "pexels-photo-6129681_jpeg.rf.cf0bde1d8f4fb36a5aca15cdd088826c.jpg",
+    "source_split": "train",
+    "sha256": "545e733eb65b3731a3b762075dacbf3aa1d7beb7d8bd428f9f2831776dcc3118",
+    "boxes_xyxy": [
+      [
+        242,
+        308,
+        446,
+        588
+      ]
+    ],
+    "review_index": 64
+  },
+  {
+    "image": "sh17_train_4859.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-8538867_jpeg.rf.bac710581f47c28a7dfe2ce1fc794d71.jpg",
+    "source_split": "train",
+    "sha256": "fcf5de1d726c9d8450baace5c4bc28f426cda822b7a3008c055cbb21d98c11e8",
+    "boxes_xyxy": [],
+    "review_index": 66
+  },
+  {
+    "image": "sh17_train_4893.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726790_jpeg.rf.c43dbc89eb0c26de55885e2971c9f702.jpg",
+    "source_split": "train",
+    "sha256": "a172abd0656a417f972d39f7bbf38b324647c40c54a7381a04b00fd8df4d9ab6",
+    "boxes_xyxy": [
+      [
+        0,
+        6,
+        275,
+        532
+      ],
+      [
+        284,
+        0,
+        639.5,
+        547.5
+      ]
+    ],
+    "review_index": 67
+  },
+  {
+    "image": "sh17_train_4896.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726793_jpeg.rf.5bffd98836206e7847ce9a17492b2e22.jpg",
+    "source_split": "train",
+    "sha256": "bd5760a6db2022ec7c422c8dae80c0197b67bdf4fdfe3585c207ef31b3a38ee9",
+    "boxes_xyxy": [
+      [
+        319,
+        167,
+        569,
+        510
+      ],
+      [
+        95,
+        170,
+        377,
+        515.5
+      ]
+    ],
+    "review_index": 68
+  },
+  {
+    "image": "sh17_train_4934.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726782_jpeg.rf.684e62ee0f095db16b3526b8482c4cea.jpg",
+    "source_split": "train",
+    "sha256": "4ba97625bc477167c70e09fef1f47b8398691b6daac62b0c354e2477f98cc0c2",
+    "boxes_xyxy": [
+      [
+        0,
+        226,
+        503.5,
+        636
+      ]
+    ],
+    "review_index": 69
+  },
+  {
+    "image": "sh17_train_4960.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-4421496_jpeg.rf.85732eb74c4010f3202c88601efaf8d0.jpg",
+    "source_split": "train",
+    "sha256": "df78283ea5853136e7809512f8220694dea7b5ce3cc9b5be2b6c61544f960f6d",
+    "boxes_xyxy": [],
+    "review_index": 70
+  },
+  {
+    "image": "sh17_train_4989.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5327656_jpeg.rf.0f649b975d6de356696e8de166ed77ff.jpg",
+    "source_split": "train",
+    "sha256": "70079b644975cc8af09205ca242382966921b71841c93dc80eb820f4012083ee",
+    "boxes_xyxy": [],
+    "review_index": 71
+  },
+  {
+    "image": "sh17_train_5063.jpg",
+    "split": "val",
+    "source_file": "pexels-photo-6129686_jpeg.rf.8c72258cc1ca4c60e675f85fe344d644.jpg",
+    "source_split": "train",
+    "sha256": "f1578adeb1ce2a8eb9c750cc2b511413bb274f2af1162792efe9e68a9e6260c5",
+    "boxes_xyxy": [],
+    "review_index": 72
+  },
+  {
+    "image": "sh17_train_5078.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-8538871_jpeg.rf.ab199f423410c58221565aa001013a80.jpg",
+    "source_split": "train",
+    "sha256": "47f93a1f38a3ed127b379f42505313c709bc1f9b82f4780e5d53f4a66dc1027d",
+    "boxes_xyxy": [],
+    "review_index": 73
+  },
+  {
+    "image": "sh17_train_5183.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726785_jpeg.rf.b2c919c4273ca4322866cb60780c53fa.jpg",
+    "source_split": "train",
+    "sha256": "214b2c5b49039f45a5d79aeaff20387eaf20ac7bb1041d72ea45b1578aa69723",
+    "boxes_xyxy": [
+      [
+        1,
+        297,
+        639.5,
+        625
+      ]
+    ],
+    "review_index": 74
+  },
+  {
+    "image": "sh17_train_5187.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726690_jpeg.rf.a0639be4a767afc2ec5cecf70f63ece7.jpg",
+    "source_split": "train",
+    "sha256": "48288906928972bae885bc88cd8a1733beffcf33c7e461e2579e7c81b5c61eec",
+    "boxes_xyxy": [
+      [
+        0,
+        177,
+        543,
+        505
+      ]
+    ],
+    "review_index": 75
+  },
+  {
+    "image": "sh17_train_5221.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726835_jpeg.rf.014ab049d7dcbcf3a0f653f532e99ce4.jpg",
+    "source_split": "train",
+    "sha256": "7872c0cd69e4d746ec854a39173ba13eaeaf49f83c99d98d13367d0793223268",
+    "boxes_xyxy": [
+      [
+        0,
+        38,
+        260,
+        613
+      ]
+    ],
+    "review_index": 76
+  },
+  {
+    "image": "sh17_train_5270.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726715_jpeg.rf.1d7559d0ed3e8df1d8d9ccc0a48348fe.jpg",
+    "source_split": "train",
+    "sha256": "609fccd5d715335617308afa8e0fab78b506cffe9dd694e30af100108420e190",
+    "boxes_xyxy": [
+      [
+        2,
+        215,
+        617,
+        602
+      ]
+    ],
+    "review_index": 77
+  },
+  {
+    "image": "sh17_train_5345.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-8539153_jpeg.rf.197cacfc019fc409ec6c80936bee14b3.jpg",
+    "source_split": "train",
+    "sha256": "f257c40cc1ff8af0be0875fe10fc44cc9e4fe41287fe9f323dc925f8dede63a2",
+    "boxes_xyxy": [],
+    "review_index": 78
+  },
+  {
+    "image": "sh17_train_5369.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-6285412_jpeg.rf.ac5e932173c41427f6e7e706c893c6f8.jpg",
+    "source_split": "train",
+    "sha256": "a52aefdd44e11e0565e1e5324e48b0a9c6e9574626cb3ee358a3e1226817105e",
+    "boxes_xyxy": [],
+    "review_index": 79
+  },
+  {
+    "image": "sh17_train_5384.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-16053351_jpeg.rf.fd32419ead6c51508f27e6f8c5a52dcb.jpg",
+    "source_split": "train",
+    "sha256": "a6855fb8eb8b11e03a15fa725c01b55444f0eb964f671987c132ada241cc0fb4",
+    "boxes_xyxy": [],
+    "review_index": 80
+  },
+  {
+    "image": "sh17_train_5632.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726716_jpeg.rf.3dcb003d486dead4b733bf27c292761e.jpg",
+    "source_split": "train",
+    "sha256": "8d4068f716e6cf0bcd920a46c929f51826194b9eee8cde0280f803e27f98f43d",
+    "boxes_xyxy": [
+      [
+        92,
+        323,
+        640,
+        627.5
+      ]
+    ],
+    "review_index": 81
+  },
+  {
+    "image": "sh17_train_5648.jpg",
+    "split": "val",
+    "source_file": "pexels-photo-6129677_jpeg.rf.02f602e64affe4010c8553a27f326532.jpg",
+    "source_split": "train",
+    "sha256": "20cb5453c74de268238493da1ec34cfa9afb616c07b45a3c5140c0b15c00fcf7",
+    "boxes_xyxy": [],
+    "review_index": 82
+  },
+  {
+    "image": "sh17_valid_69.jpg",
+    "split": "val",
+    "source_file": "pexels-photo-6129683_jpeg.rf.6fef39d1b3528f1d40ef00766e2d363a.jpg",
+    "source_split": "valid",
+    "sha256": "870748e09221770a25699c73a7ea9289dc84de1cf62fcb7a9affb5c6d27b7433",
+    "boxes_xyxy": [],
+    "review_index": 83
+  },
+  {
+    "image": "sh17_valid_103.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726701_jpeg.rf.449a6de83350648d7fa85aae1ae78e84.jpg",
+    "source_split": "valid",
+    "sha256": "4c95e4078fb9a9e9de8376132b08f9773ff0286aa90d030f949955b3ed2a30a1",
+    "boxes_xyxy": [
+      [
+        154,
+        240,
+        510,
+        471
+      ]
+    ],
+    "review_index": 84
+  },
+  {
+    "image": "sh17_valid_190.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-4421497_jpeg.rf.5fcd258603266a9c8a74b2aa7175f625.jpg",
+    "source_split": "valid",
+    "sha256": "d24b235d9fa01f9627000046e49b5f0bc8f6c6fad084d94fc40041b66e35006c",
+    "boxes_xyxy": [],
+    "review_index": 85
+  },
+  {
+    "image": "sh17_valid_269.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726788_jpeg.rf.1f2c7e94fabc45f3d8f31b32b2ebccbc.jpg",
+    "source_split": "valid",
+    "sha256": "57888c92246f4f9ba7e1dcb6960992544c5f32917c284b13527aca9d82394de8",
+    "boxes_xyxy": [
+      [
+        0,
+        188,
+        558.5,
+        639.5
+      ]
+    ],
+    "review_index": 86
+  },
+  {
+    "image": "sh17_valid_273.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-8539643_jpeg.rf.1cbfafee361a1c9aaa0bfe62afda6526.jpg",
+    "source_split": "valid",
+    "sha256": "ae37b514df35fa2e31b5545fce31ebba6503d979ee934db7d4efb8d9b4969166",
+    "boxes_xyxy": [],
+    "review_index": 87
+  },
+  {
+    "image": "sh17_valid_298.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-4098577_jpeg.rf.e303503d8e820d56f09b0b1ba14c5300.jpg",
+    "source_split": "valid",
+    "sha256": "b5bdbc5771673fbf6c07a1566a027ff3ec60235bbbc7e03b36503b8480445404",
+    "boxes_xyxy": [],
+    "review_index": 88
+  },
+  {
+    "image": "sh17_valid_301.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726809_jpeg.rf.8419acd65a0a7db262ca50f0163b62a4.jpg",
+    "source_split": "valid",
+    "sha256": "89d56b088735252d98cd01e9e07dafbb97df232804fdc203c1581a5e122d2a72",
+    "boxes_xyxy": [
+      [
+        0,
+        49,
+        288.5,
+        619
+      ],
+      [
+        353,
+        169,
+        640,
+        640
+      ]
+    ],
+    "review_index": 89
+  },
+  {
+    "image": "sh17_valid_328.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726712_jpeg.rf.bb879adfd2e187f7b47d353a38eaad10.jpg",
+    "source_split": "valid",
+    "sha256": "8248cc0e4b4d275b74cd466755993667fdcf4b8d1d9027e85d974b7fc43653ed",
+    "boxes_xyxy": [],
+    "review_index": 90
+  },
+  {
+    "image": "sh17_valid_370.jpg",
+    "split": "val",
+    "source_file": "pexels-photo-6129649_jpeg.rf.e7b24bacf1ee0d6f068c58deb4294f8d.jpg",
+    "source_split": "valid",
+    "sha256": "de4f79b77c1d72bec0f4c7218c65924cd46accac82baa8d2ff8b47bb2e713193",
+    "boxes_xyxy": [
+      [
+        35,
+        162,
+        316,
+        640
+      ]
+    ],
+    "review_index": 91
+  },
+  {
+    "image": "sh17_valid_453.jpg",
+    "split": "val",
+    "source_file": "pexels-photo-6129676_jpeg.rf.6e592007009f8389283a969d9e021478.jpg",
+    "source_split": "valid",
+    "sha256": "25435ef6f3acd45b69438e271e859c05f995d6c34e3feecc55169177240990f4",
+    "boxes_xyxy": [],
+    "review_index": 92
+  },
+  {
+    "image": "sh17_valid_492.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-8532846_jpeg.rf.66b7c6734cfe7512b6277e1e23fc64cf.jpg",
+    "source_split": "valid",
+    "sha256": "c9c6c0b5edd96f535c1ddf8c61ae78c1a06b90550b299506466badd3abd62d46",
+    "boxes_xyxy": [],
+    "review_index": 93
+  },
+  {
+    "image": "sh17_valid_534.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726708_jpeg.rf.cc1339c4b81b8171dbdf986426bb4f06.jpg",
+    "source_split": "valid",
+    "sha256": "5b62dfffc2f1fb4f3c94096738fa62de9aee75e8d5aebfdcf140966273dbfd37",
+    "boxes_xyxy": [
+      [
+        0,
+        97,
+        639.5,
+        445
+      ]
+    ],
+    "review_index": 94
+  },
+  {
+    "image": "sh17_valid_591.jpg",
+    "split": "val",
+    "source_file": "pexels-photo-6129657_jpeg.rf.e552c7e51d4b5fd1ce9e9c90fafdda4a.jpg",
+    "source_split": "valid",
+    "sha256": "ba18a5e50ee4f23e78a506bab966c150b1d03d5e8f4261c99fe9621c694dbb62",
+    "boxes_xyxy": [
+      [
+        347,
+        245,
+        640,
+        640
+      ],
+      [
+        330,
+        263,
+        380,
+        400
+      ]
+    ],
+    "review_index": 95
+  },
+  {
+    "image": "sh17_valid_630.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726801_jpeg.rf.a65498b6f3a5c2619be480ef094ae057.jpg",
+    "source_split": "valid",
+    "sha256": "4380c8e9e13dc9be721328507f6607036320861d1c381588e07835c73c2ad7f5",
+    "boxes_xyxy": [
+      [
+        0,
+        0,
+        488,
+        636
+      ]
+    ],
+    "review_index": 96
+  },
+  {
+    "image": "sh17_valid_661.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726813_jpeg.rf.7c41c2abc2700674bec65dec212a8caa.jpg",
+    "source_split": "valid",
+    "sha256": "6b75817e412abc6a3360d6a591d06c28c0b9c41ef15b46db89b4c7ba0e72a43b",
+    "boxes_xyxy": [
+      [
+        251,
+        236,
+        568,
+        632.5
+      ]
+    ],
+    "review_index": 97
+  },
+  {
+    "image": "sh17_valid_1182.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726800_jpeg.rf.e9e18f30fa1d7c84646ad15976e2950b.jpg",
+    "source_split": "valid",
+    "sha256": "3a67a5322cbaf740a5191388dbaf6672d2d9972178f5055549f7802e3ac8de8a",
+    "boxes_xyxy": [
+      [
+        201,
+        297,
+        378.5,
+        525.5
+      ],
+      [
+        340,
+        288,
+        502,
+        523
+      ]
+    ],
+    "review_index": 99
+  },
+  {
+    "image": "sh17_valid_1192.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-4421500_jpeg.rf.6a4e7496522b117e1e8867d6b4358991.jpg",
+    "source_split": "valid",
+    "sha256": "5955e8fad3ae88007a31e2e7ce49f81792c77793cb2aecfa23558a2c428ba686",
+    "boxes_xyxy": [],
+    "review_index": 100
+  },
+  {
+    "image": "sh17_valid_1549.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5726695_jpeg.rf.b7b7c91374fe856d4adbe2ef29870675.jpg",
+    "source_split": "valid",
+    "sha256": "adb1e4d331d438e5285a8684bc20c8adfe6e2ac39fb4d36eee9b484b5ca174d5",
+    "boxes_xyxy": [
+      [
+        48,
+        0,
+        492,
+        416
+      ],
+      [
+        2,
+        286,
+        635.5,
+        639.5
+      ]
+    ],
+    "review_index": 101
+  },
+  {
+    "image": "sh17_valid_1612.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5327868_jpeg.rf.240f07e4bd47d0ace5c75e51a72d790b.jpg",
+    "source_split": "valid",
+    "sha256": "3e0906a960714afb47d9edb31668412838c5934b0a0cb69c69276f00c714ae56",
+    "boxes_xyxy": [
+      [
+        500,
+        330,
+        640,
+        640
+      ]
+    ],
+    "review_index": 102
+  },
+  {
+    "image": "extra_train_1948.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5998494_jpeg.rf.3537df6552cad679efbd12650043ef9a.jpg",
+    "source_split": "train",
+    "sha256": "e8c6a4f12581c4a748bedc9676e7f11b7d8fc0d760bf05a89ae8ce28288d951a",
+    "boxes_xyxy": [
+      [
+        0,
+        225,
+        640,
+        640
+      ]
+    ],
+    "review_extra_index": 8
+  },
+  {
+    "image": "extra_train_5462.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5998502_jpeg.rf.b40a6ccd91c6aa2f91dfac7226dc3d39.jpg",
+    "source_split": "train",
+    "sha256": "c7a32c72be10df11011ba890b0a01f4ad5506710da00ebe500973cb6c9f6751c",
+    "boxes_xyxy": [
+      [
+        0,
+        300,
+        490,
+        640
+      ]
+    ],
+    "review_extra_index": 16
+  },
+  {
+    "image": "extra_valid_866.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-8460093_jpeg.rf.fafcc9c6562bd524328565dfe162fd20.jpg",
+    "source_split": "valid",
+    "sha256": "4c49a1abfa2d5f7c8e6f1f5d3083a7b430f01a949aa6305c565bb481b0ed940b",
+    "boxes_xyxy": [
+      [
+        430,
+        310,
+        640,
+        640
+      ]
+    ],
+    "review_extra_index": 22
+  },
+  {
+    "image": "extra_train_894.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-4031523_jpeg.rf.8b4722d51b2242e7303440ff591df022.jpg",
+    "source_split": "train",
+    "sha256": "394910dbefe98d31d4ed89b857e31d61e6a4711995dcb65f2dcc7bf198b8dabb",
+    "boxes_xyxy": [
+      [
+        295,
+        410,
+        640,
+        640
+      ]
+    ],
+    "review_extra_index": 46
+  },
+  {
+    "image": "extra_valid_1173.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5934367_jpeg.rf.1dbc4a7e02e2b953b7a282a00d0f5490.jpg",
+    "source_split": "valid",
+    "sha256": "3b976f3f3e990116ce4e74ad4ce0e02ec08a8368a79255ab1e7b792cf3f28881",
+    "boxes_xyxy": [
+      [
+        100,
+        270,
+        560,
+        640
+      ]
+    ],
+    "review_extra_index": 54
+  },
+  {
+    "image": "extra_train_5283.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5327588_jpeg.rf.c2cf6f9edcd644b05169d4159405d210.jpg",
+    "source_split": "train",
+    "sha256": "087f76b46276245441e318e839e53c9546ceb7e99dfbe5a9bb092cc6f7eb1b08",
+    "boxes_xyxy": [
+      [
+        0,
+        220,
+        375,
+        640
+      ],
+      [
+        347,
+        170,
+        632,
+        510
+      ]
+    ],
+    "review_extra_index": 55
+  },
+  {
+    "image": "extra_train_699.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5215013_jpeg.rf.17e39f4927a5aed929eb3827f2022112.jpg",
+    "source_split": "train",
+    "sha256": "7ad15305954842a50a876f1d5f82c1a5a37381e3928291eba481a538a78d98e6",
+    "boxes_xyxy": [
+      [
+        70,
+        260,
+        490,
+        585
+      ]
+    ],
+    "review_extra_index": 59
+  },
+  {
+    "image": "extra_train_138.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5214949_jpeg.rf.a8c4c0bc4c7b2f1d85e99f8acc3d6340.jpg",
+    "source_split": "train",
+    "sha256": "acffaf75bbfb7853877f7ba7f05127809ec672c5341b727b4dcc3b4db83a0350",
+    "boxes_xyxy": [
+      [
+        90,
+        260,
+        585,
+        640
+      ]
+    ],
+    "review_extra_index": 63
+  },
+  {
+    "image": "extra_valid_552.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-4031525_jpeg.rf.526d1624125b2638217cdf83a922c6b3.jpg",
+    "source_split": "valid",
+    "sha256": "e69dac4f1584451bfb04a8cecc42c01d665a27134019fc85d8abff97f7cc598c",
+    "boxes_xyxy": [
+      [
+        144,
+        360,
+        466,
+        640
+      ],
+      [
+        515,
+        35,
+        640,
+        640
+      ]
+    ],
+    "review_extra_index": 76
+  },
+  {
+    "image": "extra_train_3697.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-6285367_jpeg.rf.f05128da7cd0be19c747997bc8b6771a.jpg",
+    "source_split": "train",
+    "sha256": "f97a1f811a866d91567f59157104938808809613dd2e5e56479a0c1e21b096b3",
+    "boxes_xyxy": [
+      [
+        225,
+        350,
+        465,
+        640
+      ]
+    ],
+    "review_extra_index": 83
+  },
+  {
+    "image": "extra_train_4823.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-4226214_jpeg.rf.4f895b79e524c057f80cba721a24d5f6.jpg",
+    "source_split": "train",
+    "sha256": "1fe1f6983fe92b7dedaf13fbef22ef333b548c68ea730635d3c01ec1ec5b772f",
+    "boxes_xyxy": [
+      [
+        80,
+        360,
+        640,
+        640
+      ]
+    ],
+    "review_extra_index": 99
+  },
+  {
+    "image": "extra_train_592.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5998496_jpeg.rf.c839dfa80ad8927fdc4bd6c0359b4b56.jpg",
+    "source_split": "train",
+    "sha256": "7fefe61ed3274da05088d28ada2bdef0d99bb5224c1d9fa9dc99b49c5332893e",
+    "boxes_xyxy": [],
+    "review_extra_index": 4
+  },
+  {
+    "image": "extra_train_2911.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-8761652_jpeg.rf.1f9fc9f4701dd117a3d652e1dcdc3871.jpg",
+    "source_split": "train",
+    "sha256": "5a30b0bc15ae195eb32a8792756a610a7d3132c1bcdfa1de67ec9cb2afef6f71",
+    "boxes_xyxy": [],
+    "review_extra_index": 7
+  },
+  {
+    "image": "extra_train_3626.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-7652394_jpeg.rf.525702272a300f12ddeafd75c9a8fabc.jpg",
+    "source_split": "train",
+    "sha256": "74362ef6857a726bccb70c512084f06b37d6debf06542475030bd5b6faf93df0",
+    "boxes_xyxy": [],
+    "review_extra_index": 12
+  },
+  {
+    "image": "extra_train_29.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-7652345_jpeg.rf.a4a543912c8be15ed74518b306ee2bf8.jpg",
+    "source_split": "train",
+    "sha256": "4fef62861973bc6eeab0c6aff39e6c374fe99b640584cfdca21ea0057c8bfd1f",
+    "boxes_xyxy": [],
+    "review_extra_index": 15
+  },
+  {
+    "image": "extra_train_157.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-3957986_jpeg.rf.cf12ae2784df777d56bc70bdef4096c0.jpg",
+    "source_split": "train",
+    "sha256": "4d29968c334859afb49cfbe9d08b1bfd776dabf8c990e76abb18d38c4cb2960b",
+    "boxes_xyxy": [],
+    "review_extra_index": 23
+  },
+  {
+    "image": "extra_train_5466.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5207031_jpeg.rf.68cf17909b6eceada4a20a926601dcac.jpg",
+    "source_split": "train",
+    "sha256": "904afbad5da7a3fcfae0b0044c6726c2f5bb2fe9e69a78e6bee4b832488b2fd5",
+    "boxes_xyxy": [],
+    "review_extra_index": 33
+  },
+  {
+    "image": "extra_valid_285.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-3957989_jpeg.rf.f36f073a97c210c5c2c2eb671c77d455.jpg",
+    "source_split": "valid",
+    "sha256": "185a52f7274c89c698ab1b29875bb44759d6be09a0f794f08893126c2573bb2c",
+    "boxes_xyxy": [],
+    "review_extra_index": 34
+  },
+  {
+    "image": "extra_train_1280.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-4687172_jpeg.rf.f8a03a45137dd9dbbae630e5049286d8.jpg",
+    "source_split": "train",
+    "sha256": "2775af912192ae2abfbcd92d7563721bc95992e78dc0c329b131b0f7d0c11f49",
+    "boxes_xyxy": [],
+    "review_extra_index": 37
+  },
+  {
+    "image": "extra_train_174.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-5684642_jpeg.rf.561c2dea89b8645a6d4cb701e0282ada.jpg",
+    "source_split": "train",
+    "sha256": "a776a78c0fd220833989ba823916e1d73757be9c0b32184feade9a854bb89fb9",
+    "boxes_xyxy": [],
+    "review_extra_index": 43
+  },
+  {
+    "image": "extra_train_4849.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-6098069_jpeg.rf.e1e429f5f53b6d446da548725eea3f0a.jpg",
+    "source_split": "train",
+    "sha256": "8de13906c2aed057b9a759b9e91b67d792d7277cbecabadc40bd9c6517c0f8f9",
+    "boxes_xyxy": [],
+    "review_extra_index": 47
+  },
+  {
+    "image": "extra_train_3314.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-1018565_jpeg.rf.10737a5fd3bc704cf481b91eafb3edd7.jpg",
+    "source_split": "train",
+    "sha256": "502c5221e998e62a2d4da4f1f3fa10a803b12b6812b4f50387f39f1b1e6e685e",
+    "boxes_xyxy": [],
+    "review_extra_index": 51
+  },
+  {
+    "image": "extra_train_994.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-8413220_jpeg.rf.581706de4b6cb8d0c06b1876d7b0e487.jpg",
+    "source_split": "train",
+    "sha256": "1c88e301ee1d1e2c799d6f6dabd682e2734550dfbecd888d20bc7a4ca5d441f8",
+    "boxes_xyxy": [],
+    "review_extra_index": 62
+  },
+  {
+    "image": "extra_train_245.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-7652375_jpeg.rf.730160ab21c98ebbb117f929f02ee526.jpg",
+    "source_split": "train",
+    "sha256": "5ddf79d2d4bcb159e7358a5b5012f23212ffde7ac4e09191065f84b546f54c6d",
+    "boxes_xyxy": [],
+    "review_extra_index": 67
+  },
+  {
+    "image": "extra_train_2874.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-7652391_jpeg.rf.35abde77e0748681cb9e6da412c70997.jpg",
+    "source_split": "train",
+    "sha256": "656c5e155d1b24faa95a44077de55c9aab4904414b6a8023514ff44035b8d90d",
+    "boxes_xyxy": [],
+    "review_extra_index": 68
+  },
+  {
+    "image": "extra_train_4414.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-3957992_jpeg.rf.78497f0c31079d549fed9f337b2567d4.jpg",
+    "source_split": "train",
+    "sha256": "d70fb4f4b83d2e0e54c675a604f1561e4cd9ce6e63359c5f9a0a9de0cb93783f",
+    "boxes_xyxy": [],
+    "review_extra_index": 71
+  },
+  {
+    "image": "extra_valid_1591.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-8937402_jpeg.rf.96fc4fa6146ee14107ac9155158a6004.jpg",
+    "source_split": "valid",
+    "sha256": "23b45fa9457680f8cf8e4469e223ea52bf229d2f6bed8b5f26d8b255addea866",
+    "boxes_xyxy": [],
+    "review_extra_index": 75
+  },
+  {
+    "image": "extra_train_2910.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-6000144_jpeg.rf.d64744a330315f952c24de0852b314bb.jpg",
+    "source_split": "train",
+    "sha256": "f15dc35fb033972d1bfe169e83f40fab6e021c2a2445038b362a7510137fe58c",
+    "boxes_xyxy": [],
+    "review_extra_index": 85
+  },
+  {
+    "image": "extra_train_3917.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-7652339_jpeg.rf.97328607847f81dd0f35482d39ddf285.jpg",
+    "source_split": "train",
+    "sha256": "b16b99ede0e4e6872d4bd596fdfdadfaddfd263fc4c1d0209a903e76af5de41d",
+    "boxes_xyxy": [],
+    "review_extra_index": 86
+  },
+  {
+    "image": "extra_train_704.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-6097936_jpeg.rf.0a250e65545b6f4ad2a7974ef09c505b.jpg",
+    "source_split": "train",
+    "sha256": "57be3472ec52cbc0ab4483b36a32e75ae2ffd2821884ba43bcac221ff4a05925",
+    "boxes_xyxy": [],
+    "review_extra_index": 90
+  },
+  {
+    "image": "extra_valid_527.jpg",
+    "split": "train",
+    "source_file": "pexels-photo-7652377_jpeg.rf.79434ba96f9b0e3ed0b86af3c862112b.jpg",
+    "source_split": "valid",
+    "sha256": "1e8b4181118f8567440b06f12deee3c83d0052ae33894a4b3ecf44c50a1a1089",
+    "boxes_xyxy": [],
+    "review_extra_index": 95
+  }
+]

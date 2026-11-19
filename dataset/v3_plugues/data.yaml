@@ -1,0 +1,7 @@
+names:
+  0: earplug
+path: "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programa\xE7\xE3o_Py\\ProjetoYOLO\\\
+  dataset\\v3_plugues"
+test: images/test
+train: images/train
+val: images/val

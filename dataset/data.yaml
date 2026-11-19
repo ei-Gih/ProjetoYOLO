@@ -1,0 +1,15 @@
+# Dataset de detecção de EPIs da ZelarIA.
+# Este arquivo é lido por treinamento.py.
+path: .
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: person
+  1: jaleco
+  2: oculos
+  3: mascara
+  4: luvas
+  5: protetor-auricular
+  6: capacete

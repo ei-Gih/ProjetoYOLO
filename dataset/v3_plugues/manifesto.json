@@ -1,0 +1,2033 @@
+[
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\cppe_1005.png",
+    "name": "usuario_00.png",
+    "labels": [],
+    "source": "usuario",
+    "index": 0,
+    "split": "train",
+    "group": 361,
+    "sha256": "8c726f52e109b935c2b2853ec422bab052d6f4bcbe24ecee3acbb7adf67e9c53"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\cppe_1007.png",
+    "name": "usuario_01.png",
+    "labels": [],
+    "source": "usuario",
+    "index": 1,
+    "split": "train",
+    "group": 362,
+    "sha256": "eab61d673cff0eab2c5226eee3c02c388c702d516d16741848f5d85bfff40867"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\cppe_1009.png",
+    "name": "usuario_02.png",
+    "labels": [],
+    "source": "usuario",
+    "index": 2,
+    "split": "train",
+    "group": 363,
+    "sha256": "eb0c5283c7aaa90727053688ae1f2d11bee50f9cda7b7d88f16787a2d502a001"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\cppe_1014.png",
+    "name": "usuario_03.png",
+    "labels": [],
+    "source": "usuario",
+    "index": 3,
+    "split": "test",
+    "group": 364,
+    "sha256": "2e0ce5119bf597687fffa3da3ee1e7919413d506c1e9487b4a08175108a299d1"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\cppe_1015.png",
+    "name": "usuario_04.png",
+    "labels": [],
+    "source": "usuario",
+    "index": 4,
+    "split": "train",
+    "group": 365,
+    "sha256": "af6890e362733437da870f2b173bdfb3c92356d45d316ff5a9c942ec9c5de146"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\cppe_1016.png",
+    "name": "usuario_05.png",
+    "labels": [],
+    "source": "usuario",
+    "index": 5,
+    "split": "train",
+    "group": 366,
+    "sha256": "fc88ae13722849ea2d85ec03ba3d163ce63b6bd5b97eb940110c8ea12e550c5e"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\cppe_1018.png",
+    "name": "usuario_06.png",
+    "labels": [],
+    "source": "usuario",
+    "index": 6,
+    "split": "train",
+    "group": 367,
+    "sha256": "d48de7b7c316051212f58214e38244996c3cf5aecabef5c723728582cd8e9938"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\cppe_1019.png",
+    "name": "usuario_07.png",
+    "labels": [],
+    "source": "usuario",
+    "index": 7,
+    "split": "val",
+    "group": 368,
+    "sha256": "4328088f261da4a40ec58e33e38591374fa706a18d31eaadf24dc280a00b5aee"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\cppe_1020.png",
+    "name": "usuario_08.png",
+    "labels": [],
+    "source": "usuario",
+    "index": 8,
+    "split": "train",
+    "group": 369,
+    "sha256": "d4cadf9eb9cd4cbba9c2a2dc5104108d4c9b4da8661fa0caadfce953c0e1f2a0"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\cppe_1021.png",
+    "name": "usuario_09.png",
+    "labels": [],
+    "source": "usuario",
+    "index": 9,
+    "split": "train",
+    "group": 370,
+    "sha256": "75e6ae050648ffa4a0c171e04d313ed5f579e82b53ae16e7f264185a10ea281c"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\cppe_1023.png",
+    "name": "usuario_10.png",
+    "labels": [],
+    "source": "usuario",
+    "index": 10,
+    "split": "train",
+    "group": 371,
+    "sha256": "5dd93927e4c250c08b087db5e9421571c8a190d6f867e07380e5568c040862c7"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\cppe_1024.png",
+    "name": "usuario_11.png",
+    "labels": [],
+    "source": "usuario",
+    "index": 11,
+    "split": "train",
+    "group": 372,
+    "sha256": "cb1534fb2908527e92d00984d8c3d749e6fa3da4b888dcb897c6a1023cc932dd"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\cppe_1026.png",
+    "name": "usuario_12.png",
+    "labels": [],
+    "source": "usuario",
+    "index": 12,
+    "split": "train",
+    "group": 373,
+    "sha256": "6f2376bced0558564d45d0adac799b673a04f56081a10dcde945b38be0d29ee8"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\cppe_1027.png",
+    "name": "usuario_13.png",
+    "labels": [
+      [
+        0,
+        0.23661971830985915,
+        0.8676056338028169,
+        0.29577464788732394,
+        0.9295774647887324
+      ]
+    ],
+    "source": "usuario",
+    "index": 13,
+    "split": "train",
+    "group": 374,
+    "sha256": "2025ef4f9e487e3d0a3e5cba89ae737bafac36b53a8fb4f65a4be7758da1cf2f"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\sh17_train_1077.jpg",
+    "name": "usuario_14.jpg",
+    "labels": [],
+    "source": "usuario",
+    "index": 14,
+    "split": "train",
+    "group": 375,
+    "sha256": "d2946e49a5793167b989e5556283e979799a7fcb54475f27f0e1d2c88da9fbd7"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\sh17_train_1180.jpg",
+    "name": "usuario_15.jpg",
+    "labels": [
+      [
+        0,
+        0.4311111111111111,
+        0.4088888888888889,
+        0.5377777777777778,
+        0.5155555555555555
+      ]
+    ],
+    "source": "usuario",
+    "index": 15,
+    "split": "test",
+    "group": 376,
+    "sha256": "00c749e309781a77d28ee6e546db7f2af2e41e2a88ccfe5a71d449bf71fb6b3e"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\sh17_train_1404.jpg",
+    "name": "usuario_16.jpg",
+    "labels": [
+      [
+        0,
+        0.3770491803278688,
+        0.3418181818181818,
+        0.4371584699453552,
+        0.4
+      ]
+    ],
+    "source": "usuario",
+    "index": 16,
+    "split": "val",
+    "group": 377,
+    "sha256": "64bfa75bc2d2727a2a935d9f4912c52524117a6db0df2cfe1283ef68a05a9abd"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\sh17_train_1449.jpg",
+    "name": "usuario_17.jpg",
+    "labels": [
+      [
+        0,
+        0.5521126760563381,
+        0.2704225352112676,
+        0.6422535211267606,
+        0.4253521126760563
+      ]
+    ],
+    "source": "usuario",
+    "index": 17,
+    "split": "train",
+    "group": 378,
+    "sha256": "7d629833b5fb4e3dd7cda71c71f0de354b0089ba180d6465b1809eeb670b34e2"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\sh17_train_2061.jpg",
+    "name": "usuario_18.jpg",
+    "labels": [
+      [
+        0,
+        0.5521126760563381,
+        0.43380281690140843,
+        0.6225352112676056,
+        0.5014084507042254
+      ]
+    ],
+    "source": "usuario",
+    "index": 18,
+    "split": "train",
+    "group": 379,
+    "sha256": "48e3bc00335daf37948f93105b1cd96d07ba2bf332bd0441401ccc70b4c31a6f"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\sh17_train_2198.jpg",
+    "name": "usuario_19.jpg",
+    "labels": [],
+    "source": "usuario",
+    "index": 19,
+    "split": "train",
+    "group": 363,
+    "sha256": "56f55d5f28b57bf13cd0f0b384b2686e60abeef8c4526ac9f66c6974b0f17592"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\sh17_train_2688.jpg",
+    "name": "usuario_20.jpg",
+    "labels": [
+      [
+        0,
+        0.39069767441860465,
+        0.4840989399293286,
+        0.4372093023255814,
+        0.5901060070671378
+      ]
+    ],
+    "source": "usuario",
+    "index": 20,
+    "split": "train",
+    "group": 381,
+    "sha256": "55de316354287459d3d1bbcc7ce4e36a41f7241d93b9b332940fd3a1bb6d16b7"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\sh17_train_3071.jpg",
+    "name": "usuario_22.jpg",
+    "labels": [
+      [
+        0,
+        0.5333333333333333,
+        0.36444444444444446,
+        0.6444444444444445,
+        0.44
+      ]
+    ],
+    "source": "usuario",
+    "index": 22,
+    "split": "train",
+    "group": 382,
+    "sha256": "7948af9719405670b38dece668c146dc2dbf0dfe1f402ae45acc475c6fa85d20"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\sh17_train_3275.jpg",
+    "name": "usuario_23.jpg",
+    "labels": [
+      [
+        0,
+        0.4622222222222222,
+        0.4177777777777778,
+        0.5244444444444445,
+        0.4711111111111111
+      ]
+    ],
+    "source": "usuario",
+    "index": 23,
+    "split": "val",
+    "group": 383,
+    "sha256": "d872cef571dc8b1acd08a1bea7c65fb7e1e1129dbb3abfbb8838cec0a3fb1f07"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\sh17_train_3749.jpg",
+    "name": "usuario_24.jpg",
+    "labels": [
+      [
+        0,
+        0.40444444444444444,
+        0.29777777777777775,
+        0.5333333333333333,
+        0.35555555555555557
+      ]
+    ],
+    "source": "usuario",
+    "index": 24,
+    "split": "test",
+    "group": 384,
+    "sha256": "a8836b7136e395cde12228b15fd7327fd27d9438971ea102250655c539a7cb93"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\sh17_train_4243.jpg",
+    "name": "usuario_25.jpg",
+    "labels": [
+      [
+        0,
+        0.43555555555555553,
+        0.27555555555555555,
+        0.5466666666666666,
+        0.3511111111111111
+      ],
+      [
+        0,
+        0.7244444444444444,
+        0.7777777777777778,
+        0.8133333333333334,
+        0.8711111111111111
+      ]
+    ],
+    "source": "usuario",
+    "index": 25,
+    "split": "train",
+    "group": 385,
+    "sha256": "b1cb50152db9b79e49f9b1ced79fa0c91937f747ab05bd4810ec8a0a430c9cb1"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\sh17_train_4400.jpg",
+    "name": "usuario_27.jpg",
+    "labels": [
+      [
+        0,
+        0.36086956521739133,
+        0.3333333333333333,
+        0.49130434782608695,
+        0.4018264840182648
+      ]
+    ],
+    "source": "usuario",
+    "index": 27,
+    "split": "train",
+    "group": 386,
+    "sha256": "6c438a4bfe2b2817c73cbf52ce6783e716c0a9aeaa3b866eada0393cb2eeb9fa"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\sh17_train_4876.jpg",
+    "name": "usuario_29.jpg",
+    "labels": [
+      [
+        0,
+        0.810204081632653,
+        0.1978798586572438,
+        0.8367346938775511,
+        0.254416961130742
+      ]
+    ],
+    "source": "usuario",
+    "index": 29,
+    "split": "train",
+    "group": 387,
+    "sha256": "878240e9e70fb7f48d2c0408026d72fdee2dcf41dd836518d45450ebe9618067"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\sh17_train_4913.jpg",
+    "name": "usuario_30.jpg",
+    "labels": [
+      [
+        0,
+        0.7183673469387755,
+        0.3149847094801223,
+        0.753061224489796,
+        0.3730886850152905
+      ]
+    ],
+    "source": "usuario",
+    "index": 30,
+    "split": "train",
+    "group": 388,
+    "sha256": "c8ed6a1120b216e1d17634e79fe0924035766a1724b06f6ff335f9de9e0d5f57"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\sh17_train_609.jpg",
+    "name": "usuario_31.jpg",
+    "labels": [
+      [
+        0,
+        0.3989071038251366,
+        0.36727272727272725,
+        0.4644808743169399,
+        0.41818181818181815
+      ]
+    ],
+    "source": "usuario",
+    "index": 31,
+    "split": "train",
+    "group": 389,
+    "sha256": "f9b0920570db6aacfc80e8ccdcc754b594a0f98bdb09a02907d90e1f5c14296f"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\sh17_train_920.jpg",
+    "name": "usuario_32.jpg",
+    "labels": [
+      [
+        0,
+        0.4533333333333333,
+        0.26222222222222225,
+        0.5244444444444445,
+        0.3333333333333333
+      ]
+    ],
+    "source": "usuario",
+    "index": 32,
+    "split": "train",
+    "group": 390,
+    "sha256": "fdf69c2ec3142a2ce29e1ed540a46fcfdc6c8f5738a05615d035cd3a95a25caf"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\sh17_valid_574.jpg",
+    "name": "usuario_33.jpg",
+    "labels": [
+      [
+        0,
+        0.43673469387755104,
+        0.35276073619631904,
+        0.47959183673469385,
+        0.42024539877300615
+      ],
+      [
+        0,
+        0.6265306122448979,
+        0.3496932515337423,
+        0.6673469387755102,
+        0.42024539877300615
+      ]
+    ],
+    "source": "usuario",
+    "index": 33,
+    "split": "val",
+    "group": 391,
+    "sha256": "34fdd436fa0f62adfa4f50b85b786569d5d9bc426bead8c826e4a34c842c43fb"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\sh17_valid_66.jpg",
+    "name": "usuario_34.jpg",
+    "labels": [
+      [
+        0,
+        0.18591549295774648,
+        0.19154929577464788,
+        0.36619718309859156,
+        0.5802816901408451
+      ],
+      [
+        0,
+        0.6309859154929578,
+        0.19436619718309858,
+        0.8225352112676056,
+        0.5830985915492958
+      ]
+    ],
+    "source": "usuario",
+    "index": 34,
+    "split": "train",
+    "group": 392,
+    "sha256": "1d5c1f1e52bb0279eabfa48df500e38ca4fa93b5ca49dc328f22cd7cb3d1daa7"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\dataset\\v2_maos_ouvidos\\images\\test\\sh17_valid_707.jpg",
+    "name": "usuario_35.jpg",
+    "labels": [
+      [
+        0,
+        0.4143763213530655,
+        0.5098591549295775,
+        0.638477801268499,
+        0.7070422535211267
+      ]
+    ],
+    "source": "usuario",
+    "index": 35,
+    "split": "test",
+    "group": 393,
+    "sha256": "a3db59655718caa7654e96b4e94bbc8009a978ccd538d3b8f69bb9adf03c2e5b"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_01.png",
+    "name": "crop_usuario_01_0_4.jpg",
+    "labels": [],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 362,
+    "parent": "usuario_01.png",
+    "crop": [
+      97,
+      0,
+      547,
+      365
+    ],
+    "sha256": "5d9c99b8528bc8366acda34b5ad5557006c3040912e224dfce3b43589a645a96"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_05.png",
+    "name": "crop_usuario_05_0_4.jpg",
+    "labels": [],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 366,
+    "parent": "usuario_05.png",
+    "crop": [
+      130,
+      0,
+      632,
+      359
+    ],
+    "sha256": "57baff2ff2ddb366c1e6484528c5d343324c4e8eddc7de66e728940e7478286f"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_06.png",
+    "name": "crop_usuario_06_0_4.jpg",
+    "labels": [],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 367,
+    "parent": "usuario_06.png",
+    "crop": [
+      82,
+      5,
+      555,
+      450
+    ],
+    "sha256": "61440c56410a751d2d10e44ce94f042c310c43d4ef7725e8aea4c6d544930471"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_09.png",
+    "name": "crop_usuario_09_0_4.jpg",
+    "labels": [],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 370,
+    "parent": "usuario_09.png",
+    "crop": [
+      92,
+      0,
+      584,
+      452
+    ],
+    "sha256": "f55ad231e4b3911e8129ae28d122f68143f3bb811717026f40d54e39893ecb14"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_10.png",
+    "name": "crop_usuario_10_0_4.jpg",
+    "labels": [],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 371,
+    "parent": "usuario_10.png",
+    "crop": [
+      128,
+      0,
+      678,
+      452
+    ],
+    "sha256": "956faaad6813bfb1c90ddad7371eefa38a7b055359ed505fd4d4719a5db88340"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_10.png",
+    "name": "crop_usuario_10_1_4.jpg",
+    "labels": [],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 371,
+    "parent": "usuario_10.png",
+    "crop": [
+      0,
+      8,
+      561,
+      452
+    ],
+    "sha256": "b9d4220d4613c96201f2f17425d15bf167714aa3e9ad82a512db537ab689a2fa"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_10.png",
+    "name": "crop_usuario_10_2_4.jpg",
+    "labels": [],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 371,
+    "parent": "usuario_10.png",
+    "crop": [
+      0,
+      0,
+      668,
+      378
+    ],
+    "sha256": "9ef51ae5cfb6ddd474e4cae6e1e793665cd8e877ade46388758199696ab3e976"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_11.png",
+    "name": "crop_usuario_11_0_4.jpg",
+    "labels": [],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 372,
+    "parent": "usuario_11.png",
+    "crop": [
+      120,
+      7,
+      367,
+      254
+    ],
+    "sha256": "a3c78a350f0903a65d21b3abcb40d98bb8743c6194bce13bd0ccfd4707b75a09"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_11.png",
+    "name": "crop_usuario_11_1_4.jpg",
+    "labels": [],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 372,
+    "parent": "usuario_11.png",
+    "crop": [
+      302,
+      0,
+      574,
+      253
+    ],
+    "sha256": "b55229ec874f91a5926ded06ef782c26868a613bf3bf6c661840acdc135138dc"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_12.png",
+    "name": "crop_usuario_12_0_4.jpg",
+    "labels": [],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 373,
+    "parent": "usuario_12.png",
+    "crop": [
+      98,
+      72,
+      330,
+      304
+    ],
+    "sha256": "7dc8e0a4e10e1ee32396a0f5e40e8a8ed114eb508570c193ea81dc5124f0565a"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_12.png",
+    "name": "crop_usuario_12_1_4.jpg",
+    "labels": [],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 373,
+    "parent": "usuario_12.png",
+    "crop": [
+      251,
+      26,
+      517,
+      291
+    ],
+    "sha256": "d8361c1919bf66334edf7302c3e0d87d4117bdaaec21f8d5ca433abf82cf7cba"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_12.png",
+    "name": "crop_usuario_12_2_4.jpg",
+    "labels": [],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 373,
+    "parent": "usuario_12.png",
+    "crop": [
+      27,
+      0,
+      426,
+      315
+    ],
+    "sha256": "da3491a46908a1b50db91cc756a8f02895ce98b3688064a5b7e75269fb79e1d1"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_12.png",
+    "name": "crop_usuario_12_3_4.jpg",
+    "labels": [],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 373,
+    "parent": "usuario_12.png",
+    "crop": [
+      143,
+      0,
+      664,
+      331
+    ],
+    "sha256": "5559483b8f0cf68050602949e1603cc9950e46e3543c89569f8b225309bf9366"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_13.png",
+    "name": "crop_usuario_13_1_5.jpg",
+    "labels": [
+      [
+        0,
+        0.4084101732698348,
+        0.4853888548683402,
+        0.5986422129901712,
+        0.7262706674831599
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 374,
+    "parent": "usuario_13.png",
+    "crop": [
+      49,
+      332,
+      188,
+      447
+    ],
+    "sha256": "75de417341604f8b682f62d92669e3c5471b5ef9bd97861db2ad1d549d885d6a"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_13.png",
+    "name": "crop_usuario_13_1_9.jpg",
+    "labels": [
+      [
+        0,
+        0.435263432446531,
+        0.6518806959403478,
+        0.5440792905581637,
+        0.8148301574150788
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 374,
+    "parent": "usuario_13.png",
+    "crop": [
+      0,
+      277,
+      243,
+      447
+    ],
+    "sha256": "dcb753b0b3a7f4d6ab48c62cd527a7824a0034d9744007bca96048273f80bb23"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_14.jpg",
+    "name": "crop_usuario_14_0_5.jpg",
+    "labels": [],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 375,
+    "parent": "usuario_14.jpg",
+    "crop": [
+      228,
+      0,
+      678,
+      413
+    ],
+    "sha256": "46bfd16bb3fe8111513475351caf5efd5bf5e1c38878462fd31a1b01fb0f0b9a"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_14.jpg",
+    "name": "crop_usuario_14_0_9.jpg",
+    "labels": [],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 375,
+    "parent": "usuario_14.jpg",
+    "crop": [
+      138,
+      0,
+      678,
+      452
+    ],
+    "sha256": "26638d90588e4aba6076f5ad25758d83bec936035ca1d8249d262ae29904a3ac"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_14.jpg",
+    "name": "crop_usuario_14_1_5.jpg",
+    "labels": [],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 375,
+    "parent": "usuario_14.jpg",
+    "crop": [
+      159,
+      24,
+      477,
+      342
+    ],
+    "sha256": "c712475a58c6834cc067eb62cb9ccfed0a8eb7a1ea94a22c3115fd3136b38bf1"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_14.jpg",
+    "name": "crop_usuario_14_1_9.jpg",
+    "labels": [],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 375,
+    "parent": "usuario_14.jpg",
+    "crop": [
+      32,
+      0,
+      604,
+      452
+    ],
+    "sha256": "9c48b5f5441d5e1765ded2eb01c0bb59a4cb92ae2769efa9080545f6c6fd1d06"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_17.jpg",
+    "name": "crop_usuario_17_0_5.jpg",
+    "labels": [
+      [
+        0,
+        0.4434441701756934,
+        0.36842307249491496,
+        0.5596050529984028,
+        0.5794987911117934
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 378,
+    "parent": "usuario_17.jpg",
+    "crop": [
+      104,
+      0,
+      492,
+      367
+    ],
+    "sha256": "a2ebb6c4280b2c4a88005d09a082d4dc40b38bd6d784f88295458ca0cff3af7f"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_17.jpg",
+    "name": "crop_usuario_17_0_9.jpg",
+    "labels": [
+      [
+        0,
+        0.5045494204163031,
+        0.319648386774548,
+        0.6042627446092484,
+        0.5027802750307995
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 378,
+    "parent": "usuario_17.jpg",
+    "crop": [
+      48,
+      0,
+      500,
+      423
+    ],
+    "sha256": "962531308f053c2d0d91976e1327305d207e328a8d3324c9acdc25260456f797"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_18.jpg",
+    "name": "crop_usuario_18_0_5.jpg",
+    "labels": [
+      [
+        0,
+        0.4037618113745766,
+        0.40706916659190806,
+        0.6029951863077195,
+        0.5995514488203103
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 379,
+    "parent": "usuario_18.jpg",
+    "crop": [
+      183,
+      130,
+      341,
+      287
+    ],
+    "sha256": "cba1dfce07eaad5401296590f492742594c4b60324252e9eae19e7e7c1148eb8"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_18.jpg",
+    "name": "crop_usuario_18_0_9.jpg",
+    "labels": [
+      [
+        0,
+        0.44645903590557434,
+        0.44844473199621754,
+        0.5573001388613369,
+        0.5552281889215149
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 379,
+    "parent": "usuario_18.jpg",
+    "crop": [
+      120,
+      67,
+      404,
+      350
+    ],
+    "sha256": "e00bb8c4f496b668b552788b80a68b9453faa40edf61a02226b44f82df4117b6"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_19.jpg",
+    "name": "crop_usuario_19_0_4.jpg",
+    "labels": [],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 363,
+    "parent": "usuario_19.jpg",
+    "crop": [
+      0,
+      0,
+      252,
+      285
+    ],
+    "sha256": "1d5e693e12ed2b9d0c37a1445f6c2ba9a508043740414ab81cc9de9609827e4b"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_20.jpg",
+    "name": "crop_usuario_20_0_5.jpg",
+    "labels": [
+      [
+        0,
+        0.43333333333333335,
+        0.4,
+        0.5666666666666667,
+        0.6
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 381,
+    "parent": "usuario_20.jpg",
+    "crop": [
+      103,
+      77,
+      253,
+      227
+    ],
+    "sha256": "350fb4d6cc71e465536fc1f9fa5203d43b9b2917518523b42a86c05373a55b64"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_20.jpg",
+    "name": "crop_usuario_20_0_9.jpg",
+    "labels": [
+      [
+        0,
+        0.46296296296296297,
+        0.45112781954887216,
+        0.5370370370370371,
+        0.5639097744360902
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 381,
+    "parent": "usuario_20.jpg",
+    "crop": [
+      43,
+      17,
+      313,
+      283
+    ],
+    "sha256": "28989e752802925795ba05acd969acc2200ee665fd75a7ef9a46842f96646309"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_20.jpg",
+    "name": "crop_usuario_20_1_4.jpg",
+    "labels": [
+      [
+        0,
+        0.3367088607594937,
+        0.43410852713178294,
+        0.38734177215189874,
+        0.5503875968992248
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 381,
+    "parent": "usuario_20.jpg",
+    "crop": [
+      35,
+      25,
+      430,
+      283
+    ],
+    "sha256": "b289eb81e3bc50dbe5132cdf3cb66c91a53298212fe22952361b6e2c28d139e0"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_22.jpg",
+    "name": "crop_usuario_22_0_5.jpg",
+    "labels": [
+      [
+        0,
+        0.40476190476190477,
+        0.4365079365079365,
+        0.6031746031746031,
+        0.5714285714285714
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 382,
+    "parent": "usuario_22.jpg",
+    "crop": [
+      69,
+      27,
+      195,
+      153
+    ],
+    "sha256": "2fa9cca3608355be1a0675b4b045a6526e67a43d72a6ac696730cf11a106cc15"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_22.jpg",
+    "name": "crop_usuario_22_0_9.jpg",
+    "labels": [
+      [
+        0,
+        0.4878048780487805,
+        0.4039408866995074,
+        0.6097560975609756,
+        0.4876847290640394
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 382,
+    "parent": "usuario_22.jpg",
+    "crop": [
+      20,
+      0,
+      225,
+      203
+    ],
+    "sha256": "ab29e7dafeea30ab514bfd7bdc95ef2c4b2ae86dac9d11f9ad3d9bb8fc3a6fda"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_25.jpg",
+    "name": "crop_usuario_25_0_5.jpg",
+    "labels": [
+      [
+        0,
+        0.40476190476190477,
+        0.432,
+        0.603174603174603,
+        0.568
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 385,
+    "parent": "usuario_25.jpg",
+    "crop": [
+      47,
+      8,
+      173,
+      133
+    ],
+    "sha256": "1d053605f4c01398e3dcf56b9ae34829a8a60b8f16235a51a64d6530191956b7"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_25.jpg",
+    "name": "crop_usuario_25_0_9.jpg",
+    "labels": [
+      [
+        0,
+        0.43946188340807174,
+        0.33879781420765026,
+        0.5515695067264573,
+        0.43169398907103823
+      ],
+      [
+        0,
+        0.7309417040358744,
+        0.9562841530054644,
+        0.820627802690583,
+        1.0
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 385,
+    "parent": "usuario_25.jpg",
+    "crop": [
+      0,
+      0,
+      223,
+      183
+    ],
+    "sha256": "4d62f945bbe7e6fcaaace4839fd72e9d7786c8fe6a3e64689f86d31cfe61b26c"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_25.jpg",
+    "name": "crop_usuario_25_1_5.jpg",
+    "labels": [
+      [
+        0,
+        0.4095238095238095,
+        0.45652173913043476,
+        0.6,
+        0.6847826086956522
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 385,
+    "parent": "usuario_25.jpg",
+    "crop": [
+      120,
+      133,
+      225,
+      225
+    ],
+    "sha256": "646bb4ced312094c6dba88dd2e64da10210f3096e692a4e8b177110276ddb860"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_25.jpg",
+    "name": "crop_usuario_25_1_9.jpg",
+    "labels": [
+      [
+        0,
+        0.5782312925170068,
+        0.6268656716417911,
+        0.7142857142857143,
+        0.7835820895522388
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 385,
+    "parent": "usuario_25.jpg",
+    "crop": [
+      78,
+      91,
+      225,
+      225
+    ],
+    "sha256": "77b797d60e62929c8b9b5b3c90944e5de59988f12a6759646d3a08040e17f7af"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_27.jpg",
+    "name": "crop_usuario_27_0_5.jpg",
+    "labels": [
+      [
+        0,
+        0.4,
+        0.4533333333333333,
+        0.6,
+        0.5533333333333333
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 386,
+    "parent": "usuario_27.jpg",
+    "crop": [
+      23,
+      5,
+      173,
+      155
+    ],
+    "sha256": "21c54cd6e6542f57248686445ada06acb39d5bcd59bdcdb71b7ae349a7c560d7"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_27.jpg",
+    "name": "crop_usuario_27_0_9.jpg",
+    "labels": [
+      [
+        0,
+        0.38967136150234744,
+        0.37435897435897436,
+        0.5305164319248826,
+        0.4512820512820513
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 386,
+    "parent": "usuario_27.jpg",
+    "crop": [
+      0,
+      0,
+      213,
+      195
+    ],
+    "sha256": "2462c30a94b60140f876ce22f885a85a176f97c6c459bcea3b405e8fff736cba"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_29.jpg",
+    "name": "crop_usuario_29_0_5.jpg",
+    "labels": [
+      [
+        0,
+        0.42487546199582205,
+        0.4019365070532261,
+        0.5878193797203927,
+        0.602264822904204
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 387,
+    "parent": "usuario_29.jpg",
+    "crop": [
+      578,
+      38,
+      705,
+      165
+    ],
+    "sha256": "fa612096180d2b7d412516c00911157d75f1175cd7a474122835c8dc80a8fd04"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_29.jpg",
+    "name": "crop_usuario_29_0_9.jpg",
+    "labels": [
+      [
+        0,
+        0.4583370466090367,
+        0.4122497055359246,
+        0.5487033241244099,
+        0.5300353356890459
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 387,
+    "parent": "usuario_29.jpg",
+    "crop": [
+      527,
+      0,
+      756,
+      216
+    ],
+    "sha256": "06e44619713847add7dfe380611d394ee557fa19113901461da15d410d67774c"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_30.jpg",
+    "name": "crop_usuario_30_0_5.jpg",
+    "labels": [
+      [
+        0,
+        0.41216244073386943,
+        0.4011555117706216,
+        0.5915893630179349,
+        0.6008148102538842
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 388,
+    "parent": "usuario_30.jpg",
+    "crop": [
+      981,
+      203,
+      1278,
+      501
+    ],
+    "sha256": "8d8965712c1e268de1a58229039241ba42b7e1de0dbd75092caa714f57cc223c"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_30.jpg",
+    "name": "crop_usuario_30_0_9.jpg",
+    "labels": [
+      [
+        0,
+        0.4512378409307649,
+        0.4450454151262038,
+        0.5508449361052834,
+        0.5560500251038386
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 388,
+    "parent": "usuario_30.jpg",
+    "crop": [
+      862,
+      84,
+      1397,
+      620
+    ],
+    "sha256": "a821ecdf1ce8eed5ee4f4b758e800985bd26d4cf0f7e5c114a8a2f7e0ba36a1e"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_30.jpg",
+    "name": "crop_usuario_30_1_4.jpg",
+    "labels": [
+      [
+        0,
+        0.687210589224844,
+        0.35212264465900134,
+        0.7257426180884502,
+        0.4170773072660016
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 388,
+    "parent": "usuario_30.jpg",
+    "crop": [
+      153,
+      0,
+      1536,
+      916
+    ],
+    "sha256": "218bf9399d3a249418438b3763cdd6e82e86a4d386c55a31316b1f1c4013a4cd"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_31.jpg",
+    "name": "crop_usuario_31_0_5.jpg",
+    "labels": [
+      [
+        0,
+        0.4142857142857143,
+        0.4,
+        0.5857142857142857,
+        0.5999999999999998
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 389,
+    "parent": "usuario_31.jpg",
+    "crop": [
+      44,
+      73,
+      114,
+      143
+    ],
+    "sha256": "4632fd51fe8047046af02f51e8a7f2bee9d90f6e40d4423d1f98b02d6b1fcb5e"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_31.jpg",
+    "name": "crop_usuario_31_0_9.jpg",
+    "labels": [
+      [
+        0,
+        0.4523809523809524,
+        0.4444444444444444,
+        0.5476190476190477,
+        0.5555555555555555
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 389,
+    "parent": "usuario_31.jpg",
+    "crop": [
+      16,
+      45,
+      142,
+      171
+    ],
+    "sha256": "ab11114cf83488ffea43329d23f11e273c4dac59785f332d5f57d7fa108b13f5"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_32.jpg",
+    "name": "crop_usuario_32_0_5.jpg",
+    "labels": [
+      [
+        0,
+        0.4074074074074074,
+        0.4074074074074075,
+        0.6049382716049384,
+        0.6049382716049383
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 390,
+    "parent": "usuario_32.jpg",
+    "crop": [
+      69,
+      26,
+      150,
+      107
+    ],
+    "sha256": "50f66664a3bc8229067ddd4d2957379a7b3cb43ee497fefd704821fb11a8e083"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_32.jpg",
+    "name": "crop_usuario_32_0_9.jpg",
+    "labels": [
+      [
+        0,
+        0.4482758620689655,
+        0.4244604316546763,
+        0.5586206896551725,
+        0.539568345323741
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 390,
+    "parent": "usuario_32.jpg",
+    "crop": [
+      37,
+      0,
+      182,
+      139
+    ],
+    "sha256": "1369f8582175f166e116f793cb87a111718f9f8073ee83065c837ee88d4c1073"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_34.jpg",
+    "name": "crop_usuario_34_0_5.jpg",
+    "labels": [
+      [
+        0,
+        0.24029893647599887,
+        0.21663313212608987,
+        0.47331608699817956,
+        0.6562709590878605
+      ],
+      [
+        0,
+        0.8155600268276325,
+        0.21981891348088528,
+        1.0,
+        0.6594567404426559
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 392,
+    "parent": "usuario_34.jpg",
+    "crop": [
+      0,
+      0,
+      294,
+      336
+    ],
+    "sha256": "77b950766e88575a0f79e04987f8da16ca37048de97b12d54a0ca06f4f8fa8c1"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_34.jpg",
+    "name": "crop_usuario_34_0_9.jpg",
+    "labels": [
+      [
+        0,
+        0.24029893647599887,
+        0.21663313212608987,
+        0.47331608699817956,
+        0.6562709590878605
+      ],
+      [
+        0,
+        0.8155600268276325,
+        0.21981891348088528,
+        1.0,
+        0.6594567404426559
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 392,
+    "parent": "usuario_34.jpg",
+    "crop": [
+      0,
+      0,
+      294,
+      336
+    ],
+    "sha256": "77b950766e88575a0f79e04987f8da16ca37048de97b12d54a0ca06f4f8fa8c1"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_34.jpg",
+    "name": "crop_usuario_34_1_5.jpg",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.21599030384084925,
+        0.1807990801954585,
+        0.6543235675178668
+      ],
+      [
+        0,
+        0.5230430200249114,
+        0.21916663183850876,
+        0.7706237424547284,
+        0.6574998955155263
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 392,
+    "parent": "usuario_34.jpg",
+    "crop": [
+      86,
+      0,
+      380,
+      337
+    ],
+    "sha256": "3ceabc63555900339cfa60d1c32557a633eb3aa034dd8e92cf2c69826842bc04"
+  },
+  {
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\dataset_cabeca\\images\\train\\usuario_34.jpg",
+    "name": "crop_usuario_34_1_9.jpg",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.21599030384084925,
+        0.1807990801954585,
+        0.6543235675178668
+      ],
+      [
+        0,
+        0.5230430200249114,
+        0.21916663183850876,
+        0.7706237424547284,
+        0.6574998955155263
+      ]
+    ],
+    "source": "recorte_treino",
+    "split": "train",
+    "group": 392,
+    "parent": "usuario_34.jpg",
+    "crop": [
+      86,
+      0,
+      380,
+      337
+    ],
+    "sha256": "3ceabc63555900339cfa60d1c32557a633eb3aa034dd8e92cf2c69826842bc04"
+  },
+  {
+    "index": 0,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\00.jpg",
+    "split": "train",
+    "parent": "sh17_valid_552.jpg",
+    "group": 302,
+    "crop": [
+      202,
+      112,
+      456,
+      366
+    ],
+    "name": "negativo_00.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "e74a2817f8d83c94d2889bfea19115bb3e09009e93bf90c3b490460abdc2ad62"
+  },
+  {
+    "index": 2,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\02.jpg",
+    "split": "train",
+    "parent": "sh17_train_704.jpg",
+    "group": 36,
+    "crop": [
+      315,
+      140,
+      477,
+      302
+    ],
+    "name": "negativo_02.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "359aaa3e16c30a7bfdb6fbffc75959765a97444f145f8cb72fbe431f27ef9b27"
+  },
+  {
+    "index": 3,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\03.jpg",
+    "split": "train",
+    "parent": "sh17_train_4969.jpg",
+    "group": 220,
+    "crop": [
+      351,
+      78,
+      505,
+      232
+    ],
+    "name": "negativo_03.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "b03f79e0f414bc42f48b8879cda8256d3ad0c6a301cd94e434b8c5f67c809fe1"
+  },
+  {
+    "index": 6,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\06.jpg",
+    "split": "train",
+    "parent": "sh17_train_4823.jpg",
+    "group": 209,
+    "crop": [
+      403,
+      207,
+      585,
+      389
+    ],
+    "name": "negativo_06.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "6b3136311a00f3e8bbb87a5702a0e3c6b6518f669b414c361fabe6c3f3f0db04"
+  },
+  {
+    "index": 10,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\10.jpg",
+    "split": "train",
+    "parent": "sh17_train_3138.jpg",
+    "group": 153,
+    "crop": [
+      340,
+      215,
+      440,
+      315
+    ],
+    "name": "negativo_10.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "82d654ac7b49bf0c88ac28e64470dc25e3af435b6d1ceb531659b45b4c718df7"
+  },
+  {
+    "index": 11,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\11.jpg",
+    "split": "train",
+    "parent": "sh17_train_5466.jpg",
+    "group": 244,
+    "crop": [
+      91,
+      245,
+      211,
+      365
+    ],
+    "name": "negativo_11.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "13f5ce2505aa15dde997892b91c3531b4c7d5f513d9eb5b9a09cf649a1e2e91c"
+  },
+  {
+    "index": 16,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\16.jpg",
+    "split": "train",
+    "parent": "sh17_train_5283.jpg",
+    "group": 233,
+    "crop": [
+      498,
+      111,
+      586,
+      199
+    ],
+    "name": "negativo_16.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "6e93719a726357b25586cf886ea7cc2ff8430cfceacd12776247e97c4fe35773"
+  },
+  {
+    "index": 17,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\17.jpg",
+    "split": "train",
+    "parent": "sh17_train_2551.jpg",
+    "group": 270,
+    "crop": [
+      140,
+      70,
+      366,
+      296
+    ],
+    "name": "negativo_17.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "c0620f6fc8eb1ffe31048a0bbadd87f83204552496e4351cd07e5e0d24dc853d"
+  },
+  {
+    "index": 19,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\19.jpg",
+    "split": "train",
+    "parent": "sh17_train_4973.jpg",
+    "group": 221,
+    "crop": [
+      225,
+      40,
+      403,
+      218
+    ],
+    "name": "negativo_19.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "0c761f54c3a8150363f5fe444982c691e6ac61bfab7abe707dd963c14915e019"
+  },
+  {
+    "index": 21,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\21.jpg",
+    "split": "train",
+    "parent": "sh17_valid_1274.jpg",
+    "group": 334,
+    "crop": [
+      317,
+      162,
+      409,
+      254
+    ],
+    "name": "negativo_21.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "3cd0c428352a5c5dbe97cee3382bdc7d20f8776ca1e620482bda36971951a83f"
+  },
+  {
+    "index": 22,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\22.jpg",
+    "split": "train",
+    "parent": "sh17_train_3139.jpg",
+    "group": 154,
+    "crop": [
+      86,
+      226,
+      224,
+      364
+    ],
+    "name": "negativo_22.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "bf8cb449a3387a2a32af31f3b2fe93c7790061bed38319585c216ea7354c9810"
+  },
+  {
+    "index": 25,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\25.jpg",
+    "split": "train",
+    "parent": "sh17_valid_260.jpg",
+    "group": 293,
+    "crop": [
+      397,
+      276,
+      487,
+      366
+    ],
+    "name": "negativo_25.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "cbed744865f3d7166a9513f1bfa6f28f1fe19c32731cba83f4032e8348033d95"
+  },
+  {
+    "index": 26,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\26.jpg",
+    "split": "train",
+    "parent": "sh17_train_2801.jpg",
+    "group": 132,
+    "crop": [
+      367,
+      188,
+      479,
+      300
+    ],
+    "name": "negativo_26.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "5d2682b00fdffb844efe62712451db6166e61f8b762718a52cb96329fac879b9"
+  },
+  {
+    "index": 27,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\27.jpg",
+    "split": "train",
+    "parent": "sh17_train_2363.jpg",
+    "group": 112,
+    "crop": [
+      106,
+      174,
+      236,
+      304
+    ],
+    "name": "negativo_27.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "848b9fc9f43f47f79766edcab7c39a5804aa0306998383eb1964fd363a1286d8"
+  },
+  {
+    "index": 29,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\29.jpg",
+    "split": "train",
+    "parent": "sh17_train_3503.jpg",
+    "group": 166,
+    "crop": [
+      204,
+      45,
+      366,
+      207
+    ],
+    "name": "negativo_29.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "3feb93e1b0b5e3fa4124e533c808d7e8f9bb498a1cd5832baf1d1d50373a3a08"
+  },
+  {
+    "index": 30,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\30.jpg",
+    "split": "val",
+    "parent": "sh17_valid_577.jpg",
+    "group": 303,
+    "crop": [
+      374,
+      225,
+      518,
+      369
+    ],
+    "name": "negativo_30.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "b3056bdfd0022f7a5adc903ccb01a16c13219dcc8f1eca8d14f0147ece79adc5"
+  },
+  {
+    "index": 34,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\34.jpg",
+    "split": "val",
+    "parent": "sh17_train_2105.jpg",
+    "group": 103,
+    "crop": [
+      352,
+      141,
+      536,
+      325
+    ],
+    "name": "negativo_34.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "85026dd1b95cc0d056963f5bf62b6faf4a7d9d09c32d00c5d2322c61d3aa09a0"
+  },
+  {
+    "index": 35,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\35.jpg",
+    "split": "val",
+    "parent": "sh17_train_4109.jpg",
+    "group": 186,
+    "crop": [
+      0,
+      123,
+      192,
+      367
+    ],
+    "name": "negativo_35.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "32377ac2a7986379f5d59ce7c0d7d6fc4343b8618a26566192447547fdfb9b77"
+  },
+  {
+    "index": 36,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\36.jpg",
+    "split": "val",
+    "parent": "sh17_train_2441.jpg",
+    "group": 116,
+    "crop": [
+      312,
+      10,
+      420,
+      118
+    ],
+    "name": "negativo_36.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "89730541bf418408004a3793c2b8da62fb1e534858e9d7d1a0c76939255f6865"
+  },
+  {
+    "index": 37,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\37.jpg",
+    "split": "val",
+    "parent": "sh17_train_770.jpg",
+    "group": 39,
+    "crop": [
+      299,
+      39,
+      447,
+      187
+    ],
+    "name": "negativo_37.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "afdb1ceac2b553bcba3df558f57587ffd5521948fc612f7b9d166a86a5e3238e"
+  },
+  {
+    "index": 38,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\38.jpg",
+    "split": "val",
+    "parent": "sh17_train_2864.jpg",
+    "group": 139,
+    "crop": [
+      235,
+      198,
+      291,
+      254
+    ],
+    "name": "negativo_38.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "bbf54d1a39e8f65753867ff1544f2cf41d1bdfc0126111cce3236e4ba4ac5adf"
+  },
+  {
+    "index": 39,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\39.jpg",
+    "split": "val",
+    "parent": "sh17_train_1880.jpg",
+    "group": 249,
+    "crop": [
+      11,
+      57,
+      171,
+      217
+    ],
+    "name": "negativo_39.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "5f006f88b3e1c25df4c1ee508b269c381d1e56197c80d3aecbf5d28738cecef7"
+  },
+  {
+    "index": 40,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\40.jpg",
+    "split": "test",
+    "parent": "sh17_train_1138.jpg",
+    "group": 57,
+    "crop": [
+      357,
+      152,
+      465,
+      260
+    ],
+    "name": "negativo_40.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "7bd1946e5f8f401d39eb565c58d784ac03e3ecd844885ca8a00ff1d0b799727a"
+  },
+  {
+    "index": 43,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\43.jpg",
+    "split": "test",
+    "parent": "sh17_train_4911.jpg",
+    "group": 217,
+    "crop": [
+      423,
+      270,
+      511,
+      358
+    ],
+    "name": "negativo_43.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "ca5852c1803b47b47730760b6ce73119341837508345463595107b4684885d4a"
+  },
+  {
+    "index": 44,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\44.jpg",
+    "split": "test",
+    "parent": "sh17_train_948.jpg",
+    "group": 47,
+    "crop": [
+      279,
+      63,
+      377,
+      161
+    ],
+    "name": "negativo_44.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "3a56b608f02d7e203a27611141bdf4921e4b225a590521cd5d663f15c11c0c10"
+  },
+  {
+    "index": 45,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\45.jpg",
+    "split": "test",
+    "parent": "sh17_train_29.jpg",
+    "group": 0,
+    "crop": [
+      113,
+      357,
+      161,
+      405
+    ],
+    "name": "negativo_45.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "e4bf99ad155cb079e0679b3d3c2b38643458006d1c54993e0dfc430ff1017016"
+  },
+  {
+    "index": 46,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\46.jpg",
+    "split": "test",
+    "parent": "sh17_train_2016.jpg",
+    "group": 264,
+    "crop": [
+      459,
+      80,
+      597,
+      218
+    ],
+    "name": "negativo_46.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "4b29a0808011ff3e062e85e1d1e31cef9d6551b5f5e435a99795d0c7ce82fb9e"
+  },
+  {
+    "index": 48,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\48.jpg",
+    "split": "test",
+    "parent": "sh17_valid_1101.jpg",
+    "group": 327,
+    "crop": [
+      302,
+      150,
+      410,
+      258
+    ],
+    "name": "negativo_48.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "7810cc24baaef066c65ae10b8b496aa73aa6cf2a384d16528151bb040ea6fdba"
+  },
+  {
+    "index": 49,
+    "src": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v3\\negativos_plugue\\49.jpg",
+    "split": "test",
+    "parent": "sh17_train_4425.jpg",
+    "group": 278,
+    "crop": [
+      65,
+      41,
+      285,
+      261
+    ],
+    "name": "negativo_49.jpg",
+    "labels": [],
+    "source": "orelha_sem_plugue_revisada",
+    "sha256": "a81a5d2969b8874e0b44a03e0b42c715e1097966ea77634393c136e96b8a27a0"
+  }
+]

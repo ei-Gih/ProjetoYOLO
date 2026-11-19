@@ -1,0 +1,8 @@
+names:
+  0: protetor-auricular
+  1: mascara
+  2: capacete
+path: C:\Users\Gisele\OneDrive\Documentos\Facudade\Programação_Py\ProjetoYOLO\dataset\v3_cabeca
+test: images/test
+train: images/train
+val: images/val
