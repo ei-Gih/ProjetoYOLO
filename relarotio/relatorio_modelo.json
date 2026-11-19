@@ -1,0 +1,34 @@
+{
+  "status": "experimental",
+  "validacao_imagens": 16,
+  "validacao_jalecos": 12,
+  "comparacao": [
+    {
+      "execucao": "jaleco",
+      "epocas_concluidas": 15,
+      "melhor_epoca": 10,
+      "precision": 0.76309,
+      "recall": 0.33333,
+      "mAP50": 0.3708,
+      "mAP50_95": 0.28141
+    },
+    {
+      "execucao": "jaleco-2",
+      "epocas_concluidas": 12,
+      "melhor_epoca": 10,
+      "precision": 0.51927,
+      "recall": 0.41667,
+      "mAP50": 0.39414,
+      "mAP50_95": 0.30244
+    }
+  ],
+  "selecionado": {
+    "execucao": "jaleco-2",
+    "epocas_concluidas": 12,
+    "melhor_epoca": 10,
+    "precision": 0.51927,
+    "recall": 0.41667,
+    "mAP50": 0.39414,
+    "mAP50_95": 0.30244
+  }
+}

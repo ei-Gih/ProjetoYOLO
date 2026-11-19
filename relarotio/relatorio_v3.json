@@ -1,0 +1,609 @@
+{
+  "classes": {
+    "0": "protetor-auricular",
+    "1": "mascara",
+    "2": "capacete"
+  },
+  "activated": [
+    "mascara",
+    "capacete"
+  ],
+  "validation": {
+    "0": {
+      "before": {
+        "threshold": 0.35,
+        "tp": 3,
+        "fp": 1,
+        "fn": 17,
+        "precision": 0.75,
+        "recall": 0.15,
+        "f1": 0.24999999999999997
+      },
+      "candidate": {
+        "threshold": 0.5,
+        "tp": 3,
+        "fp": 0,
+        "fn": 17,
+        "precision": 1.0,
+        "recall": 0.15,
+        "f1": 0.2608695652173913,
+        "variant": "antes"
+      },
+      "activate": true
+    },
+    "1": {
+      "before": {
+        "threshold": 0.4,
+        "tp": 21,
+        "fp": 2,
+        "fn": 22,
+        "precision": 0.9130434782608695,
+        "recall": 0.4883720930232558,
+        "f1": 0.6363636363636364
+      },
+      "candidate": {
+        "threshold": 0.35,
+        "tp": 30,
+        "fp": 3,
+        "fn": 13,
+        "precision": 0.9090909090909091,
+        "recall": 0.6976744186046512,
+        "f1": 0.7894736842105263,
+        "variant": "depois_ultimo640"
+      },
+      "activate": true
+    },
+    "2": {
+      "before": {
+        "threshold": 0.4,
+        "tp": 10,
+        "fp": 1,
+        "fn": 10,
+        "precision": 0.9090909090909091,
+        "recall": 0.5,
+        "f1": 0.6451612903225806
+      },
+      "candidate": {
+        "threshold": 0.45,
+        "tp": 15,
+        "fp": 2,
+        "fn": 5,
+        "precision": 0.8823529411764706,
+        "recall": 0.75,
+        "f1": 0.8108108108108107,
+        "variant": "depois640"
+      },
+      "activate": true
+    }
+  },
+  "test": {
+    "0": {
+      "before": {
+        "threshold": 0.35,
+        "tp": 6,
+        "fp": 1,
+        "fn": 9,
+        "precision": 0.8571428571428571,
+        "recall": 0.4,
+        "f1": 0.5454545454545455
+      },
+      "candidate": {
+        "threshold": 0.5,
+        "tp": 3,
+        "fp": 0,
+        "fn": 12,
+        "precision": 1.0,
+        "recall": 0.2,
+        "f1": 0.33333333333333337
+      },
+      "variant": "antes",
+      "installed": false
+    },
+    "1": {
+      "before": {
+        "threshold": 0.4,
+        "tp": 21,
+        "fp": 1,
+        "fn": 32,
+        "precision": 0.9545454545454546,
+        "recall": 0.39622641509433965,
+        "f1": 0.5599999999999999
+      },
+      "candidate": {
+        "threshold": 0.35,
+        "tp": 25,
+        "fp": 2,
+        "fn": 28,
+        "precision": 0.9259259259259259,
+        "recall": 0.4716981132075472,
+        "f1": 0.625
+      },
+      "variant": "depois_ultimo640",
+      "installed": true
+    },
+    "2": {
+      "before": {
+        "threshold": 0.4,
+        "tp": 9,
+        "fp": 4,
+        "fn": 19,
+        "precision": 0.6923076923076923,
+        "recall": 0.32142857142857145,
+        "f1": 0.4390243902439025
+      },
+      "candidate": {
+        "threshold": 0.45,
+        "tp": 10,
+        "fp": 3,
+        "fn": 18,
+        "precision": 0.7692307692307693,
+        "recall": 0.35714285714285715,
+        "f1": 0.48780487804878053
+      },
+      "variant": "depois640",
+      "installed": true
+    }
+  },
+  "user_test": {
+    "0": {
+      "before": {
+        "threshold": 0.35,
+        "tp": 0,
+        "fp": 0,
+        "fn": 3,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0
+      },
+      "candidate": {
+        "threshold": 0.5,
+        "tp": 0,
+        "fp": 0,
+        "fn": 3,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0
+      }
+    },
+    "1": {
+      "before": {
+        "threshold": 0.4,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "candidate": {
+        "threshold": 0.35,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "2": {
+      "before": {
+        "threshold": 0.4,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "candidate": {
+        "threshold": 0.45,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "dataset": {
+    "train": {
+      "images": 286,
+      "objects": {
+        "0": 95,
+        "2": 147,
+        "1": 248
+      },
+      "user_images": 25
+    },
+    "val": {
+      "images": 55,
+      "objects": {
+        "2": 20,
+        "0": 20,
+        "1": 43
+      },
+      "user_images": 4
+    },
+    "test": {
+      "images": 53,
+      "objects": {
+        "1": 53,
+        "0": 15,
+        "2": 28
+      },
+      "user_images": 4
+    }
+  },
+  "backup": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\arquivo\\antes-melhoria-v3-20261119-125345",
+  "plugues": {
+    "installed": false,
+    "validation": {
+      "base_variant": "antes",
+      "base_threshold": 0.35,
+      "before": {
+        "threshold": 0.35,
+        "tp": 3,
+        "fp": 1,
+        "fn": 17,
+        "precision": 0.75,
+        "recall": 0.15,
+        "f1": 0.24999999999999997
+      },
+      "chosen": {
+        "threshold": 0.85,
+        "tp": 3,
+        "fp": 1,
+        "fn": 17,
+        "precision": 0.75,
+        "recall": 0.15,
+        "f1": 0.24999999999999997,
+        "weight": "best"
+      },
+      "curve": [
+        {
+          "threshold": 0.15,
+          "tp": 5,
+          "fp": 24,
+          "fn": 15,
+          "precision": 0.1724137931034483,
+          "recall": 0.25,
+          "f1": 0.20408163265306123,
+          "weight": "best"
+        },
+        {
+          "threshold": 0.2,
+          "tp": 4,
+          "fp": 14,
+          "fn": 16,
+          "precision": 0.2222222222222222,
+          "recall": 0.2,
+          "f1": 0.2105263157894737,
+          "weight": "best"
+        },
+        {
+          "threshold": 0.25,
+          "tp": 4,
+          "fp": 8,
+          "fn": 16,
+          "precision": 0.3333333333333333,
+          "recall": 0.2,
+          "f1": 0.25,
+          "weight": "best"
+        },
+        {
+          "threshold": 0.3,
+          "tp": 4,
+          "fp": 5,
+          "fn": 16,
+          "precision": 0.4444444444444444,
+          "recall": 0.2,
+          "f1": 0.2758620689655173,
+          "weight": "best"
+        },
+        {
+          "threshold": 0.35,
+          "tp": 4,
+          "fp": 5,
+          "fn": 16,
+          "precision": 0.4444444444444444,
+          "recall": 0.2,
+          "f1": 0.2758620689655173,
+          "weight": "best"
+        },
+        {
+          "threshold": 0.4,
+          "tp": 4,
+          "fp": 2,
+          "fn": 16,
+          "precision": 0.6666666666666666,
+          "recall": 0.2,
+          "f1": 0.30769230769230765,
+          "weight": "best"
+        },
+        {
+          "threshold": 0.45,
+          "tp": 4,
+          "fp": 2,
+          "fn": 16,
+          "precision": 0.6666666666666666,
+          "recall": 0.2,
+          "f1": 0.30769230769230765,
+          "weight": "best"
+        },
+        {
+          "threshold": 0.5,
+          "tp": 3,
+          "fp": 2,
+          "fn": 17,
+          "precision": 0.6,
+          "recall": 0.15,
+          "f1": 0.24,
+          "weight": "best"
+        },
+        {
+          "threshold": 0.55,
+          "tp": 3,
+          "fp": 2,
+          "fn": 17,
+          "precision": 0.6,
+          "recall": 0.15,
+          "f1": 0.24,
+          "weight": "best"
+        },
+        {
+          "threshold": 0.6,
+          "tp": 3,
+          "fp": 1,
+          "fn": 17,
+          "precision": 0.75,
+          "recall": 0.15,
+          "f1": 0.24999999999999997,
+          "weight": "best"
+        },
+        {
+          "threshold": 0.65,
+          "tp": 3,
+          "fp": 1,
+          "fn": 17,
+          "precision": 0.75,
+          "recall": 0.15,
+          "f1": 0.24999999999999997,
+          "weight": "best"
+        },
+        {
+          "threshold": 0.7,
+          "tp": 3,
+          "fp": 1,
+          "fn": 17,
+          "precision": 0.75,
+          "recall": 0.15,
+          "f1": 0.24999999999999997,
+          "weight": "best"
+        },
+        {
+          "threshold": 0.75,
+          "tp": 3,
+          "fp": 1,
+          "fn": 17,
+          "precision": 0.75,
+          "recall": 0.15,
+          "f1": 0.24999999999999997,
+          "weight": "best"
+        },
+        {
+          "threshold": 0.8,
+          "tp": 3,
+          "fp": 1,
+          "fn": 17,
+          "precision": 0.75,
+          "recall": 0.15,
+          "f1": 0.24999999999999997,
+          "weight": "best"
+        },
+        {
+          "threshold": 0.85,
+          "tp": 3,
+          "fp": 1,
+          "fn": 17,
+          "precision": 0.75,
+          "recall": 0.15,
+          "f1": 0.24999999999999997,
+          "weight": "best"
+        },
+        {
+          "threshold": 0.15,
+          "tp": 5,
+          "fp": 31,
+          "fn": 15,
+          "precision": 0.1388888888888889,
+          "recall": 0.25,
+          "f1": 0.17857142857142858,
+          "weight": "last"
+        },
+        {
+          "threshold": 0.2,
+          "tp": 5,
+          "fp": 24,
+          "fn": 15,
+          "precision": 0.1724137931034483,
+          "recall": 0.25,
+          "f1": 0.20408163265306123,
+          "weight": "last"
+        },
+        {
+          "threshold": 0.25,
+          "tp": 4,
+          "fp": 16,
+          "fn": 16,
+          "precision": 0.2,
+          "recall": 0.2,
+          "f1": 0.20000000000000004,
+          "weight": "last"
+        },
+        {
+          "threshold": 0.3,
+          "tp": 4,
+          "fp": 11,
+          "fn": 16,
+          "precision": 0.26666666666666666,
+          "recall": 0.2,
+          "f1": 0.2285714285714286,
+          "weight": "last"
+        },
+        {
+          "threshold": 0.35,
+          "tp": 4,
+          "fp": 8,
+          "fn": 16,
+          "precision": 0.3333333333333333,
+          "recall": 0.2,
+          "f1": 0.25,
+          "weight": "last"
+        },
+        {
+          "threshold": 0.4,
+          "tp": 4,
+          "fp": 4,
+          "fn": 16,
+          "precision": 0.5,
+          "recall": 0.2,
+          "f1": 0.28571428571428575,
+          "weight": "last"
+        },
+        {
+          "threshold": 0.45,
+          "tp": 4,
+          "fp": 3,
+          "fn": 16,
+          "precision": 0.5714285714285714,
+          "recall": 0.2,
+          "f1": 0.29629629629629634,
+          "weight": "last"
+        },
+        {
+          "threshold": 0.5,
+          "tp": 4,
+          "fp": 3,
+          "fn": 16,
+          "precision": 0.5714285714285714,
+          "recall": 0.2,
+          "f1": 0.29629629629629634,
+          "weight": "last"
+        },
+        {
+          "threshold": 0.55,
+          "tp": 4,
+          "fp": 3,
+          "fn": 16,
+          "precision": 0.5714285714285714,
+          "recall": 0.2,
+          "f1": 0.29629629629629634,
+          "weight": "last"
+        },
+        {
+          "threshold": 0.6,
+          "tp": 4,
+          "fp": 2,
+          "fn": 16,
+          "precision": 0.6666666666666666,
+          "recall": 0.2,
+          "f1": 0.30769230769230765,
+          "weight": "last"
+        },
+        {
+          "threshold": 0.65,
+          "tp": 3,
+          "fp": 1,
+          "fn": 17,
+          "precision": 0.75,
+          "recall": 0.15,
+          "f1": 0.24999999999999997,
+          "weight": "last"
+        },
+        {
+          "threshold": 0.7,
+          "tp": 3,
+          "fp": 1,
+          "fn": 17,
+          "precision": 0.75,
+          "recall": 0.15,
+          "f1": 0.24999999999999997,
+          "weight": "last"
+        },
+        {
+          "threshold": 0.75,
+          "tp": 3,
+          "fp": 1,
+          "fn": 17,
+          "precision": 0.75,
+          "recall": 0.15,
+          "f1": 0.24999999999999997,
+          "weight": "last"
+        },
+        {
+          "threshold": 0.8,
+          "tp": 3,
+          "fp": 1,
+          "fn": 17,
+          "precision": 0.75,
+          "recall": 0.15,
+          "f1": 0.24999999999999997,
+          "weight": "last"
+        },
+        {
+          "threshold": 0.85,
+          "tp": 3,
+          "fp": 1,
+          "fn": 17,
+          "precision": 0.75,
+          "recall": 0.15,
+          "f1": 0.24999999999999997,
+          "weight": "last"
+        }
+      ]
+    },
+    "test_before": {
+      "threshold": 0.35,
+      "tp": 6,
+      "fp": 1,
+      "fn": 9,
+      "precision": 0.8571428571428571,
+      "recall": 0.4,
+      "f1": 0.5454545454545455
+    },
+    "test_combined": {
+      "threshold": 0.05,
+      "tp": 7,
+      "fp": 1,
+      "fn": 8,
+      "precision": 0.875,
+      "recall": 0.4666666666666667,
+      "f1": 0.608695652173913
+    },
+    "user_test": {
+      "threshold": 0.05,
+      "tp": 1,
+      "fp": 0,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5
+    },
+    "auxiliary": {
+      "threshold": 0.85,
+      "tp": 1,
+      "fp": 0,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5
+    },
+    "negative_false_positives": 0
+  },
+  "limits": [
+    "Teste local inclui SH17 possivelmente visto no pré-treino.",
+    "Teste consultado para aceitar/rejeitar implantação, sem reajustar limiares.",
+    "Apenas quatro imagens da usuária no teste; não comprova generalização em webcam."
+  ]
+}
