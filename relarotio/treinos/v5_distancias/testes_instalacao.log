@@ -1,0 +1,7 @@
+customtkinter.windows.widgets.font warning: Preferred drawing method 'font_shapes' can not be used because the font file could not be loaded.
+Using 'circle_shapes' instead. The rendering quality will be bad!
+.....................................
+----------------------------------------------------------------------
+Ran 37 tests in 1.199s
+
+OK

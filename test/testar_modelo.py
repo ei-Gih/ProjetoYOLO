@@ -1,11 +1,15 @@
 """Verifica imagens com exatamente o mesmo pipeline da webcam."""
+import sys
+from pathlib import Path
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import argparse
 from pathlib import Path
 import cv2
 from test.detector import DetectorEPIs
 from test.avaliacao import EPIS, avaliar_pessoas
 
-RAIZ = Path(__file__).resolve().parent
+from test.caminhos import RAIZ, TREINOS, base_treinamento
 
 
 def main():
@@ -28,7 +32,7 @@ def main():
     imagem, deteccoes = detector.prever(frame)
     pessoas, presentes, suportados = avaliar_pessoas(deteccoes, detector.classes)
     confirmados = sum(map(len, presentes))
-    print('Pessoas:', len(pessoas), 'EPIs confirmados:', confirmados, 'Pendências:', 6*len(pessoas)-confirmados)
+    print('Pessoas:', len(pessoas), 'EPIs confirmados:', confirmados, 'Pendências:', len(EPIS)*len(pessoas)-confirmados)
     for i, itens in enumerate(presentes, 1):
         print(f'P{i}: não confirmados:', ', '.join(e for e in EPIS if e not in itens) or 'nenhum')
     pasta = RAIZ/'deteccao'

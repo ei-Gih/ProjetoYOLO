@@ -1,0 +1,183 @@
+{
+  "nota": "Avalia\u00e7\u00e3o explorat\u00f3ria: este conjunto j\u00e1 foi consultado na etapa anterior. Limiares escolhidos somente na valida\u00e7\u00e3o.",
+  "scale": 0.45,
+  "thresholds": {
+    "0": 0.55,
+    "1": 0.7,
+    "2": 0.35
+  },
+  "classes": {
+    "0": {
+      "before": {
+        "threshold": 0.45,
+        "tp": 19,
+        "fp": 4,
+        "fn": 46,
+        "precision": 0.8260869565217391,
+        "recall": 0.2923076923076923,
+        "f1": 0.4318181818181819,
+        "sizes_tp_total": {
+          "pequeno": [
+            4,
+            36
+          ],
+          "medio": [
+            10,
+            16
+          ],
+          "grande": [
+            5,
+            13
+          ]
+        }
+      },
+      "after": {
+        "threshold": 0,
+        "tp": 20,
+        "fp": 4,
+        "fn": 45,
+        "precision": 0.8333333333333334,
+        "recall": 0.3076923076923077,
+        "f1": 0.4494382022471911,
+        "sizes_tp_total": {
+          "pequeno": [
+            4,
+            36
+          ],
+          "medio": [
+            10,
+            16
+          ],
+          "grande": [
+            6,
+            13
+          ]
+        }
+      }
+    },
+    "1": {
+      "before": {
+        "threshold": 0.35,
+        "tp": 71,
+        "fp": 28,
+        "fn": 113,
+        "precision": 0.7171717171717171,
+        "recall": 0.3858695652173913,
+        "f1": 0.5017667844522968,
+        "sizes_tp_total": {
+          "pequeno": [
+            34,
+            114
+          ],
+          "medio": [
+            34,
+            37
+          ],
+          "grande": [
+            3,
+            33
+          ]
+        }
+      },
+      "after": {
+        "threshold": 0,
+        "tp": 82,
+        "fp": 28,
+        "fn": 102,
+        "precision": 0.7454545454545455,
+        "recall": 0.44565217391304346,
+        "f1": 0.5578231292517006,
+        "sizes_tp_total": {
+          "pequeno": [
+            34,
+            114
+          ],
+          "medio": [
+            34,
+            37
+          ],
+          "grande": [
+            14,
+            33
+          ]
+        }
+      }
+    },
+    "2": {
+      "before": {
+        "threshold": 0.4,
+        "tp": 7,
+        "fp": 1,
+        "fn": 78,
+        "precision": 0.875,
+        "recall": 0.08235294117647059,
+        "f1": 0.15053763440860213,
+        "sizes_tp_total": {
+          "pequeno": [
+            1,
+            38
+          ],
+          "medio": [
+            6,
+            24
+          ],
+          "grande": [
+            0,
+            23
+          ]
+        }
+      },
+      "after": {
+        "threshold": 0,
+        "tp": 13,
+        "fp": 2,
+        "fn": 72,
+        "precision": 0.8666666666666667,
+        "recall": 0.15294117647058825,
+        "f1": 0.26000000000000006,
+        "sizes_tp_total": {
+          "pequeno": [
+            1,
+            38
+          ],
+          "medio": [
+            6,
+            24
+          ],
+          "grande": [
+            6,
+            23
+          ]
+        }
+      }
+    }
+  },
+  "pairs_before": {
+    "original": {
+      "both": 3,
+      "total": 25
+    },
+    "distante": {
+      "both": 1,
+      "total": 25
+    },
+    "proximo": {
+      "both": 0,
+      "total": 15
+    }
+  },
+  "pairs_after": {
+    "original": {
+      "both": 4,
+      "total": 25
+    },
+    "distante": {
+      "both": 1,
+      "total": 25
+    },
+    "proximo": {
+      "both": 4,
+      "total": 15
+    }
+  }
+}

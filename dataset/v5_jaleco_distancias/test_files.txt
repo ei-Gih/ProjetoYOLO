@@ -1,0 +1,12 @@
+C:\Users\Gisele\OneDrive\Documentos\Facudade\Programação_Py\ProjetoYOLO\dataset\v5_jaleco_distancias\images\test\imnet_0145.jpg
+C:\Users\Gisele\OneDrive\Documentos\Facudade\Programação_Py\ProjetoYOLO\dataset\v5_jaleco_distancias\images\test\imnet_0232.jpg
+C:\Users\Gisele\OneDrive\Documentos\Facudade\Programação_Py\ProjetoYOLO\dataset\v5_jaleco_distancias\images\test\imnet_0299.jpg
+C:\Users\Gisele\OneDrive\Documentos\Facudade\Programação_Py\ProjetoYOLO\dataset\v5_jaleco_distancias\images\test\imnet_0425.jpg
+C:\Users\Gisele\OneDrive\Documentos\Facudade\Programação_Py\ProjetoYOLO\dataset\v5_jaleco_distancias\images\test\imnet_0783.jpg
+C:\Users\Gisele\OneDrive\Documentos\Facudade\Programação_Py\ProjetoYOLO\dataset\v5_jaleco_distancias\images\test\imnet_0924.jpg
+C:\Users\Gisele\OneDrive\Documentos\Facudade\Programação_Py\ProjetoYOLO\dataset\v5_jaleco_distancias\images\test\imnet_0958.jpg
+C:\Users\Gisele\OneDrive\Documentos\Facudade\Programação_Py\ProjetoYOLO\dataset\v5_jaleco_distancias\images\test\imnet_1037.jpg
+C:\Users\Gisele\OneDrive\Documentos\Facudade\Programação_Py\ProjetoYOLO\dataset\v5_jaleco_distancias\images\test\imnet_1139.jpg
+C:\Users\Gisele\OneDrive\Documentos\Facudade\Programação_Py\ProjetoYOLO\dataset\v5_jaleco_distancias\images\test\imnet_1214.jpg
+C:\Users\Gisele\OneDrive\Documentos\Facudade\Programação_Py\ProjetoYOLO\dataset\v5_jaleco_distancias\images\test\imnet_1264.jpg
+C:\Users\Gisele\OneDrive\Documentos\Facudade\Programação_Py\ProjetoYOLO\dataset\v5_jaleco_distancias\images\test\imnet_1287.jpg

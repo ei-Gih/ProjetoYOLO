@@ -1,0 +1,3579 @@
+[
+  {
+    "name": "extra_train_1280.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_1280",
+    "kind": "original",
+    "sha256": "2775af912192ae2abfbcd92d7563721bc95992e78dc0c329b131b0f7d0c11f49"
+  },
+  {
+    "name": "extra_train_138.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.140625,
+        0.40625,
+        0.9140625,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_138",
+    "kind": "original",
+    "sha256": "acffaf75bbfb7853877f7ba7f05127809ec672c5341b727b4dcc3b4db83a0350"
+  },
+  {
+    "name": "extra_train_157.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_157",
+    "kind": "original",
+    "sha256": "4d29968c334859afb49cfbe9d08b1bfd776dabf8c990e76abb18d38c4cb2960b"
+  },
+  {
+    "name": "extra_train_174.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_174",
+    "kind": "original",
+    "sha256": "a776a78c0fd220833989ba823916e1d73757be9c0b32184feade9a854bb89fb9"
+  },
+  {
+    "name": "extra_train_1948.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.3515625,
+        1.0,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_1948",
+    "kind": "original",
+    "sha256": "e8c6a4f12581c4a748bedc9676e7f11b7d8fc0d760bf05a89ae8ce28288d951a"
+  },
+  {
+    "name": "extra_train_245.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_245",
+    "kind": "original",
+    "sha256": "5ddf79d2d4bcb159e7358a5b5012f23212ffde7ac4e09191065f84b546f54c6d"
+  },
+  {
+    "name": "extra_train_2874.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_2874",
+    "kind": "original",
+    "sha256": "656c5e155d1b24faa95a44077de55c9aab4904414b6a8023514ff44035b8d90d"
+  },
+  {
+    "name": "extra_train_29.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_29",
+    "kind": "original",
+    "sha256": "4fef62861973bc6eeab0c6aff39e6c374fe99b640584cfdca21ea0057c8bfd1f"
+  },
+  {
+    "name": "extra_train_2910.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_2910",
+    "kind": "original",
+    "sha256": "f15dc35fb033972d1bfe169e83f40fab6e021c2a2445038b362a7510137fe58c"
+  },
+  {
+    "name": "extra_train_2911.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_2911",
+    "kind": "original",
+    "sha256": "5a30b0bc15ae195eb32a8792756a610a7d3132c1bcdfa1de67ec9cb2afef6f71"
+  },
+  {
+    "name": "extra_train_3314.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_3314",
+    "kind": "original",
+    "sha256": "502c5221e998e62a2d4da4f1f3fa10a803b12b6812b4f50387f39f1b1e6e685e"
+  },
+  {
+    "name": "extra_train_3626.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_3626",
+    "kind": "original",
+    "sha256": "74362ef6857a726bccb70c512084f06b37d6debf06542475030bd5b6faf93df0"
+  },
+  {
+    "name": "extra_train_3697.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.3515625,
+        0.546875,
+        0.7265625,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_3697",
+    "kind": "original",
+    "sha256": "f97a1f811a866d91567f59157104938808809613dd2e5e56479a0c1e21b096b3"
+  },
+  {
+    "name": "extra_train_3917.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_3917",
+    "kind": "original",
+    "sha256": "b16b99ede0e4e6872d4bd596fdfdadfaddfd263fc4c1d0209a903e76af5de41d"
+  },
+  {
+    "name": "extra_train_4414.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_4414",
+    "kind": "original",
+    "sha256": "d70fb4f4b83d2e0e54c675a604f1561e4cd9ce6e63359c5f9a0a9de0cb93783f"
+  },
+  {
+    "name": "extra_train_4823.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.125,
+        0.5625,
+        1.0,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_4823",
+    "kind": "original",
+    "sha256": "1fe1f6983fe92b7dedaf13fbef22ef333b548c68ea730635d3c01ec1ec5b772f"
+  },
+  {
+    "name": "extra_train_4849.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_4849",
+    "kind": "original",
+    "sha256": "8de13906c2aed057b9a759b9e91b67d792d7277cbecabadc40bd9c6517c0f8f9"
+  },
+  {
+    "name": "extra_train_5283.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.34375,
+        0.5859375,
+        1.0
+      ],
+      [
+        0,
+        0.5421875,
+        0.265625,
+        0.9875,
+        0.796875
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_5283",
+    "kind": "original",
+    "sha256": "087f76b46276245441e318e839e53c9546ceb7e99dfbe5a9bb092cc6f7eb1b08"
+  },
+  {
+    "name": "extra_train_5462.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.46875,
+        0.765625,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_5462",
+    "kind": "original",
+    "sha256": "c7a32c72be10df11011ba890b0a01f4ad5506710da00ebe500973cb6c9f6751c"
+  },
+  {
+    "name": "extra_train_5466.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_5466",
+    "kind": "original",
+    "sha256": "904afbad5da7a3fcfae0b0044c6726c2f5bb2fe9e69a78e6bee4b832488b2fd5"
+  },
+  {
+    "name": "extra_train_592.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_592",
+    "kind": "original",
+    "sha256": "7fefe61ed3274da05088d28ada2bdef0d99bb5224c1d9fa9dc99b49c5332893e"
+  },
+  {
+    "name": "extra_train_699.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.109375,
+        0.40625,
+        0.765625,
+        0.9140625
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_699",
+    "kind": "original",
+    "sha256": "7ad15305954842a50a876f1d5f82c1a5a37381e3928291eba481a538a78d98e6"
+  },
+  {
+    "name": "extra_train_704.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_704",
+    "kind": "original",
+    "sha256": "57be3472ec52cbc0ab4483b36a32e75ae2ffd2821884ba43bcac221ff4a05925"
+  },
+  {
+    "name": "extra_train_894.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.4609375,
+        0.640625,
+        1.0,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_894",
+    "kind": "original",
+    "sha256": "394910dbefe98d31d4ed89b857e31d61e6a4711995dcb65f2dcc7bf198b8dabb"
+  },
+  {
+    "name": "extra_train_994.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_994",
+    "kind": "original",
+    "sha256": "1c88e301ee1d1e2c799d6f6dabd682e2734550dfbecd888d20bc7a4ca5d441f8"
+  },
+  {
+    "name": "extra_valid_1173.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.15625,
+        0.421875,
+        0.875,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "extra_valid_1173",
+    "kind": "original",
+    "sha256": "3b976f3f3e990116ce4e74ad4ce0e02ec08a8368a79255ab1e7b792cf3f28881"
+  },
+  {
+    "name": "extra_valid_1591.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_valid_1591",
+    "kind": "original",
+    "sha256": "23b45fa9457680f8cf8e4469e223ea52bf229d2f6bed8b5f26d8b255addea866"
+  },
+  {
+    "name": "extra_valid_285.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_valid_285",
+    "kind": "original",
+    "sha256": "185a52f7274c89c698ab1b29875bb44759d6be09a0f794f08893126c2573bb2c"
+  },
+  {
+    "name": "extra_valid_527.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_valid_527",
+    "kind": "original",
+    "sha256": "1e8b4181118f8567440b06f12deee3c83d0052ae33894a4b3ecf44c50a1a1089"
+  },
+  {
+    "name": "extra_valid_552.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.22499999999999998,
+        0.5625,
+        0.728125,
+        1.0
+      ],
+      [
+        0,
+        0.8046875,
+        0.0546875,
+        1.0,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "extra_valid_552",
+    "kind": "original",
+    "sha256": "e69dac4f1584451bfb04a8cecc42c01d665a27134019fc85d8abff97f7cc598c"
+  },
+  {
+    "name": "extra_valid_866.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.671875,
+        0.484375,
+        1.0,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "extra_valid_866",
+    "kind": "original",
+    "sha256": "4c49a1abfa2d5f7c8e6f1f5d3083a7b430f01a949aa6305c565bb481b0ed940b"
+  },
+  {
+    "name": "imnet_0039.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.03999999999999998,
+        0.06,
+        0.9199999999999999,
+        0.95
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0039",
+    "kind": "original",
+    "sha256": "c19ab3a24356a3c5aa16e246bb527a2a6029b14fe32efb6c337285ea1766941d"
+  },
+  {
+    "name": "imnet_0110.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.30000000000000004,
+        0.36000000000000004,
+        1.0,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0110",
+    "kind": "original",
+    "sha256": "8bad880bcf899e4072fd6fda8b44414fa4fad230fb5252d290b3ae3bb30726b0"
+  },
+  {
+    "name": "imnet_0111.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.010000000000000009,
+        0.24,
+        0.64,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0111",
+    "kind": "original",
+    "sha256": "4f9d3f31c75bf4ba7678173db7a50cc989192a566a0d809253d34672185af6c7"
+  },
+  {
+    "name": "imnet_0184.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.53,
+        0.39999999999999997,
+        0.96,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0184",
+    "kind": "original",
+    "sha256": "2f45b7c0972b276a3fa464f1d2895a7cf9a25aa1b3d665f8698d813415b78236"
+  },
+  {
+    "name": "imnet_0198.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.34,
+        1.0,
+        0.9099999999999999
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0198",
+    "kind": "original",
+    "sha256": "590c93a2a55a10e2f2d995b8c6fb0e2b0f0991238e209c136aca6997cada8712"
+  },
+  {
+    "name": "imnet_0287.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.28,
+        0.32,
+        1.0,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0287",
+    "kind": "original",
+    "sha256": "7f5248f75b3f2fb44278a08fa9c6104386d72a930f6b783fd9ff049275752e93"
+  },
+  {
+    "name": "imnet_0305.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.07999999999999999,
+        0.10999999999999999,
+        0.4,
+        0.89
+      ],
+      [
+        0,
+        0.26,
+        0.09999999999999998,
+        0.67,
+        0.89
+      ],
+      [
+        0,
+        0.59,
+        0.09999999999999998,
+        0.89,
+        0.9
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0305",
+    "kind": "original",
+    "sha256": "53f5d730fc881223bfe473738a06f976d63ad7dc19358cec31d2d0dacfa6d8d5"
+  },
+  {
+    "name": "imnet_0320.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.13999999999999996,
+        0.020000000000000018,
+        0.8,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0320",
+    "kind": "original",
+    "sha256": "e5a75c27051031bc3b1d054deb5b2bcc56ebcc8dc1b092625df6634e875867e9"
+  },
+  {
+    "name": "imnet_0339.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0339",
+    "kind": "original",
+    "sha256": "b1510e8efeacd8965aa22bfa4bf5d8d20db50009a8f6bfe7f5153f43411a824a"
+  },
+  {
+    "name": "imnet_0347.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.19,
+        0.030000000000000027,
+        0.78,
+        0.97
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0347",
+    "kind": "original",
+    "sha256": "437c994e4dc00b1e2d3ed0aab64aa560e3fecd6bf8d9b8760877cd069b4e7869"
+  },
+  {
+    "name": "imnet_0366.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.26,
+        0.35000000000000003,
+        0.77,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0366",
+    "kind": "original",
+    "sha256": "fe39e50920eb01ffbf535776ce3dee37c24fa582bba81ab5e6f5dea5c5af3e66"
+  },
+  {
+    "name": "imnet_0373.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.06,
+        0.0,
+        0.95,
+        0.92
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0373",
+    "kind": "original",
+    "sha256": "fad7d17eca3304416c69d44d7c55b22d6368edc27815c8cb28d78919c4fd471c"
+  },
+  {
+    "name": "imnet_0455.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.13,
+        0.37000000000000005,
+        0.72,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0455",
+    "kind": "original",
+    "sha256": "4557534d8a9bcb491c441eb89dc5ea11512bb0e53911f9e1a5446f321ee06941"
+  },
+  {
+    "name": "imnet_0456.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.26000000000000006,
+        0.19999999999999998,
+        0.8400000000000001,
+        0.62
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0456",
+    "kind": "original",
+    "sha256": "4c9fe78fd229bec50c6370b84f7886f59d9daa716951970485b9b222ee8545cf"
+  },
+  {
+    "name": "imnet_0487.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.44999999999999996,
+        0.22999999999999998,
+        1.0,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0487",
+    "kind": "original",
+    "sha256": "ba6ce242d94af508bffc23ea5a757b962df7e921efeb16629b772529dc4bf09d"
+  },
+  {
+    "name": "imnet_0489.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.6100000000000001,
+        1.0,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0489",
+    "kind": "original",
+    "sha256": "6e20e0042605d56d83896493eca297c0fafd68ce641636bb5481b807559b3cb2"
+  },
+  {
+    "name": "imnet_0577.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.46,
+        0.37999999999999995,
+        0.81,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0577",
+    "kind": "original",
+    "sha256": "3a06da84404630b687610511f4d1356cd341f5ec6eee6f5ced928255b77c9dd4"
+  },
+  {
+    "name": "imnet_0608.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.13999999999999996,
+        1.0,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0608",
+    "kind": "original",
+    "sha256": "97fd2260bd5daff273df4a2d004bd3660c37360c00c1cd86ed84ec5e33f41125"
+  },
+  {
+    "name": "imnet_0691.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.06,
+        0.020000000000000018,
+        0.8,
+        0.98
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0691",
+    "kind": "original",
+    "sha256": "e89a263c2e0af35c8fc20c2c66e7435475b4b65f627683f20b93c77f28e54ca0"
+  },
+  {
+    "name": "imnet_0834.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.6499999999999999,
+        0.25,
+        1.0,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0834",
+    "kind": "original",
+    "sha256": "0edfa53114f92a64c60ab0f3417be466fa77a2692a47fc25fafcad27ad3ad2dd"
+  },
+  {
+    "name": "imnet_0873.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.0,
+        0.99,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0873",
+    "kind": "original",
+    "sha256": "e88a7226ce2d9cec4a1902875913bec43393d679aa6b67e94941543a841de392"
+  },
+  {
+    "name": "imnet_0875.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.16000000000000003,
+        0.0,
+        0.9400000000000001,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0875",
+    "kind": "original",
+    "sha256": "33230d0f73ceafde726009ebd8d9f6d48d7ed870fbfbf0e9dd97435a91e8d610"
+  },
+  {
+    "name": "imnet_0910.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.010000000000000009,
+        0.44999999999999996,
+        1.0,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0910",
+    "kind": "original",
+    "sha256": "c0dfb668b59ae1e75ed5d24ac0d20ed1d28e6f528a0f26ec0098f71a2186b618"
+  },
+  {
+    "name": "imnet_0952.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.04999999999999999,
+        0.20999999999999996,
+        0.5700000000000001,
+        0.94
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0952",
+    "kind": "original",
+    "sha256": "8b2c42503e7abaf1964ac4736901fa8dc0a73970806d2f19e80ecf37832734f8"
+  },
+  {
+    "name": "imnet_0993.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.23000000000000004,
+        0.14,
+        0.81,
+        0.72
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0993",
+    "kind": "original",
+    "sha256": "78c7317ed7cf4493e2780dbffb670bd1eb5033193dc29987550f0afff5e50a94"
+  },
+  {
+    "name": "imnet_1061.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.31000000000000005,
+        0.21000000000000002,
+        0.72,
+        0.72
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_1061",
+    "kind": "original",
+    "sha256": "27046ea267d693b872bf1c54e004e53815315e0edb515ae1a2a61d2f8986fd02"
+  },
+  {
+    "name": "imnet_1064.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.07999999999999996,
+        0.61,
+        0.89
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_1064",
+    "kind": "original",
+    "sha256": "d604d9c1170ba28acf48271f6bf70968e0e5e607b14e0d5289f132feb1772af4"
+  },
+  {
+    "name": "imnet_1083.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.20999999999999996,
+        0.99,
+        0.98
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_1083",
+    "kind": "original",
+    "sha256": "1e71110c0925eb5643d8cd9f616c179ba0d00db7135427c9c40055005a45d02d"
+  },
+  {
+    "name": "imnet_1089.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.06,
+        0.019999999999999962,
+        0.9199999999999999,
+        0.94
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_1089",
+    "kind": "original",
+    "sha256": "b90f5a146c9b71db3db22c5cfbfd09a900487287c03f676541bbf03cf4f425c0"
+  },
+  {
+    "name": "imnet_1149.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.08000000000000002,
+        0.55,
+        1.0,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_1149",
+    "kind": "original",
+    "sha256": "c50a70b66ca414ce91858d4a21fe38e4066955346975b114f0324800c4656133"
+  },
+  {
+    "name": "imnet_1200.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.29,
+        0.32,
+        0.6699999999999999,
+        0.94
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_1200",
+    "kind": "original",
+    "sha256": "123d87546ae0206ea4c004fb14f3e8e28f6017c5df34265cf987c6d567e24275"
+  },
+  {
+    "name": "imnet_1212.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.06,
+        0.14,
+        0.96,
+        0.77
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_1212",
+    "kind": "original",
+    "sha256": "8bd658ad5cb8baa2864b3f0b49732b6cb94a52d217214911e587ff32203914ce"
+  },
+  {
+    "name": "sh17_train_1014.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.14375000000000002,
+        0.3359375,
+        0.6171875,
+        0.8828125
+      ],
+      [
+        0,
+        0.5343749950000001,
+        0.353124995,
+        0.8648437449999999,
+        0.8117187450000001
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_1014",
+    "kind": "original",
+    "sha256": "0059a90cf1ace0fe09fca8ef8cefb13f756d9b854deb0e2f9e77790319372941"
+  },
+  {
+    "name": "sh17_train_119.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.306250005,
+        0.25781250499999997,
+        0.892968755,
+        0.889843755
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_119",
+    "kind": "original",
+    "sha256": "7427ee768f53b6f16ba633ed24c6c644e81e6ba351c5b2e76432aefbd51070d1"
+  },
+  {
+    "name": "sh17_train_1211.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_1211",
+    "kind": "original",
+    "sha256": "4c7c1a322ed657720493bd2e5da57408805409b523e4340f37ebb746169e5e48"
+  },
+  {
+    "name": "sh17_train_1222.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.4484375,
+        0.778125,
+        0.996875
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_1222",
+    "kind": "original",
+    "sha256": "acda434c994abd561ac864f95b48f6c167b9902797079f085eaf073a14069719"
+  },
+  {
+    "name": "sh17_train_123.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_123",
+    "kind": "original",
+    "sha256": "e057fa782782c338eb1e09247350f1aa29cae1455f330fafcc161db13f5a0af5"
+  },
+  {
+    "name": "sh17_train_1483.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.5859375,
+        0.21875,
+        0.859375,
+        0.6015625
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_1483",
+    "kind": "original",
+    "sha256": "a9f52879d524e65df8d1584d58553c3553ca72150a367a1c3d08447196c87b0c"
+  },
+  {
+    "name": "sh17_train_1531.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.079687495,
+        0.360937495,
+        0.5382812450000001,
+        0.9992187450000001
+      ],
+      [
+        0,
+        0.5796874999999999,
+        0.3453125,
+        1.0,
+        0.9984375
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_1531",
+    "kind": "original",
+    "sha256": "f7aca9014d920447566aed1a59dee2ed9a04c3fbbc13b7c69373b1d01d5b9739"
+  },
+  {
+    "name": "sh17_train_1555.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_1555",
+    "kind": "original",
+    "sha256": "224cadb24e5539ecf8e06b7c8c80e1b8dab575af88bda86f5b466f145eeeab62"
+  },
+  {
+    "name": "sh17_train_1569.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_1569",
+    "kind": "original",
+    "sha256": "962096e64011d313335c3b9d4f68bb213c7ede73fd3ca80d1ee4d4367e51741b"
+  },
+  {
+    "name": "sh17_train_1609.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_1609",
+    "kind": "original",
+    "sha256": "f9c7f775ce8ce490b439ab4269994eb4720b184aea881a2aa60adfe5f072263c"
+  },
+  {
+    "name": "sh17_train_1633.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.12656249999999997,
+        0.40625000000000006,
+        0.6046875,
+        0.8109375000000001
+      ],
+      [
+        0,
+        0.5296875,
+        0.14218750500000005,
+        0.7953125,
+        0.8070312550000001
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_1633",
+    "kind": "original",
+    "sha256": "c0bbc3f87dad80c7a057c3b67951292ad5db7d722a5255231bf977d1b5dd7123"
+  },
+  {
+    "name": "sh17_train_1716.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.3078125,
+        0.9078125,
+        0.7390625
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_1716",
+    "kind": "original",
+    "sha256": "99a07e44c8d350b2e904e9aacfe8b34d84e050fa3bc940237d67f4cd10eea1c1"
+  },
+  {
+    "name": "sh17_train_1788.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.6000000000000001,
+        0.3921875,
+        0.8828125,
+        0.853125
+      ],
+      [
+        0,
+        0.131249995,
+        0.38281250499999997,
+        0.494531245,
+        0.827343755
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_1788",
+    "kind": "original",
+    "sha256": "886d2a5e5247c111344d14c000d96868e98e64f793908b5b8c1d2860dcb23589"
+  },
+  {
+    "name": "sh17_train_2025.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.004687500000000011,
+        0.303124995,
+        0.846875,
+        0.999218745
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_2025",
+    "kind": "original",
+    "sha256": "6551600f751cde0f516608291bba67efd966c9725c346d62056f61320431ac14"
+  },
+  {
+    "name": "sh17_train_2065.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_2065",
+    "kind": "original",
+    "sha256": "bc8b5a1f20e8d4c9d3dfad0c47694b1d593c5ee47fdc7cd73f4559b9a280bbb2"
+  },
+  {
+    "name": "sh17_train_212.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.12343750000000003,
+        0.38593750499999996,
+        1.0,
+        0.8289062549999999
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_212",
+    "kind": "original",
+    "sha256": "803739b5b109a1171dff8c8041b73101eb1c0433c56f76a6afb5a252e48b8d78"
+  },
+  {
+    "name": "sh17_train_224.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.173437495,
+        0.292187495,
+        0.855468745,
+        0.9742187449999999
+      ],
+      [
+        0,
+        0.8374999999999999,
+        0.21718750000000003,
+        1.0,
+        0.9765625
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_224",
+    "kind": "original",
+    "sha256": "4e0aa6c3ef38f0489f3d40aa2817a110aeef48e4792ae1565846a362d2a16ff6"
+  },
+  {
+    "name": "sh17_train_2252.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_2252",
+    "kind": "original",
+    "sha256": "b24be035c84477fc265c91601b6ea48091276a3e6370079f138e32bed5bf75a6"
+  },
+  {
+    "name": "sh17_train_2333.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.01093749500000002,
+        0.159375,
+        0.9757812450000001,
+        0.6968749999999999
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_2333",
+    "kind": "original",
+    "sha256": "95cc07ea5075d2fd654fa899f1f81f9440b1a1fe54cb5cfaf37faf18de5d6dc6"
+  },
+  {
+    "name": "sh17_train_2351.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_2351",
+    "kind": "original",
+    "sha256": "bf09557ffbbddee37a4e9e91277505c1f87c885bd20c662384e938b2bc17e050"
+  },
+  {
+    "name": "sh17_train_238.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_238",
+    "kind": "original",
+    "sha256": "dbb5b8ce06ffb917da8a3e2d4a0116f791cb2ce0791f2be37e24b438b9eacd15"
+  },
+  {
+    "name": "sh17_train_2400.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        5.000000025123796e-09,
+        0.16093750500000004,
+        0.589843755,
+        0.997656255
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_2400",
+    "kind": "original",
+    "sha256": "fdea27dc9157f19805ae4a09456a088a3905cae81f06fa44ade113b782427d7e"
+  },
+  {
+    "name": "sh17_train_2456.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.15312500500000004,
+        0.22343749499999999,
+        0.997656255,
+        0.988281245
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_2456",
+    "kind": "original",
+    "sha256": "a4d2e7d8b3e91cdeb7cb10bdedcb49a9d99dff24b84712a29760beadf6dc4742"
+  },
+  {
+    "name": "sh17_train_2498.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        -4.999999969612645e-09,
+        0.36875,
+        0.892968745,
+        0.9984375
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_2498",
+    "kind": "original",
+    "sha256": "f9289be858c4e5de295407087ebba089d6475e9d5697d85fbd243f36e27e2781"
+  },
+  {
+    "name": "sh17_train_2555.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.2609375,
+        0.407812495,
+        0.73125,
+        0.996093745
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_2555",
+    "kind": "original",
+    "sha256": "dc8c7ed4e6ed0ed9b23134ddc7a6f6c8f48f5ef4f1a8c3733979544ff85b5c87"
+  },
+  {
+    "name": "sh17_train_2727.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.29374999999999996,
+        0.45624999499999996,
+        0.9921875,
+        0.892968745
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_2727",
+    "kind": "original",
+    "sha256": "64010fe9424e0e8d56b03b7ef0ba16991a99a2e2f8547fe247842f9e4c1f79e9"
+  },
+  {
+    "name": "sh17_train_2810.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.0,
+        0.953125,
+        0.996875
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_2810",
+    "kind": "original",
+    "sha256": "86a2ee183b2c6eb967be9967e6f796001482eb133667f05b405b4752304c1d05"
+  },
+  {
+    "name": "sh17_train_2886.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_2886",
+    "kind": "original",
+    "sha256": "bee0b002bfa3ee44837e5b908c467a528cbb69efaa881feecf884cd38c9ea777"
+  },
+  {
+    "name": "sh17_train_3063.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_3063",
+    "kind": "original",
+    "sha256": "c74e8e281526374a752591552d0cd29aa2f1a3530026e77dbdf412afe7e0d324"
+  },
+  {
+    "name": "sh17_train_3081.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.325,
+        0.365625,
+        0.9906250000000001
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_3081",
+    "kind": "original",
+    "sha256": "84d49b7ef09fc5be31d4ee914555d0bb246cda0430ae0530650d3b95fcc3afef"
+  },
+  {
+    "name": "sh17_train_3090.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        -4.999999997368221e-09,
+        0.243749995,
+        0.46015624499999996,
+        0.9992187450000001
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_3090",
+    "kind": "original",
+    "sha256": "f14ddf18a53a22a95d88699ae61623b1bde49930e80ec78bce1ffc0ac17fda26"
+  },
+  {
+    "name": "sh17_train_3234.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_3234",
+    "kind": "original",
+    "sha256": "866d7816a2ff9eca13346208a21f2074c4ff5f57229973b1ae840e148e7ffa1b"
+  },
+  {
+    "name": "sh17_train_3238.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_3238",
+    "kind": "original",
+    "sha256": "bb2d9ddf9f3571fce26a73876ead3c75abbd69f69d553566d0bd2c10b5074090"
+  },
+  {
+    "name": "sh17_train_3468.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_3468",
+    "kind": "original",
+    "sha256": "f9f5a6794a5f146bb556a4b69ab8221755d425762daa1c12367212182fbb7f71"
+  },
+  {
+    "name": "sh17_train_3540.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_3540",
+    "kind": "original",
+    "sha256": "ddea9a3838d6259163186833c3155ce4bbeb64e99e2a4edcd8375e5b215be0a2"
+  },
+  {
+    "name": "sh17_train_3557.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.18437499999999996,
+        0.370312505,
+        0.8984375,
+        0.999218755
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_3557",
+    "kind": "original",
+    "sha256": "b4011f04c44f6e90841e925e8d4f673c15affe5b5b34c25ceb8d55754792c3dc"
+  },
+  {
+    "name": "sh17_train_3576.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.128125,
+        0.171875,
+        0.5249999999999999,
+        1.0
+      ],
+      [
+        0,
+        0.575,
+        0.5484374999999999,
+        0.9484375,
+        0.9921875
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_3576",
+    "kind": "original",
+    "sha256": "587d20be11d48e8e7a4cb76dcc2d6b351af210bc7b8d5ea33856a2981c1f84c6"
+  },
+  {
+    "name": "sh17_train_3668.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.08906250000000004,
+        0.6375,
+        1.0,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_3668",
+    "kind": "original",
+    "sha256": "2eb0273ba812dabf47a67fcd0c705201064870dda4cdc529e1525251fb255d73"
+  },
+  {
+    "name": "sh17_train_381.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.07499999499999999,
+        0.28750000000000003,
+        0.953906245,
+        0.765625
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_381",
+    "kind": "original",
+    "sha256": "aeaf7fdcefb4e8e5b662a724001d8bfc7a9ab124a228f1aa788ca1b4ca852a51"
+  },
+  {
+    "name": "sh17_train_3829.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_3829",
+    "kind": "original",
+    "sha256": "bda53bc877914a95d3cab72b0bcb1bc1261901cda23b3d4322d830b1c16f705f"
+  },
+  {
+    "name": "sh17_train_3923.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_3923",
+    "kind": "original",
+    "sha256": "9e151271a62d729c68ea97624a0c73677244bf2bbb15b11950d993c5eaa871ad"
+  },
+  {
+    "name": "sh17_train_4155.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_4155",
+    "kind": "original",
+    "sha256": "3924d2fab7e544de42bc154074c76ee8e68823b94c52810750df2c8525498a78"
+  },
+  {
+    "name": "sh17_train_4325.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_4325",
+    "kind": "original",
+    "sha256": "6154679b2482e90b33beaa4e0bdf28fdf222be3c4c2de9e62a06a925911b06eb"
+  },
+  {
+    "name": "sh17_train_4357.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.5703125,
+        0.49375,
+        1.0,
+        0.9984375
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_4357",
+    "kind": "original",
+    "sha256": "9653d8e794edbffefade8104a93f355b79dac11e32f1af7fbf17f15b9576de36"
+  },
+  {
+    "name": "sh17_train_4425.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.487500005,
+        0.5484374949999999,
+        0.964843755,
+        0.9992187450000001
+      ],
+      [
+        0,
+        0.07500000000000001,
+        0.34843749999999996,
+        0.5375000000000001,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_4425",
+    "kind": "original",
+    "sha256": "f200cbfd707e2baaeca68f29436de5f336a1be6387de57caa244e66023176d78"
+  },
+  {
+    "name": "sh17_train_4463.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.13281250000000006,
+        0.4484375,
+        0.8890625000000001
+      ],
+      [
+        0,
+        0.442187495,
+        0.38750000500000004,
+        0.941406245,
+        0.911718755
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_4463",
+    "kind": "original",
+    "sha256": "61e7511570cec6df8f3e412ef0ade2b9712404dc9039a41e872ce76b79e790c7"
+  },
+  {
+    "name": "sh17_train_4618.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.010937500000000044,
+        0.446874995,
+        1.0,
+        0.9992187450000001
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_4618",
+    "kind": "original",
+    "sha256": "905568cd86b6c71c13b6ebc759310d445a0f1f38761401579b36753f156e607e"
+  },
+  {
+    "name": "sh17_train_4749.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.10781249500000001,
+        0.354687505,
+        0.855468745,
+        0.694531255
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_4749",
+    "kind": "original",
+    "sha256": "9ddce1e1d1d436fd141cc197d2d2f5ce55c0734973ed625b35d83187cd08a37e"
+  },
+  {
+    "name": "sh17_train_4788.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.10625000500000004,
+        0.24374999500000005,
+        0.827343755,
+        0.807031245
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_4788",
+    "kind": "original",
+    "sha256": "756f3390918b892c5ea49e2af40f4d0ebfc2a15c531e5353a23f4d7ecb4f4fe2"
+  },
+  {
+    "name": "sh17_train_4859.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_4859",
+    "kind": "original",
+    "sha256": "fcf5de1d726c9d8450baace5c4bc28f426cda822b7a3008c055cbb21d98c11e8"
+  },
+  {
+    "name": "sh17_train_4893.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.009374999999999967,
+        0.4296875,
+        0.83125
+      ],
+      [
+        0,
+        0.443749995,
+        5.000000025123796e-09,
+        0.999218745,
+        0.855468755
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_4893",
+    "kind": "original",
+    "sha256": "a172abd0656a417f972d39f7bbf38b324647c40c54a7381a04b00fd8df4d9ab6"
+  },
+  {
+    "name": "sh17_train_4896.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.4984375,
+        0.26093750000000004,
+        0.8890625,
+        0.796875
+      ],
+      [
+        0,
+        0.14843750000000003,
+        0.26562499500000003,
+        0.5890625,
+        0.805468745
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_4896",
+    "kind": "original",
+    "sha256": "bd5760a6db2022ec7c422c8dae80c0197b67bdf4fdfe3585c207ef31b3a38ee9"
+  },
+  {
+    "name": "sh17_train_4934.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        4.999999969612645e-09,
+        0.353125,
+        0.786718755,
+        0.99375
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_4934",
+    "kind": "original",
+    "sha256": "4ba97625bc477167c70e09fef1f47b8398691b6daac62b0c354e2477f98cc0c2"
+  },
+  {
+    "name": "sh17_train_4960.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_4960",
+    "kind": "original",
+    "sha256": "df78283ea5853136e7809512f8220694dea7b5ce3cc9b5be2b6c61544f960f6d"
+  },
+  {
+    "name": "sh17_train_4989.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_4989",
+    "kind": "original",
+    "sha256": "70079b644975cc8af09205ca242382966921b71841c93dc80eb820f4012083ee"
+  },
+  {
+    "name": "sh17_train_5078.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_5078",
+    "kind": "original",
+    "sha256": "47f93a1f38a3ed127b379f42505313c709bc1f9b82f4780e5d53f4a66dc1027d"
+  },
+  {
+    "name": "sh17_train_5183.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.001562494999999997,
+        0.46406250000000004,
+        0.9992187450000001,
+        0.9765625
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_5183",
+    "kind": "original",
+    "sha256": "214b2c5b49039f45a5d79aeaff20387eaf20ac7bb1041d72ea45b1578aa69723"
+  },
+  {
+    "name": "sh17_train_5187.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.27656250000000004,
+        0.8484375,
+        0.7890625
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_5187",
+    "kind": "original",
+    "sha256": "48288906928972bae885bc88cd8a1733beffcf33c7e461e2579e7c81b5c61eec"
+  },
+  {
+    "name": "sh17_train_5221.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.059374999999999956,
+        0.40625,
+        0.9578125
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_5221",
+    "kind": "original",
+    "sha256": "7872c0cd69e4d746ec854a39173ba13eaeaf49f83c99d98d13367d0793223268"
+  },
+  {
+    "name": "sh17_train_5270.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.003124999999999989,
+        0.3359375,
+        0.9640625,
+        0.940625
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_5270",
+    "kind": "original",
+    "sha256": "609fccd5d715335617308afa8e0fab78b506cffe9dd694e30af100108420e190"
+  },
+  {
+    "name": "sh17_train_530.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.22812500000000002,
+        0.425,
+        0.9984375
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_530",
+    "kind": "original",
+    "sha256": "7e0be828a57c77c499ca2ba747e151a63b31e4df9cdbbcdaaf468a21a62af3e2"
+  },
+  {
+    "name": "sh17_train_5345.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_5345",
+    "kind": "original",
+    "sha256": "f257c40cc1ff8af0be0875fe10fc44cc9e4fe41287fe9f323dc925f8dede63a2"
+  },
+  {
+    "name": "sh17_train_5369.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_5369",
+    "kind": "original",
+    "sha256": "a52aefdd44e11e0565e1e5324e48b0a9c6e9574626cb3ee358a3e1226817105e"
+  },
+  {
+    "name": "sh17_train_5384.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_5384",
+    "kind": "original",
+    "sha256": "a6855fb8eb8b11e03a15fa725c01b55444f0eb964f671987c132ada241cc0fb4"
+  },
+  {
+    "name": "sh17_train_5632.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.14375000000000004,
+        0.504687495,
+        1.0,
+        0.980468745
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_5632",
+    "kind": "original",
+    "sha256": "8d4068f716e6cf0bcd920a46c929f51826194b9eee8cde0280f803e27f98f43d"
+  },
+  {
+    "name": "sh17_train_608.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_608",
+    "kind": "original",
+    "sha256": "8c14ad1d2ce225de37b4e0af768d70af96820cd9d1628c09338bdeac02ec8403"
+  },
+  {
+    "name": "sh17_train_66.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.5062500000000001,
+        0.346875005,
+        1.0,
+        0.761718755
+      ],
+      [
+        0,
+        -4.999999997368221e-09,
+        0.490625005,
+        0.36640624499999996,
+        0.769531255
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_66",
+    "kind": "original",
+    "sha256": "ca2e450d12f4a9acbbc7f14e32573bf4c9e6cf66cd00f276c50d0cea9eb23125"
+  },
+  {
+    "name": "sh17_train_765.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.059374999999999956,
+        0.37968749999999996,
+        1.0,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_765",
+    "kind": "original",
+    "sha256": "4f357ccd6fda336e3da377a313d68ea4c51d4c31a6b2123f68b949de6cecc79e"
+  },
+  {
+    "name": "sh17_train_779.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.046875,
+        0.28125,
+        0.546875,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_779",
+    "kind": "original",
+    "sha256": "905a49b59c48a4fa92394f842e2551f331bdbc6fe774a112eafe1078155ca051"
+  },
+  {
+    "name": "sh17_train_82.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_82",
+    "kind": "original",
+    "sha256": "3317552d1af6f7a2de239a3989360d398a64d9c618a795df376501defff3ace9"
+  },
+  {
+    "name": "sh17_valid_103.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.24062500000000003,
+        0.37499999999999994,
+        0.796875,
+        0.7359374999999999
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_103",
+    "kind": "original",
+    "sha256": "4c95e4078fb9a9e9de8376132b08f9773ff0286aa90d030f949955b3ed2a30a1"
+  },
+  {
+    "name": "sh17_valid_1182.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.314062505,
+        0.464062495,
+        0.591406255,
+        0.821093745
+      ],
+      [
+        0,
+        0.53125,
+        0.44999999999999996,
+        0.784375,
+        0.8171875
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_1182",
+    "kind": "original",
+    "sha256": "3a67a5322cbaf740a5191388dbaf6672d2d9972178f5055549f7802e3ac8de8a"
+  },
+  {
+    "name": "sh17_valid_1192.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_1192",
+    "kind": "original",
+    "sha256": "5955e8fad3ae88007a31e2e7ce49f81792c77793cb2aecfa23558a2c428ba686"
+  },
+  {
+    "name": "sh17_valid_1549.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.07500000000000001,
+        0.0,
+        0.76875,
+        0.65
+      ],
+      [
+        0,
+        0.003125005000000014,
+        0.446874995,
+        0.992968755,
+        0.9992187450000001
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_1549",
+    "kind": "original",
+    "sha256": "adb1e4d331d438e5285a8684bc20c8adfe6e2ac39fb4d36eee9b484b5ca174d5"
+  },
+  {
+    "name": "sh17_valid_1612.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.78125,
+        0.515625,
+        1.0,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_1612",
+    "kind": "original",
+    "sha256": "3e0906a960714afb47d9edb31668412838c5934b0a0cb69c69276f00c714ae56"
+  },
+  {
+    "name": "sh17_valid_190.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_190",
+    "kind": "original",
+    "sha256": "d24b235d9fa01f9627000046e49b5f0bc8f6c6fad084d94fc40041b66e35006c"
+  },
+  {
+    "name": "sh17_valid_269.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        4.999999969612645e-09,
+        0.293750005,
+        0.872656255,
+        0.999218755
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_269",
+    "kind": "original",
+    "sha256": "57888c92246f4f9ba7e1dcb6960992544c5f32917c284b13527aca9d82394de8"
+  },
+  {
+    "name": "sh17_valid_273.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_273",
+    "kind": "original",
+    "sha256": "ae37b514df35fa2e31b5545fce31ebba6503d979ee934db7d4efb8d9b4969166"
+  },
+  {
+    "name": "sh17_valid_298.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_298",
+    "kind": "original",
+    "sha256": "b5bdbc5771673fbf6c07a1566a027ff3ec60235bbbc7e03b36503b8480445404"
+  },
+  {
+    "name": "sh17_valid_301.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        4.999999997368221e-09,
+        0.07656249999999998,
+        0.450781255,
+        0.9671875
+      ],
+      [
+        0,
+        0.5515625,
+        0.26406250000000003,
+        1.0,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_301",
+    "kind": "original",
+    "sha256": "89d56b088735252d98cd01e9e07dafbb97df232804fdc203c1581a5e122d2a72"
+  },
+  {
+    "name": "sh17_valid_328.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_328",
+    "kind": "original",
+    "sha256": "8248cc0e4b4d275b74cd466755993667fdcf4b8d1d9027e85d974b7fc43653ed"
+  },
+  {
+    "name": "sh17_valid_492.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_492",
+    "kind": "original",
+    "sha256": "c9c6c0b5edd96f535c1ddf8c61ae78c1a06b90550b299506466badd3abd62d46"
+  },
+  {
+    "name": "sh17_valid_534.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        4.999999969612645e-09,
+        0.15156250000000004,
+        0.999218755,
+        0.6953125
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_534",
+    "kind": "original",
+    "sha256": "5b62dfffc2f1fb4f3c94096738fa62de9aee75e8d5aebfdcf140966273dbfd37"
+  },
+  {
+    "name": "sh17_valid_630.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.0,
+        0.7625,
+        0.99375
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_630",
+    "kind": "original",
+    "sha256": "4380c8e9e13dc9be721328507f6607036320861d1c381588e07835c73c2ad7f5"
+  },
+  {
+    "name": "sh17_valid_661.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.3921875,
+        0.368749995,
+        0.8875000000000001,
+        0.988281245
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_661",
+    "kind": "original",
+    "sha256": "6b75817e412abc6a3360d6a591d06c28c0b9c41ef15b46db89b4c7ba0e72a43b"
+  },
+  {
+    "name": "imnet_0189.jpg",
+    "split": "val",
+    "labels": [
+      [
+        0,
+        0.2,
+        0.0,
+        0.78,
+        0.97
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0189",
+    "kind": "original",
+    "sha256": "c52ae12c5e754ee34521edadc617cf55801d8a45efc31ae8450706d0fdb8ffe3"
+  },
+  {
+    "name": "imnet_0224.jpg",
+    "split": "val",
+    "labels": [
+      [
+        0,
+        0.22999999999999998,
+        0.42,
+        0.97,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0224",
+    "kind": "original",
+    "sha256": "c69ad7898cad76cca42a5cdb8ca77ee00ea81dee47768ed48a5f0ac7a091d0cd"
+  },
+  {
+    "name": "imnet_0258.jpg",
+    "split": "val",
+    "labels": [
+      [
+        0,
+        0.31000000000000005,
+        0.21999999999999997,
+        0.75,
+        0.9199999999999999
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0258",
+    "kind": "original",
+    "sha256": "e3b9b75ac81b7132eb17f077e6fa89c44677c8850b512127f58e5e01ce61b4bb"
+  },
+  {
+    "name": "imnet_0293.jpg",
+    "split": "val",
+    "labels": [
+      [
+        0,
+        0.45000000000000007,
+        0.33000000000000007,
+        0.89,
+        0.79
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0293",
+    "kind": "original",
+    "sha256": "ba0dcf83dd445eadbd5812bddc066ffd3ff32a023740220d9ca4eeebe9fb94f9"
+  },
+  {
+    "name": "imnet_0486.jpg",
+    "split": "val",
+    "labels": [
+      [
+        0,
+        0.09999999999999998,
+        0.53,
+        0.87,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0486",
+    "kind": "original",
+    "sha256": "a65bd84c1c634c808f6d22e3cceafd14662a2ac9b885a5014269f81ac1060105"
+  },
+  {
+    "name": "imnet_0752.jpg",
+    "split": "val",
+    "labels": [
+      [
+        0,
+        0.07,
+        0.15,
+        0.6399999999999999,
+        0.61
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0752",
+    "kind": "original",
+    "sha256": "fdf49427d4e67516c36646225e66988dbc9e1f42047ffe8373ce2f580a586b0e"
+  },
+  {
+    "name": "imnet_0830.jpg",
+    "split": "val",
+    "labels": [
+      [
+        0,
+        0.16000000000000003,
+        0.22999999999999993,
+        0.85,
+        0.9099999999999999
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0830",
+    "kind": "original",
+    "sha256": "d07b421b8c7559a53e7d939b1b358deb70e357b879a0e75d1cc407e8640aa944"
+  },
+  {
+    "name": "imnet_0882.jpg",
+    "split": "val",
+    "labels": [
+      [
+        0,
+        0.13,
+        0.21000000000000002,
+        0.88,
+        0.8400000000000001
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0882",
+    "kind": "original",
+    "sha256": "2aa0a9232597b5812196c1bfaf9adb25966cec8689949c1b28b26d49683bda52"
+  },
+  {
+    "name": "imnet_0917.jpg",
+    "split": "val",
+    "labels": [
+      [
+        0,
+        0.27999999999999997,
+        0.48,
+        0.9099999999999999,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0917",
+    "kind": "original",
+    "sha256": "bb47ef57a615888b2a7fe87b34d40f9d3d4e8e15fbfc9a4e39438e09931a6f98"
+  },
+  {
+    "name": "imnet_0995.jpg",
+    "split": "val",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.43,
+        1.0,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0995",
+    "kind": "original",
+    "sha256": "a10b51bcad8630b70921af16f305b0cc755289feff543fa813d3b2cfe93974bc"
+  },
+  {
+    "name": "imnet_1120.jpg",
+    "split": "val",
+    "labels": [
+      [
+        0,
+        0.26999999999999996,
+        0.32,
+        0.94,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_1120",
+    "kind": "original",
+    "sha256": "7f96c40576b276bc6dc7ad4b3575b47cd2384fefdd1d156c178e753080d5cd60"
+  },
+  {
+    "name": "imnet_1284.jpg",
+    "split": "val",
+    "labels": [
+      [
+        0,
+        0.0,
+        0.32,
+        0.56,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_1284",
+    "kind": "original",
+    "sha256": "4f6193f9689f62bf2437ae2d3961b343f6efcf5c2f9bfdc30fa21b51dae8ae1f"
+  },
+  {
+    "name": "sh17_train_1249.jpg",
+    "split": "val",
+    "labels": [
+      [
+        0,
+        0.046875,
+        0.1875,
+        0.515625,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_1249",
+    "kind": "original",
+    "sha256": "5c391ba78b76c16340f4f979bb9108ff5eaf65bca4acce66c28944160ec5bfb9"
+  },
+  {
+    "name": "sh17_train_1747.jpg",
+    "split": "val",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_1747",
+    "kind": "original",
+    "sha256": "10c90958af875ac07a3fe851d3055c351bbe3b44ee58a53dfcaffcb7edb786e6"
+  },
+  {
+    "name": "sh17_train_1998.jpg",
+    "split": "val",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_1998",
+    "kind": "original",
+    "sha256": "3543679d3564591e358293f383040dccdee4f158ed5ad5a4ac7f69bd06832310"
+  },
+  {
+    "name": "sh17_train_2238.jpg",
+    "split": "val",
+    "labels": [
+      [
+        0,
+        0.04374999999999998,
+        0.3203125,
+        0.4765625,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_2238",
+    "kind": "original",
+    "sha256": "aa7c84fbff95b9b4015376e4494d3d77fc234477ec667973fef738d972cd6153"
+  },
+  {
+    "name": "sh17_train_2334.jpg",
+    "split": "val",
+    "labels": [
+      [
+        0,
+        0.6390625000000001,
+        0.3046875,
+        0.859375,
+        1.0
+      ],
+      [
+        0,
+        0.325,
+        0.25625000000000003,
+        0.38906250000000003,
+        0.434375
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_2334",
+    "kind": "original",
+    "sha256": "ded318677f023655d030f44b391f7add2f2080c0fd34e2f856002282d7bbf9a7"
+  },
+  {
+    "name": "sh17_train_4151.jpg",
+    "split": "val",
+    "labels": [
+      [
+        0,
+        0.8046875,
+        0.3046875,
+        1.0,
+        1.0
+      ],
+      [
+        0,
+        0.359375,
+        0.2890625,
+        0.54375,
+        0.8046875
+      ],
+      [
+        0,
+        0.8421875000000001,
+        0.33125000000000004,
+        0.9140625,
+        0.484375
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_4151",
+    "kind": "original",
+    "sha256": "b9bae4c03c4418ab84c2f15310d4a4825f8a08531c19014851bd802fc30b85c7"
+  },
+  {
+    "name": "sh17_train_477.jpg",
+    "split": "val",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_477",
+    "kind": "original",
+    "sha256": "aa5145634164a2025d32891f692a3e9306bcafafdaba104a3bebfe7ca7041a6f"
+  },
+  {
+    "name": "sh17_train_4824.jpg",
+    "split": "val",
+    "labels": [
+      [
+        0,
+        0.378125,
+        0.48124999999999996,
+        0.6968749999999999,
+        0.91875
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_4824",
+    "kind": "original",
+    "sha256": "545e733eb65b3731a3b762075dacbf3aa1d7beb7d8bd428f9f2831776dcc3118"
+  },
+  {
+    "name": "sh17_train_5063.jpg",
+    "split": "val",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_5063",
+    "kind": "original",
+    "sha256": "f1578adeb1ce2a8eb9c750cc2b511413bb274f2af1162792efe9e68a9e6260c5"
+  },
+  {
+    "name": "sh17_train_5648.jpg",
+    "split": "val",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_5648",
+    "kind": "original",
+    "sha256": "20cb5453c74de268238493da1ec34cfa9afb616c07b45a3c5140c0b15c00fcf7"
+  },
+  {
+    "name": "sh17_train_622.jpg",
+    "split": "val",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_622",
+    "kind": "original",
+    "sha256": "aadea3c275b0d479f96b90d923e2b9eccc96c9b7195e4f22ac1f97a338eae021"
+  },
+  {
+    "name": "sh17_train_858.jpg",
+    "split": "val",
+    "labels": [
+      [
+        0,
+        0.296875,
+        0.25,
+        0.578125,
+        0.8984375
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_858",
+    "kind": "original",
+    "sha256": "f115528138f453c32b07b015b3629315c7aeba02a4a38ae0f3f85dcc516c0193"
+  },
+  {
+    "name": "sh17_valid_370.jpg",
+    "split": "val",
+    "labels": [
+      [
+        0,
+        0.0546875,
+        0.25312500000000004,
+        0.49375,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_370",
+    "kind": "original",
+    "sha256": "de4f79b77c1d72bec0f4c7218c65924cd46accac82baa8d2ff8b47bb2e713193"
+  },
+  {
+    "name": "sh17_valid_453.jpg",
+    "split": "val",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_453",
+    "kind": "original",
+    "sha256": "25435ef6f3acd45b69438e271e859c05f995d6c34e3feecc55169177240990f4"
+  },
+  {
+    "name": "sh17_valid_591.jpg",
+    "split": "val",
+    "labels": [
+      [
+        0,
+        0.5421875,
+        0.3828125,
+        1.0,
+        1.0
+      ],
+      [
+        0,
+        0.515625,
+        0.41093749999999996,
+        0.59375,
+        0.625
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_591",
+    "kind": "original",
+    "sha256": "ba18a5e50ee4f23e78a506bab966c150b1d03d5e8f4261c99fe9621c694dbb62"
+  },
+  {
+    "name": "sh17_valid_69.jpg",
+    "split": "val",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_69",
+    "kind": "original",
+    "sha256": "870748e09221770a25699c73a7ea9289dc84de1cf62fcb7a9affb5c6d27b7433"
+  },
+  {
+    "name": "imnet_0145.jpg",
+    "split": "test",
+    "labels": [
+      [
+        0,
+        0.27,
+        0.42,
+        1.0,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0145",
+    "kind": "original",
+    "sha256": "87289d528ef5ccb549453a5fc2259fe66585becdf75297804fdc19fadb4c1a73"
+  },
+  {
+    "name": "imnet_0232.jpg",
+    "split": "test",
+    "labels": [
+      [
+        0,
+        0.010000000000000009,
+        0.24,
+        1.0,
+        0.94
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0232",
+    "kind": "original",
+    "sha256": "3549c02f46e618c8a8ff7adada4f0971910ee699a952edd62e628caf4ac8e6bf"
+  },
+  {
+    "name": "imnet_0299.jpg",
+    "split": "test",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0299",
+    "kind": "original",
+    "sha256": "e66b7b4e60c5ee35965408f35a6f854bbd0eef5e2da2f76f60a7d03bb36854ca"
+  },
+  {
+    "name": "imnet_0425.jpg",
+    "split": "test",
+    "labels": [
+      [
+        0,
+        0.10000000000000003,
+        0.20999999999999996,
+        0.95,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0425",
+    "kind": "original",
+    "sha256": "a8209ae0a0fdca40087421ee1b7b577618372f27a2dc73fe30533ce40c947b76"
+  },
+  {
+    "name": "imnet_0783.jpg",
+    "split": "test",
+    "labels": [
+      [
+        0,
+        0.08000000000000002,
+        0.39999999999999997,
+        0.5700000000000001,
+        1.0
+      ],
+      [
+        0,
+        0.48000000000000004,
+        0.51,
+        0.8300000000000001,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0783",
+    "kind": "original",
+    "sha256": "1ca7aa05da216089a0a16b222a7d5b575914fd3d46ff3fa82e279910c65ceba7"
+  },
+  {
+    "name": "imnet_0924.jpg",
+    "split": "test",
+    "labels": [
+      [
+        0,
+        0.02999999999999997,
+        0.040000000000000036,
+        0.96,
+        0.98
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0924",
+    "kind": "original",
+    "sha256": "1edd0221a796ce19efe18fcef5c61b4b08b7eba91cebc0773ca74b5d4ab8c3eb"
+  },
+  {
+    "name": "imnet_0958.jpg",
+    "split": "test",
+    "labels": [
+      [
+        0,
+        0.32,
+        0.16000000000000003,
+        0.6799999999999999,
+        0.77
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0958",
+    "kind": "original",
+    "sha256": "135883139f854b86b1632955bca731d05e41b5e7a54edec864832d7827c07512"
+  },
+  {
+    "name": "imnet_1037.jpg",
+    "split": "test",
+    "labels": [
+      [
+        0,
+        0.07000000000000003,
+        0.13999999999999996,
+        0.49,
+        0.7
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_1037",
+    "kind": "original",
+    "sha256": "3cf1a0cfcba3d381980f0b8bb3c9097613a1929fd65ea946d70eaff4565ea7cf"
+  },
+  {
+    "name": "imnet_1139.jpg",
+    "split": "test",
+    "labels": [
+      [
+        0,
+        0.26999999999999996,
+        0.31000000000000005,
+        0.94,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_1139",
+    "kind": "original",
+    "sha256": "bd07023efc607880d65fa41b94759e2fc64bccedc26d66c84685fccef4c1626f"
+  },
+  {
+    "name": "imnet_1214.jpg",
+    "split": "test",
+    "labels": [
+      [
+        0,
+        0.20999999999999996,
+        0.44999999999999996,
+        0.73,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_1214",
+    "kind": "original",
+    "sha256": "f957b6a6e936887c9a3477b27c5fda3ce950b8cc82d90765f196e0dfa369a6ae"
+  },
+  {
+    "name": "imnet_1264.jpg",
+    "split": "test",
+    "labels": [
+      [
+        0,
+        0.5700000000000001,
+        0.39999999999999997,
+        1.0,
+        1.0
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_1264",
+    "kind": "original",
+    "sha256": "cce2bcd2caed14a405651512141c20f91bb3838ca22dbec26410cfdaca2a31f2"
+  },
+  {
+    "name": "imnet_1287.jpg",
+    "split": "test",
+    "labels": [
+      [
+        0,
+        0.15999999999999998,
+        0.26,
+        0.6799999999999999,
+        0.79
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_1287",
+    "kind": "original",
+    "sha256": "0d7bd22664115a42df73a4306a2383d824f82206a6715f75d62f0a96c21cb6c8"
+  },
+  {
+    "name": "distancia_jaleco_000.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.35167236328125,
+        0.44232177425781244,
+        0.641943359375,
+        0.8054016082421874
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_2555",
+    "kind": "escala_reduzida",
+    "sha256": "6c2bb200acd953e71ab6ebb3de1ec1cf28bdcd71d8ff50788bb09bd7d10b5d09"
+  },
+  {
+    "name": "distancia_jaleco_001.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.3109375,
+        0.314482421875,
+        0.4734130859375,
+        0.62525390625
+      ],
+      [
+        0,
+        0.478730466859375,
+        0.31093750189062497,
+        0.6887670879531249,
+        0.634411622984375
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_4893",
+    "kind": "escala_reduzida",
+    "sha256": "cd787a13280b8b01d501b6e0e651ea3fe9b120b8809fb07e17f96cdd9fa3a989"
+  },
+  {
+    "name": "distancia_jaleco_002.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.34453125,
+        0.27046875,
+        0.646875,
+        0.70890625
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_1089",
+    "kind": "escala_reduzida",
+    "sha256": "990431139f8dadd7831c4492eb11055fa3e37db9d73e5875796aa270ec7fc168"
+  },
+  {
+    "name": "distancia_jaleco_003.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.629736328125,
+        0.5064697265625,
+        0.73125,
+        0.73125
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_1612",
+    "kind": "escala_reduzida",
+    "sha256": "598092822e54c21cea204c3cecb9bbed78f48c73eb2487cc3354a8800d5b1775"
+  },
+  {
+    "name": "distancia_jaleco_004.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.27489257812500006,
+        0.5021704070078125,
+        0.8140625,
+        0.8017639128671874
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_5632",
+    "kind": "escala_reduzida",
+    "sha256": "2350ca5690b5c92b9a6c4debc25010ef6a50d012b0d8b9b1f5639c6721a89699"
+  },
+  {
+    "name": "distancia_jaleco_005.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.221875,
+        0.221875,
+        0.646015625,
+        0.7746484375
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_630",
+    "kind": "escala_reduzida",
+    "sha256": "0ac30591b9f9ebd9f8eb31685101f23c24880f694c6937c02d36a884d49c8244"
+  },
+  {
+    "name": "distancia_jaleco_006.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.33163330078125003,
+        0.55529296875,
+        0.703125,
+        0.703125
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_3668",
+    "kind": "escala_reduzida",
+    "sha256": "3048ff52b89f30e133da6c1f56af07bac08206948e812e4537d6922e6b5e6008"
+  },
+  {
+    "name": "distancia_jaleco_007.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.19531250304687503,
+        0.29338379210937504,
+        0.554748538203125,
+        0.8032592803906251
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_2400",
+    "kind": "escala_reduzida",
+    "sha256": "8a8bf70e9ae50c829614785f37bc016a8e37c9bc337b54f00f43c4ffa6b3f741"
+  },
+  {
+    "name": "distancia_jaleco_008.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_3234",
+    "kind": "escala_reduzida",
+    "sha256": "ce948d15441e808d70935fc0996203da4e47bd9069b6f4f79c481e2c8490a312"
+  },
+  {
+    "name": "distancia_jaleco_009.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_4325",
+    "kind": "escala_reduzida",
+    "sha256": "f370296e377b326bab80e0062afc6615c71948dceb27d5c3b012fdc1c0fb0a55"
+  },
+  {
+    "name": "distancia_jaleco_010.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_1192",
+    "kind": "escala_reduzida",
+    "sha256": "dce774bbdf7458c72bea66c2a1be267ae5160ad3d60c92d3e0765e11e1b1a297"
+  },
+  {
+    "name": "distancia_jaleco_011.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.37203125,
+        0.240625,
+        0.629296875,
+        0.717875
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0373",
+    "kind": "escala_reduzida",
+    "sha256": "0f80041c9b01a047d72065fc48500f0d62eeb81e3b159014d6bcd51154a06876"
+  },
+  {
+    "name": "distancia_jaleco_012.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.24853515625,
+        0.4396484375,
+        0.67099609375,
+        0.766552734375
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_699",
+    "kind": "escala_reduzida",
+    "sha256": "23c5a261643805ebd20b91e6f9cb6d15d11ab03bc84bb939c7e4aa53373e6951"
+  },
+  {
+    "name": "distancia_jaleco_013.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_2910",
+    "kind": "escala_reduzida",
+    "sha256": "3ed810d3d799c4256c2e7888c29737bf0707f82ba4c84976868c97d19c786108"
+  },
+  {
+    "name": "distancia_jaleco_014.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.40350585937499994,
+        0.47891601330468747,
+        0.72762451171875,
+        0.6815808082265625
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_2727",
+    "kind": "escala_reduzida",
+    "sha256": "b9d52b8937d4f0e0bafd5df4a62b0a091150607e83d97243d91c64e8356ae095"
+  },
+  {
+    "name": "distancia_jaleco_015.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_3314",
+    "kind": "escala_reduzida",
+    "sha256": "684912ef83da26653c2e6439730c2c10e1752a5f6f8dd2ffb916433ecf40adad"
+  },
+  {
+    "name": "distancia_jaleco_016.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.503115234375,
+        0.40375488592968745,
+        0.8109375,
+        0.6623840363203125
+      ],
+      [
+        0,
+        0.1874999968828125,
+        0.49337402655468754,
+        0.4159313933671875,
+        0.6672546417890625
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_66",
+    "kind": "escala_reduzida",
+    "sha256": "1e190c1dbeb5cb3ebd68f821618400dd9112cfbd459ee74eeae4630e97047240"
+  },
+  {
+    "name": "distancia_jaleco_017.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.49244140896093747,
+        0.5254809543203125,
+        0.7512512234140625,
+        0.7698889133046876
+      ],
+      [
+        0,
+        0.2687890625,
+        0.41704345703124995,
+        0.5195507812500001,
+        0.7703125
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_4425",
+    "kind": "escala_reduzida",
+    "sha256": "9a7c966b80f7a844a10ad4ac0b75d985401df25390684803993becd654992ecb"
+  },
+  {
+    "name": "distancia_jaleco_018.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.32589843749999997,
+        0.2953125,
+        0.6088183593750001,
+        0.5603906249999999
+      ],
+      [
+        0,
+        0.2965869161015625,
+        0.4775537088984375,
+        0.7002575703984375,
+        0.7028063944453125
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_1549",
+    "kind": "escala_reduzida",
+    "sha256": "b46e1efd6f01c691344ec64acc7e4d1e5678479ec0952f7ae4acd320c89621f5"
+  },
+  {
+    "name": "distancia_jaleco_019.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_704",
+    "kind": "escala_reduzida",
+    "sha256": "42aed452ed4b0ac8ac3e1f95d998f6c34c045b1634daf2e6264386b125ebe314"
+  },
+  {
+    "name": "distancia_jaleco_020.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_994",
+    "kind": "escala_reduzida",
+    "sha256": "c92b2d5e598e1cbc246908afee0d05df03ff0ce8a7b3a99245abf303af348beb"
+  },
+  {
+    "name": "distancia_jaleco_021.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_2252",
+    "kind": "escala_reduzida",
+    "sha256": "92d2eec1fb95baff249ec930b3e385c9f223707c1656ebf6d1d08b29aedb9d17"
+  },
+  {
+    "name": "distancia_jaleco_022.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_4960",
+    "kind": "escala_reduzida",
+    "sha256": "3da85dee2beae83b618ed5a7f7f5367110c5c71208a7a3aff0afbb58aa665f95"
+  },
+  {
+    "name": "distancia_jaleco_023.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.37265625,
+        0.410625,
+        0.815625,
+        0.815625
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0110",
+    "kind": "escala_reduzida",
+    "sha256": "13620eee53671aac00488e8aeed8e3f87b0f072b17b3cba850b3933549394619"
+  },
+  {
+    "name": "distancia_jaleco_024.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_82",
+    "kind": "escala_reduzida",
+    "sha256": "5b5b1c3b6f339a05d822cfb4ae46d5d03692a5ff96fa87133804c7d5ef602a79"
+  },
+  {
+    "name": "distancia_jaleco_025.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_608",
+    "kind": "escala_reduzida",
+    "sha256": "f3d49c7929e042b90c1162bd95f1c27bc28cce592b851ee12f52b440ddc41045"
+  },
+  {
+    "name": "distancia_jaleco_026.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_3626",
+    "kind": "escala_reduzida",
+    "sha256": "051d0a0c3b8dcfbea98ad9209330302c5b748ff89ef52be540f10e1ec456c1bc"
+  },
+  {
+    "name": "distancia_jaleco_027.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.23292480468750001,
+        0.41129150390625,
+        0.74792724609375,
+        0.7353662109375001
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_5270",
+    "kind": "escala_reduzida",
+    "sha256": "836fd58480872f1c6ee339603c8485d7e7e07516928e7508834fa88078e9f92f"
+  },
+  {
+    "name": "distancia_jaleco_028.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.26234375,
+        0.384578125,
+        0.53696875,
+        0.67315625
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0952",
+    "kind": "escala_reduzida",
+    "sha256": "ced4f3e7192af584666c45124ea24dd56243f527100ab5b2325952805226bd5c"
+  },
+  {
+    "name": "distancia_jaleco_029.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_5466",
+    "kind": "escala_reduzida",
+    "sha256": "ac17b182060dce8538aa0f83f5aa5bd07f2a133b90e68989e56b6d3c7719a594"
+  },
+  {
+    "name": "distancia_jaleco_030.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.34800537109375,
+        0.45341552935156243,
+        0.7,
+        0.6312951680234374
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_212",
+    "kind": "escala_reduzida",
+    "sha256": "e86926fb41412b3d03a4f81e6f336a5c001d33274c8f142694c63bd12772c0de"
+  },
+  {
+    "name": "distancia_jaleco_031.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.325,
+        0.27949999999999997,
+        0.5385,
+        0.70475
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_1064",
+    "kind": "escala_reduzida",
+    "sha256": "94e33de89aaca6bb3004133246c6ec2ca5774f5c6d180eb8e769ee4604711728"
+  },
+  {
+    "name": "distancia_jaleco_032.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_3468",
+    "kind": "escala_reduzida",
+    "sha256": "856f52ec61d54ef8234b8bfc294ef7d218cab63567bd9a1a821a17400baa40e8"
+  },
+  {
+    "name": "distancia_jaleco_033.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.25000000249218746,
+        0.32554443359375,
+        0.7480480981953125,
+        0.59656982421875
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_534",
+    "kind": "escala_reduzida",
+    "sha256": "df5b54ad90bde7ba31834791673c79817a0caccc8ce54e2c760b29521d692cd4"
+  },
+  {
+    "name": "distancia_jaleco_034.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.41342187500000005,
+        0.32509375,
+        0.5985625,
+        0.6326875000000001
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_1061",
+    "kind": "escala_reduzida",
+    "sha256": "fe1852fe161e9f50ff3b1e0daa1894bc1591a549f08a9576e69e90f530d26e13"
+  },
+  {
+    "name": "distancia_jaleco_035.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "extra_train_2911",
+    "kind": "escala_reduzida",
+    "sha256": "daac2c79bc22ee2296b9d508a893bd6e533052b8438014a5a00896f5da635835"
+  },
+  {
+    "name": "distancia_jaleco_036.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.294877926546875,
+        0.36946777029687505,
+        0.723278805453125,
+        0.797868649203125
+      ],
+      [
+        0,
+        0.7119921874999999,
+        0.3223583984375,
+        0.8140625,
+        0.7993408203125
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_224",
+    "kind": "escala_reduzida",
+    "sha256": "a5054bc293e6bf11a4fb2abdddd22eeb2b205b131f93185540bdfb2770b77cd7"
+  },
+  {
+    "name": "distancia_jaleco_037.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.33696777343749995,
+        0.43255127210156247,
+        0.70404052734375,
+        0.7558483912421875
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_3557",
+    "kind": "escala_reduzida",
+    "sha256": "af712f5ad9240cba8429bbd377b9c3f8d3dce48af87fa02b5132ee2e11e2574a"
+  },
+  {
+    "name": "distancia_jaleco_038.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.25,
+        0.27959472656249995,
+        0.452490234375,
+        0.7274096679687501
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_5221",
+    "kind": "escala_reduzida",
+    "sha256": "eec6599b9f77e82d8f98002399a9c012737fc6591bcf0289a55d42da70063582"
+  },
+  {
+    "name": "distancia_jaleco_039.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.38495117496875003,
+        0.47776366878125,
+        0.5565576202812499,
+        0.69867675471875
+      ],
+      [
+        0,
+        0.5193359375,
+        0.4690625,
+        0.6759570312500001,
+        0.696259765625
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_1182",
+    "kind": "escala_reduzida",
+    "sha256": "a92a664ce712589ff34bc1d36da649b5d73b4cf07a0a1df3167f51cb5485c1c5"
+  },
+  {
+    "name": "distancia_jaleco_040.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_238",
+    "kind": "escala_reduzida",
+    "sha256": "b39108ef54327194d6298316b054142c75b2ceffb2556c14c6511c4505fb2298"
+  },
+  {
+    "name": "distancia_jaleco_041.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.456875,
+        0.44749999799999995,
+        0.655,
+        0.6953124980000001
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_661",
+    "kind": "escala_reduzida",
+    "sha256": "754d8c20c7deb4ac81c3cbf1a40b8a156591ddb0abae612ed952c12f1d65578b"
+  },
+  {
+    "name": "distancia_jaleco_042.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_328",
+    "kind": "escala_reduzida",
+    "sha256": "0c4a4cb498cdbc5961a94b4a7742e57e079d711f08ec27ebe3ac1cbb9b47c7a2"
+  },
+  {
+    "name": "distancia_jaleco_043.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.40584375,
+        0.3421875,
+        0.6315000000000001,
+        0.56203125
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0456",
+    "kind": "escala_reduzida",
+    "sha256": "e6cc794e3b0635528190b8def91e4db1a6e01e8a0ad391f72b6a201051f0b5ff"
+  },
+  {
+    "name": "distancia_jaleco_044.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_3923",
+    "kind": "escala_reduzida",
+    "sha256": "8bba3a101fc5e4a5c87d8e62bc1615d04a53e972ee88e66a826761e3828cdae4"
+  },
+  {
+    "name": "distancia_jaleco_045.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.36206250000000006,
+        0.415125,
+        0.8109375,
+        0.7328125
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0287",
+    "kind": "escala_reduzida",
+    "sha256": "58e95fba59e2603117c9425e8b6bb784ed127b2b2ac1568720c42a31845ad392"
+  },
+  {
+    "name": "distancia_jaleco_046.jpg",
+    "split": "train",
+    "labels": [
+      [
+        0,
+        0.3893125,
+        0.34187500000000004,
+        0.6010624999999999,
+        0.66171875
+      ]
+    ],
+    "source": "jaleco_revisado",
+    "parent": "imnet_0039",
+    "kind": "escala_reduzida",
+    "sha256": "a9716f937f8c2050919a72b78c96bc1fb42f2ba0404a0eb76275bb2beb79de6f"
+  },
+  {
+    "name": "distancia_jaleco_047.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_5384",
+    "kind": "escala_reduzida",
+    "sha256": "fda0a9be7c240d76ead2fb62475290fc57a7d3575dc11818986c0f6858a6c5bd"
+  },
+  {
+    "name": "distancia_jaleco_048.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_train_3238",
+    "kind": "escala_reduzida",
+    "sha256": "873589a101fc9fa226d2310a479efb2ff0fc5b89b7f7a9332db8e69f919088a2"
+  },
+  {
+    "name": "distancia_jaleco_049.jpg",
+    "split": "train",
+    "labels": [],
+    "source": "jaleco_revisado",
+    "parent": "sh17_valid_298",
+    "kind": "escala_reduzida",
+    "sha256": "5bd2a8c45093ef626ea4a41dd09785422ad62c9f103397ae350db9e5ed03ae79"
+  }
+]

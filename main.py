@@ -4,6 +4,7 @@ import time
 from queue import Empty
 from test.avaliacao import EPIS, avaliar_pessoas
 from test.camera_worker import executar
+from test.aviso_acesso import AvisoAcesso
 
 import customtkinter as ctk
 import cv2
@@ -54,10 +55,6 @@ def criar_icone_epi(epi):
         linha([(42, 76), (86, 76)], 4)
     elif epi == "Luvas":
         linha([(42, 111), (32, 83), (15, 63), (17, 54), (25, 53), (39, 67), (34, 27), (39, 21), (46, 25), (51, 58), (51, 16), (58, 12), (65, 16), (65, 56), (70, 20), (77, 18), (83, 24), (79, 60), (88, 34), (96, 33), (101, 40), (95, 79), (86, 111), (42, 111)], 5)
-    else:
-        d.arc((24, 17, 104, 105), 180, 360, fill=cor, width=8)
-        d.rounded_rectangle((15, 57, 40, 103), radius=9, outline=cor, width=6)
-        d.rounded_rectangle((88, 57, 113, 103), radius=9, outline=cor, width=6)
     return ctk.CTkImage(light_image=imagem, dark_image=imagem, size=(30, 30))
 
 
@@ -76,6 +73,7 @@ class Aplicacao(ctk.CTk):
         self.processo = None
         self.fila = None
         self.fechando = False
+        self.aviso_acesso = AvisoAcesso(self)
         self.protocol("WM_DELETE_WINDOW", self.fechar)
         self.criar_interface()
         self.after(100, self.carregar_modelo)
@@ -153,7 +151,7 @@ class Aplicacao(ctk.CTk):
         direito.configure(fg_color=CHECKLIST_FUNDO, border_color=CHECKLIST_FUNDO)
         direito.grid(row=0, column=0, sticky="nsew")
         self.label(direito, "Checklist de proteção", 19, CHECKLIST_TEXTO, negrito=True).pack(anchor="w", padx=20, pady=(12, 2))
-        self.label(direito, "TODOS OS 6 EPIs SÃO OBRIGATÓRIOS", 10, CHECKLIST_TEXTO, True).pack(anchor="w", padx=20, pady=(0, 6))
+        self.label(direito, f"TODOS OS {len(EPIS)} EPIs SÃO OBRIGATÓRIOS", 10, CHECKLIST_TEXTO, True).pack(anchor="w", padx=20, pady=(0, 6))
         self.resultado = ctk.CTkLabel(direito, text="AGUARDANDO INSPEÇÃO", height=40, fg_color=CHECKLIST_ITEM, corner_radius=10, font=("Segoe UI", 16, "bold"), text_color=CHECKLIST_TEXTO)
         self.resultado.pack(fill="x", padx=16)
         self.detalhe = self.label(direito, "Inicie o monitoramento para avaliar a cena.", 11, CHECKLIST_TEXTO, wraplength=280, justify="left")
@@ -195,6 +193,7 @@ class Aplicacao(ctk.CTk):
     def iniciar_camera(self):
         if self.camera_ativa or self.modelo is None:
             return
+        self.aviso_acesso.resetar()
         contexto = mp.get_context("spawn")
         self.fila = contexto.Queue(maxsize=2)
         self.sinal_parar = contexto.Event()
@@ -228,7 +227,7 @@ class Aplicacao(ctk.CTk):
             detalhe = f"{pessoas_pendentes} de {total} pessoa(s) com pendências. {pendentes} EPIs não confirmados."
         else:
             titulo, cor, fundo = "✓  EPIs CONFIRMADOS", VERDE, FUNDO
-            detalhe = "Os seis EPIs foram detectados em cada pessoa neste quadro."
+            detalhe = f"Os {len(EPIS)} EPIs foram detectados em cada pessoa neste quadro."
         self.resultado.configure(text=titulo, text_color=CHECKLIST_TEXTO, fg_color=CHECKLIST_ITEM)
         self.detalhe.configure(text=detalhe)
         for epi, label in self.checks.items():
@@ -253,6 +252,13 @@ class Aplicacao(ctk.CTk):
                 partes.append("Sem suporte: " + ", ".join(sem_suporte))
             linhas.append(f"P{i}  •  " + (" | ".join(partes) if partes else "✓ Todos os EPIs detectados"))
         self.escrever(self.lista_pessoas, "\n\n".join(linhas) or "Nenhuma pessoa detectada.")
+        aviso = getattr(self, 'aviso_acesso', None)
+        if aviso is not None:
+            aptas = [f'P{i+1}' for i, itens in enumerate(presentes)
+                     if completas and set(EPIS) <= itens]
+            aviso.atualizar(bool(aptas),
+                            f"{', '.join(aptas)}: {len(EPIS)} EPIs confirmados, incluindo jaleco.\n"
+                            'A confirmação vale apenas para as pessoas indicadas neste quadro.')
 
     def atualizar_video(self):
         self.after_id = None
@@ -277,7 +283,7 @@ class Aplicacao(ctk.CTk):
                 self.classes_modelo = set(dados)
                 faltam = [e for e, aliases in EPIS.items() if not aliases & self.classes_modelo]
                 self.modelo_label.configure(text=f"MODELO: {self.modelo.name}" + (" + jaleco.pt" if (PASTA_PROJETO / "jaleco.pt").is_file() else "") + " • " +
-                    ("Não valida: " + ", ".join(faltam) if faltam else "6 EPIs • Jaleco: modelo experimental."))
+                    ("Não valida: " + ", ".join(faltam) if faltam else f"{len(EPIS)} EPIs • Jaleco: modelo experimental."))
             elif tipo == "quadro":
                 self.ultimo_quadro = time.monotonic()
                 self.recebeu_quadro = True
@@ -321,6 +327,9 @@ class Aplicacao(ctk.CTk):
 
     def parar_camera(self):
         self.camera_ativa = False
+        aviso = getattr(self, 'aviso_acesso', None)
+        if aviso is not None:
+            aviso.resetar()
         self.encerrar_processo()
         if self.after_id is not None:
             self.after_cancel(self.after_id)

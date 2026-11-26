@@ -1,10 +1,14 @@
 """Repete o ajuste V2 com datasets revisados; nunca substitui pesos em uso."""
+import sys
+from pathlib import Path
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import argparse
 from pathlib import Path
 import torch
 from ultralytics import YOLO
 
-RAIZ = Path(__file__).resolve().parent
+from test.caminhos import RAIZ, TREINOS, base_treinamento
 
 
 def main():
@@ -16,7 +20,7 @@ def main():
     args = parser.parse_args()
     jaleco = args.alvo == 'jaleco'
     conservador = args.conservador and not jaleco
-    base = args.base or RAIZ/'runs/melhoria_v2/bases'/f'{args.alvo}.pt'
+    base = args.base or base_treinamento(args.alvo)
     dataset = RAIZ/'dataset'/('v2_jalecos' if jaleco else 'v2_maos_ouvidos')/'data.yaml'
     if not base.is_file() or not dataset.is_file():
         raise SystemExit('Pesos iniciais ou dataset V2 não encontrados.')
@@ -30,7 +34,7 @@ def main():
                  degrees=5 if conservador else 8, scale=.3 if jaleco else .2 if conservador else .35, translate=.05 if conservador else .1,
                  mosaic=.25 if jaleco else .1 if conservador else .3, close_mosaic=5 if jaleco else 2 if conservador else 4,
                  fliplr=.5, seed=2026, deterministic=True,
-                 project=str(RAIZ/'runs/novas_variacoes'), name=args.alvo, plots=True)
+                 project=str(TREINOS/'novas_variacoes'), name=args.alvo, plots=True)
     print('Candidato:', Path(modelo.trainer.save_dir)/'weights/best.pt')
     print('Compare as métricas antes de substituir o modelo usado pela câmera.')
 

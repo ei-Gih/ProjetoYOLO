@@ -12,9 +12,10 @@ EPIS = {
     "Óculos de segurança": {"oculos", "oculos-de-seguranca", "goggles", "glasses", "safety-glasses", "safety-goggles"},
     "Máscara": {"mascara", "mask", "face-mask", "face-mask-medical", "medical-mask"},
     "Luvas": {"luva", "luvas", "glove", "gloves", "safety-gloves"},
-    "Protetor auricular": {"protetor-auricular", "protetor-oricular", "ear-protection", "earmuffs", "ear-mufs", "ear-muffs", "earplug", "earplugs"},
     "Capacete": {"capacete", "helmet", "hardhat", "hard-hat", "safety-helmet"},
 }
+EPIS_DESATIVADOS = {"protetor-auricular", "protetor-oricular", "ear-protection", "earmuffs", "ear-mufs", "ear-muffs", "earplug", "earplugs"}
+
 PESSOAS = {"person", "pessoa", "worker", "trabalhador"}
 
 

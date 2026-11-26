@@ -1,3 +1,7 @@
+import sys
+from pathlib import Path
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import unittest
 import multiprocessing as mp
 import time
@@ -12,18 +16,18 @@ class Widget:
     def insert(self, *a): pass
 
 class Regressao(unittest.TestCase):
-    def test_seis_epis_e_duas_pessoas(self):
+    def test_cinco_epis_e_duas_pessoas(self):
         classes = {next(iter(a)) for a in EPIS.values()}
         det = [('person', (0,0,100,200)), ('person',(200,0,300,200))]
         det += [(c,(20,20,30,30)) for c in classes]
         pessoas, presentes, suporte = avaliar_pessoas(det,classes)
-        self.assertEqual([len(p) for p in presentes], [6,0])
+        self.assertEqual([len(p) for p in presentes], [5,0])
         ui = type('UI',(),{})()
         ui.cards = {c:Widget() for c in ('pessoas','liberadas','pendentes')}
         ui.resultado=Widget(); ui.detalhe=Widget(); ui.lista_pessoas=Widget()
         ui.checks={e:Widget() for e in EPIS}; ui.escrever=lambda *a:None
         Aplicacao.mostrar_avaliacao(ui,pessoas,presentes,suporte)
-        self.assertEqual([ui.cards[c].valor['text'] for c in ('pessoas','liberadas','pendentes')], ['2','6','6'])
+        self.assertEqual([ui.cards[c].valor['text'] for c in ('pessoas','liberadas','pendentes')], ['2','5','5'])
         Aplicacao.mostrar_avaliacao(ui,[],[],suporte)
         self.assertTrue(all(w.valor['text']=='0' for w in ui.cards.values()))
 

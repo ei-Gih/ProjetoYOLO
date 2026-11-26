@@ -1,11 +1,15 @@
 """Retoma um treinamento de jaleco interrompido a partir de last.pt."""
+import sys
+from pathlib import Path
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from pathlib import Path
 import argparse
 import shutil
 import torch
 from ultralytics import YOLO
 
-RAIZ=Path(__file__).resolve().parent
+from test.caminhos import RAIZ, TREINOS, base_treinamento
 
 def main():
     p=argparse.ArgumentParser()

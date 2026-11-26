@@ -1,0 +1,20 @@
+{
+  "backup": "C:\\Users\\Gisele\\OneDrive\\Documentos\\Facudade\\Programação_Py\\ProjetoYOLO\\relarotio\\backups\\v5-distancias-20261120-153853",
+  "arquivos": [
+    "test/detector.py",
+    "test/camera_worker.py",
+    "test/treinar_distancias.py",
+    "test/test_sobreposicao.py",
+    "test/test_recorte.py",
+    "test/test_camera_resolucao.py",
+    "test/test_contexto.py",
+    "README.md",
+    "sh17_small_v5.pt",
+    "epis_v5_best.pt",
+    "calibracao.json"
+  ],
+  "treinos_concluidos": {
+    "epis": 12,
+    "jaleco": 8
+  }
+}

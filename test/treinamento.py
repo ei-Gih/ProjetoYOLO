@@ -1,5 +1,10 @@
 """Treina e valida o detector de EPIs da ZelarIA."""
 from __future__ import annotations
+import sys
+from pathlib import Path
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 
 import argparse
 import shutil
@@ -11,7 +16,7 @@ from pathlib import Path
 
 from ultralytics import YOLO
 
-RAIZ = Path(__file__).resolve().parent
+from test.caminhos import RAIZ, TREINOS, base_treinamento
 DATASET = RAIZ / "dataset" / "data.yaml"
 MODELO_BASE = RAIZ / "yolo11n.pt"
 SPLITS_OBRIGATORIOS = ("train", "val")
@@ -97,7 +102,7 @@ def main() -> None:
     modelo = YOLO(str(MODELO_BASE))
     resultado = modelo.train(
         data=str(resolvido), epochs=args.epochs, imgsz=args.imgsz,
-        batch=args.batch, workers=0, patience=20, project=str(RAIZ / "runs" / "train"),
+        batch=args.batch, workers=0, patience=20, project=str(TREINOS / "train"),
         name="zelaria_epis",
     )
     melhor_modelo = Path(resultado.save_dir) / "weights" / "best.pt"

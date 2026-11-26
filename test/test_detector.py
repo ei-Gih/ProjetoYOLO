@@ -1,3 +1,7 @@
+import sys
+from pathlib import Path
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import json
 import tempfile
 import unittest
@@ -32,7 +36,7 @@ class Calibracao(unittest.TestCase):
             with patch('ultralytics.YOLO', ModeloFalso):
                 detector = DetectorEPIs(raiz/'sh17_ppe.pt')
                 _, det = detector.prever(np.zeros((100,100,3),dtype=np.uint8))
-            self.assertEqual([n for n,b in det], ['person','helmet','luvas','protetor-auricular'])
+            self.assertEqual([n for n,b in det], ['person','helmet','luvas'])
             self.assertEqual(det[2][1][0], 30)
 
     def test_best_proprio_nao_recebe_calibracao_de_outros_pesos(self):
@@ -55,7 +59,7 @@ class Calibracao(unittest.TestCase):
             with patch('ultralytics.YOLO', ModeloFalso):
                 detector = DetectorEPIs(raiz/'sh17_ppe.pt')
                 _, det = detector.prever(np.zeros((100,100,3),dtype=np.uint8))
-            self.assertEqual([n for n,b in det], ['person','gloves','helmet','protetor-auricular'])
+            self.assertEqual([n for n,b in det], ['person','gloves','helmet'])
 
     def test_especialistas_distintos_sem_duplicacao(self):
         with tempfile.TemporaryDirectory() as pasta:
@@ -67,7 +71,7 @@ class Calibracao(unittest.TestCase):
             with patch('ultralytics.YOLO', ModeloFalso):
                 detector = DetectorEPIs(raiz/'sh17_ppe.pt')
                 _, det = detector.prever(np.zeros((100,100,3),dtype=np.uint8))
-            self.assertEqual([n for n,b in det], ['person','helmet','luvas','protetor-auricular'])
+            self.assertEqual([n for n,b in det], ['person','helmet','luvas'])
 
 
 if __name__ == '__main__':

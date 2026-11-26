@@ -1,3 +1,7 @@
+import sys
+from pathlib import Path
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import json
 import tempfile
 import unittest
@@ -30,13 +34,13 @@ class Cabeca(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d,patch('ultralytics.YOLO',Modelo):
             det=self.detector(Path(d),['protetor-auricular','mascara','capacete'])
             _,boxes=det.prever(np.zeros((100,100,3),dtype=np.uint8))
-            self.assertEqual([n for n,_ in boxes],['person','gloves','glasses','protetor-auricular','capacete'])
+            self.assertEqual([n for n,_ in boxes],['person','gloves','glasses','capacete'])
 
     def test_ativacao_somente_capacete_preserva_mascara_e_ouvidos(self):
         with tempfile.TemporaryDirectory() as d,patch('ultralytics.YOLO',Modelo):
             det=self.detector(Path(d),['capacete'])
             _,boxes=det.prever(np.zeros((100,100,3),dtype=np.uint8))
-            self.assertEqual([n for n,_ in boxes],['person','ear-mufs','face-mask','gloves','glasses','capacete'])
+            self.assertEqual([n for n,_ in boxes],['person','face-mask','gloves','glasses','capacete'])
 
     def test_classe_inexistente_nao_e_silenciosamente_ignorada(self):
         with tempfile.TemporaryDirectory() as d,patch('ultralytics.YOLO',Modelo):
@@ -65,27 +69,15 @@ class Cabeca(unittest.TestCase):
             DetectorEPIs(path/'sh17_ppe.pt').prever(np.zeros((100,100,3),dtype=np.uint8))
             self.assertIn(('cabeca.pt',640),calls)
 
-    def test_plugue_complementa_concha_sem_duplicar_contagem_por_pessoa(self):
-        from test.avaliacao import avaliar_pessoas
-        class ComPlugue(Modelo):
-            def __init__(self,path):
-                super().__init__(path)
-                if self.name=='plugue.pt':self.names={0:'earplug'}
-            def predict(self,frame,**kw):
-                if self.name=='plugue.pt':
-                    return [Results(frame,path='teste',names=self.names,boxes=np.array([[22,16,26,20,.9,0]],dtype=np.float32))]
-                return super().predict(frame,**kw)
-        with tempfile.TemporaryDirectory() as d,patch('ultralytics.YOLO',ComPlugue):
+    def test_configuracao_antiga_de_protetor_e_ignorada_sem_carregar_pesos(self):
+        with tempfile.TemporaryDirectory() as d,patch('ultralytics.YOLO',Modelo):
             path=Path(d)
-            specs=[{'arquivo':'cabeca.pt','classes':['protetor-auricular']},
-                   {'arquivo':'plugue.pt','classes':['earplug'],'complementar':True}]
-            (path/'calibracao.json').write_text(json.dumps({'especialista_maos_ouvidos':True,'especialistas':specs}))
-            det=DetectorEPIs(path/'sh17_ppe.pt');_,boxes=det.prever(np.zeros((100,100,3),dtype=np.uint8))
-            _,presentes,_=avaliar_pessoas(boxes,det.classes)
-            self.assertIn('earplug',[n for n,b in boxes])
-            self.assertEqual(sum(e=='Protetor auricular' for e in presentes[0]),1)
-            specs[1]['complementar']=False
-            (path/'calibracao.json').write_text(json.dumps({'especialista_maos_ouvidos':True,'especialistas':specs}))
-            with self.assertRaises(ValueError):DetectorEPIs(path/'sh17_ppe.pt')
+            (path/'calibracao.json').write_text(json.dumps({'especialista_maos_ouvidos':True,
+                'especialistas':[{'arquivo':'inexistente.pt','classes':['earplug']}]}))
+            det=DetectorEPIs(path/'sh17_ppe.pt')
+            self.assertEqual(len(det.modelos),1)
+            _,boxes=det.prever(np.zeros((100,100,3),dtype=np.uint8))
+            self.assertNotIn('ear-mufs',[n for n,b in boxes])
+
 
 if __name__=='__main__':unittest.main()

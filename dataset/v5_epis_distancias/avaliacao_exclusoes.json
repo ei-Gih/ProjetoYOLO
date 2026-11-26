@@ -1,0 +1,78 @@
+{
+  "excluded_images": {
+    "cppe_test_1015.jpg": {
+      "similar": "cppe_train_662.jpg",
+      "split_similar": "train",
+      "distance": 4
+    },
+    "cppe_train_643.jpg": {
+      "similar": "cppe_train_621.jpg",
+      "split_similar": "test",
+      "distance": 6
+    },
+    "cppe_train_749.jpg": {
+      "similar": "cppe_test_1029.jpg",
+      "split_similar": "test",
+      "distance": 0
+    },
+    "cppe_train_758.jpg": {
+      "similar": "cppe_train_685.jpg",
+      "split_similar": "train",
+      "distance": 4
+    },
+    "cppe_train_880.jpg": {
+      "similar": "cppe_train_621.jpg",
+      "split_similar": "test",
+      "distance": 8
+    },
+    "cppe_train_889.jpg": {
+      "similar": "cppe_train_698.jpg",
+      "split_similar": "train",
+      "distance": 8
+    },
+    "cppe_train_909.jpg": {
+      "similar": "cppe_train_621.jpg",
+      "split_similar": "test",
+      "distance": 6
+    },
+    "cppe_train_947.jpg": {
+      "similar": "cppe_train_722.jpg",
+      "split_similar": "train",
+      "distance": 8
+    },
+    "cppe_train_955.jpg": {
+      "similar": "cppe_train_722.jpg",
+      "split_similar": "train",
+      "distance": 8
+    },
+    "cppe_train_732.jpg": {
+      "similar": "cppe_train_652.jpg",
+      "split_similar": "train",
+      "distance": 8
+    },
+    "cppe_train_747.jpg": {
+      "similar": "cppe_train_685.jpg",
+      "split_similar": "train",
+      "distance": 2
+    },
+    "cppe_train_794.jpg": {
+      "similar": "cppe_train_782.jpg",
+      "split_similar": "val",
+      "distance": 0
+    }
+  },
+  "excluded_face_pairs": [
+    "sh17_train_1633.jpg",
+    "cppe_train_621.jpg",
+    "cppe_train_909.jpg",
+    "cppe_train_880.jpg",
+    "cppe_train_643.jpg",
+    "sh17_valid_630.jpg",
+    "cppe_train_749.jpg"
+  ],
+  "method": "pHash com margens 0/5/10%, espelhamento e distância <=8; revisão visual dos pares.",
+  "remaining": {
+    "test": 54,
+    "val": 50
+  }
+}

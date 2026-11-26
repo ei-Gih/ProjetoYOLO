@@ -1,4 +1,8 @@
 """Treina um candidato para protetores, máscaras e capacetes, sem ativá-lo automaticamente."""
+import sys
+from pathlib import Path
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import argparse
 from pathlib import Path
 import hashlib
@@ -6,7 +10,7 @@ import json
 import torch
 from ultralytics import YOLO
 
-ROOT=Path(__file__).resolve().parent
+from test.caminhos import RAIZ as ROOT, TREINOS, base_treinamento
 
 def validar_dataset(dataset):
     vistos={}
@@ -34,7 +38,7 @@ def validar_dataset(dataset):
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--epochs',type=int,default=12)
-    p.add_argument('--base',type=Path,default=ROOT/'runs/melhoria_v3/bases/cabeca_refinada.pt')
+    p.add_argument('--base',type=Path,default=base_treinamento('cabeca'))
     p.add_argument('--verificar',action='store_true',help='Verifica os dados sem iniciar treinamento.')
     args=p.parse_args()
     dataset=ROOT/'dataset/v3_cabeca'
@@ -53,7 +57,7 @@ def main():
         device='cpu',freeze=10,optimizer='AdamW',lr0=.0001,warmup_epochs=1,warmup_bias_lr=0,
         cos_lr=True,patience=6,hsv_h=.03,hsv_s=.5,hsv_v=.3,degrees=5,scale=.15,translate=.04,
         mosaic=.05,close_mosaic=3,fliplr=.5,seed=3719,deterministic=True,
-        project=str(ROOT/'runs/novas_variacoes'),name='cabeca',plots=True)
+        project=str(TREINOS/'novas_variacoes'),name='cabeca',plots=True)
     print('Candidato:',Path(m.trainer.save_dir)/'weights/best.pt')
     print('Avalie em validação e teste antes de mudar calibracao.json.')
 

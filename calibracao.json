@@ -1,17 +1,8 @@
 {
-  "versao": 3,
+  "versao": 5,
   "imgsz": 512,
   "especialista_maos_ouvidos": true,
   "especialistas": [
-    {
-      "arquivo": "maos_ouvidos.pt",
-      "classes": [
-        "protetor-auricular"
-      ],
-      "limiares": {
-        "protetor-auricular": 0.35
-      }
-    },
     {
       "classes": [
         "mascara"
@@ -30,10 +21,57 @@
         "capacete": 0.45
       },
       "arquivo": "cabeca_v3_inicial.pt",
-      "imgsz": 640
+      "imgsz": 640,
+      "supressao": {
+        "capacete": 0.45
+      }
+    },
+    {
+      "arquivo": "sh17_small_v5.pt",
+      "classes": [
+        "gloves"
+      ],
+      "limiares": {
+        "gloves": 0.35
+      },
+      "imgsz": 640,
+      "supressao": {
+        "gloves": 0.45
+      }
     }
   ],
   "jaleco": {
-    "jaleco": 0.55
+    "jaleco": 0.3
+  },
+  "epis_ativos": [
+    "capacete",
+    "mascara",
+    "jaleco",
+    "luvas",
+    "oculos"
+  ],
+  "cpu_threads": 1,
+  "camera_largura": 1280,
+  "camera_altura": 720,
+  "jaleco_supressao": {
+    "jaleco": 0.45
+  },
+  "contexto_proximo": {
+    "ativo": true,
+    "arquivo": "epis_v5_best.pt",
+    "classes": [
+      "capacete",
+      "mascara",
+      "oculos"
+    ],
+    "escala": 0.45,
+    "limiares": {
+      "capacete": 0.55,
+      "mascara": 0.7,
+      "oculos": 0.35
+    }
+  },
+  "zoom_pessoas": {
+    "ativo": false
   }
 }

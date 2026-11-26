@@ -1,0 +1,126 @@
+{
+  "escopo_atual": [
+    "capacete",
+    "mascara",
+    "jaleco",
+    "luvas",
+    "oculos"
+  ],
+  "protetor_auricular": "Desativado na interface, inferência, contagem e acesso. Pesos históricos preservados.",
+  "epocas_concluidas": {
+    "etapa_inicial": 16,
+    "ajuste_adicional": 8
+  },
+  "candidato_ativado": false,
+  "motivo": "O ajuste reconheceu capacete, luvas e óculos nas fotos de treino, mas ainda falhou na máscara. O complemento de luvas acrescentou três falsos positivos no teste, sem novos acertos. Mantidos os pesos anteriores na câmera.",
+  "limites": "As fotos fornecidas entraram no treino. Escores altos nelas não demonstram generalização. A avaliação SH17 é exploratória, não uma certificação nem teste externo cego.",
+  "metricas_teste": {
+    "0": {
+      "before": {
+        "threshold": 0.4,
+        "tp": 73,
+        "fp": 10,
+        "fn": 27,
+        "precision": 0.8795180722891566,
+        "recall": 0.73,
+        "f1": 0.7978142076502732
+      },
+      "after": {
+        "threshold": 0,
+        "tp": 73,
+        "fp": 10,
+        "fn": 27,
+        "precision": 0.8795180722891566,
+        "recall": 0.73,
+        "f1": 0.7978142076502732
+      }
+    },
+    "1": {
+      "before": {
+        "threshold": 0.45,
+        "tp": 9,
+        "fp": 3,
+        "fn": 18,
+        "precision": 0.75,
+        "recall": 0.3333333333333333,
+        "f1": 0.46153846153846156
+      },
+      "after": {
+        "threshold": 0,
+        "tp": 9,
+        "fp": 3,
+        "fn": 18,
+        "precision": 0.75,
+        "recall": 0.3333333333333333,
+        "f1": 0.46153846153846156
+      }
+    },
+    "2": {
+      "before": {
+        "threshold": 0.4,
+        "tp": 22,
+        "fp": 6,
+        "fn": 27,
+        "precision": 0.7857142857142857,
+        "recall": 0.4489795918367347,
+        "f1": 0.5714285714285714
+      },
+      "after": {
+        "threshold": 0,
+        "tp": 22,
+        "fp": 9,
+        "fn": 27,
+        "precision": 0.7096774193548387,
+        "recall": 0.4489795918367347,
+        "f1": 0.5499999999999999
+      }
+    },
+    "3": {
+      "before": {
+        "threshold": 0.35,
+        "tp": 24,
+        "fp": 2,
+        "fn": 28,
+        "precision": 0.9230769230769231,
+        "recall": 0.46153846153846156,
+        "f1": 0.6153846153846155
+      },
+      "after": {
+        "threshold": 0,
+        "tp": 24,
+        "fp": 2,
+        "fn": 28,
+        "precision": 0.9230769230769231,
+        "recall": 0.46153846153846156,
+        "f1": 0.6153846153846155
+      }
+    },
+    "4": {
+      "before": {
+        "threshold": 0.4,
+        "tp": 9,
+        "fp": 2,
+        "fn": 12,
+        "precision": 0.8181818181818182,
+        "recall": 0.42857142857142855,
+        "f1": 0.5625
+      },
+      "after": {
+        "threshold": 0,
+        "tp": 9,
+        "fp": 2,
+        "fn": 12,
+        "precision": 0.8181818181818182,
+        "recall": 0.42857142857142855,
+        "f1": 0.5625
+      }
+    }
+  },
+  "dados_de_origem": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v4\\dataset",
+  "dados_refino": "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v4\\dataset_refino",
+  "codigo_treino_historico": [
+    "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v4\\treinar.py",
+    "C:\\Users\\Gisele\\Documents\\Codex\\2026-11-16\\chat-quero-que-reescreva-o-meu\\work\\melhoria_v4\\refinar.py"
+  ],
+  "testes_aplicacao": 30
+}

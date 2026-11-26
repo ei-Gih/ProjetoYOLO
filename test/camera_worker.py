@@ -1,6 +1,13 @@
 """Captura e inferência isoladas; nenhuma chamada Tk neste processo."""
 from queue import Full
 
+def configurar_resolucao(camera, resolucao):
+    """Solicita mais detalhe; setters não suportados mantêm o modo aceito pela webcam."""
+    import cv2
+    camera.set(cv2.CAP_PROP_FRAME_WIDTH, resolucao[0])
+    camera.set(cv2.CAP_PROP_FRAME_HEIGHT, resolucao[1])
+    camera.set(cv2.CAP_PROP_BUFFERSIZE, 1)
+
 
 def executar(modelo_path, fila, parar, confianca):
     import cv2
@@ -24,6 +31,7 @@ def executar(modelo_path, fila, parar, confianca):
         camera = cv2.VideoCapture(0)
         if not camera.isOpened():
             raise RuntimeError('Não foi possível acessar a webcam. Verifique conexão e permissões.')
+        configurar_resolucao(camera, detector.camera_resolucao)
         while not parar.is_set():
             sucesso, frame = camera.read()
             if not sucesso:

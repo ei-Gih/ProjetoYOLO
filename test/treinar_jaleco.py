@@ -1,4 +1,8 @@
 """Treinamento complementar de jaleco; preserva o detector dos outros EPIs."""
+import sys
+from pathlib import Path
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from pathlib import Path
 import argparse
 import shutil
@@ -6,7 +10,7 @@ import yaml
 import torch
 from ultralytics import YOLO
 
-RAIZ=Path(__file__).resolve().parent
+from test.caminhos import RAIZ, TREINOS, base_treinamento
 
 def main():
     p=argparse.ArgumentParser()
@@ -41,7 +45,7 @@ def main():
     modelo.add_callback("on_pretrain_routine_start",lambda trainer: torch.set_num_threads(args.threads))
     resultado=modelo.train(data=str(dados),epochs=args.epochs,imgsz=args.imgsz,batch=args.batch,
         device='cpu',workers=0,freeze=10,patience=10,seed=42,deterministic=True,
-        project=str(RAIZ/'runs'/'train'),name='jaleco',exist_ok=False,
+        project=str(TREINOS/'train'),name='jaleco',exist_ok=False,
         plots=True,cache=False,optimizer='AdamW',lr0=0.0005)
     best=Path(resultado.save_dir)/'weights'/'best.pt'
     if not best.is_file(): raise SystemExit('Treino não gerou best.pt')

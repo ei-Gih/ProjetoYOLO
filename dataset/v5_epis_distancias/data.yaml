@@ -1,0 +1,9 @@
+names:
+  0: capacete
+  1: mascara
+  2: oculos
+  3: luvas
+path: C:\Users\Gisele\OneDrive\Documentos\Facudade\Programação_Py\ProjetoYOLO\dataset\v5_epis_distancias
+test: C:\Users\Gisele\OneDrive\Documentos\Facudade\Programação_Py\ProjetoYOLO\dataset\v5_epis_distancias\test_files.txt
+train: images/train
+val: C:\Users\Gisele\OneDrive\Documentos\Facudade\Programação_Py\ProjetoYOLO\dataset\v5_epis_distancias\val_files.txt
